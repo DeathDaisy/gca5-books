@@ -1,1 +1,20 @@
-Y:/Users/Daisy/Documents/GURPS Character Assistant 5/books/Clean up Adjusting for SM.gdf
+Version=3
+* The version information above MUST be the first line of the data file
+
+[Author]
+************************************************************************************************************************
+* Created February 4, 2024
+*
+* Removes the multitude of Adjust for SM and replaces them with a leveled modifier
+*
+************************************************************************************************************************
+
+[MODIFIERS]
+#DeleteModsFromGroup "Equipment" Adjusting for SM, Adjusting for SM -4, Adjusting for SM -3, Adjusting for SM -2, Adjusting for SM -1, Adjusting for SM +1, Adjusting for SM +2, Adjusting for SM +3, Adjusting for SM +4, Adjusting for SM +5, Adjusting for SM +6, Adjusting for SM +7, Adjusting for SM +8, Adjusting for SM +9, Adjusting for SM +10, Equipment: Adjusting for SM -4, Equipment: Adjusting for SM -3, Equipment: Adjusting for SM -2, Equipment: Adjusting for SM -1, Equipment: Adjusting for SM +1, Equipment: Adjusting for SM +2, Equipment: Adjusting for SM +3, Equipment: Adjusting for SM +4, Equipment: Adjusting for SM +5, Equipment: Adjusting for SM +6, Equipment: Adjusting for SM +7, Equipment: Adjusting for SM +8, Equipment: Adjusting for SM +9, Equipment: Adjusting for SM +10
+
+Equipment: Adjusting for SM, cost(*0.05/*0.1/*0.2/*0.5/*1/*2/*5/*10/*20/*50/*100/*200/*500/*1000/*2000), valuelist(0.05,0.1,0.2,0.5,1,2,5,10,20,50,100,200,500,1000,2000), levelnames(SM -4, SM -3, SM -2, SM -1, SM 0, SM +1, SM +2, SM +3, SM +4, SM +5, SM +6, SM +7, SM +8, SM +9, SM +10), level(5), group(Equipment),
+downto(1), upto(15), shortname(Size),
+gives(_
+    =*$IndexedValue($val(me::level), $val(me::valuelist)) _
+    to owner::baseweight_
+)

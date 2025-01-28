@@ -1,1 +1,600 @@
-Y:/Users/Daisy/Documents/GURPS Character Assistant 5/books/High-Tech 4e - Equipment.gdf
+Encoding=UTF-8
+Version=3
+//  The version information above MUST be the first line of the data file
+Program=4.0.408
+Description=2023 October 7. _
+		This data file contains information taken from the GURPS High-Tech sourcebook. _
+		GURPS High-Tech is Copyright © 1988, 1992, 1994, 1998, 2001, 2007 by Steve Jackson Games _
+		Incorporated. All rights reserved.
+Requires="GURPS High-Tech 4e.gdf"
+Incomplete=Yes
+
+[AUTHOR]
+*******************************************************************************************************\[START]
+// 
+//  GURPS® Character Assistant
+//  Filename: High-Tech 4e - Equipment.gdf
+//  Created: January 28, 2025
+//  Requires GCA v5 or later!
+//
+//  This data file contains information taken from the GURPS High-Tech sourcebook.
+//  GURPS High-Tech is Copyright © 1988, 1992, 1994, 1998, 2001, 2007 by Steve Jackson Games
+//  Incorporated. All rights reserved.
+// 
+//  Information in this file includes:
+// 	All the equipment from High-Tech 4e
+// 
+*******************************************************************************************************************
+// 
+//  Daisy Paradis	-	GCA afficionado
+//	If you find problems with the file it's easiest to contact me through the GURPS Discord Server by the Discord Handle: deathdaisy
+//
+//	Huge thanks to Armin Sykes for bringing GCA into the 21st century!
+//  
+*******************************************************************************************************************
+// 
+//  GURPS is a registered trademark of Steve Jackson Games Incorporated, used with GCA by permission of Steve Jackson
+//  Games. All rights reserved.
+// 
+//  The GURPS game is Copyright © 1986-1989, 1991-1994 by Steve Jackson Games Incorporated. This product includes
+//  copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games Incorporated. All
+//  rights reserved by Steve Jackson Games Incorporated.
+// 
+********************************************************************************************************\[STOP]
+[EQUIPMENT]
+********************************************************************************************************\[START]
+<High-Tech - Power, High-Tech - Power - Batteries>
+"Battery, Tiny", nameext(T), basecost(0.25), baseweight(0.02), techlvl(7), lc(4), page(HT13), description(A button- or coin-sized battery for watches, mini-flashlights, hearing aids, laser sights, tiny bugs, etc.)
+"Battery, Extra-Small", nameext(XS), basecost(0.5), baseweight(0.1), techlvl(7), lc(4), page(HT13), description(A battery used in such portable consumer electronics as audio recorders, CD/MP3 players, digital cameras, and night-vision goggles.)
+"Battery, Small", nameext(S), basecost(1), baseweight(0.33), techlvl(7), lc(4), page(HT13), description(A standard battery for flashlights, portable radios, or cellular phones.)
+"Battery, Large", nameext(L), basecost(10), baseweight(10), techlvl(7), lc(4), page(HT13), description("A lunchbox-sized battery. At TL5, it’s used in telegraph stations. At TL6+, rechargeables are found in small vehicles (such as ATVs, motorcycles, and snowmobiles), base-camp radios, and the like.")
+"Battery, Very Large", nameext(VL), basecost(20), baseweight(50), techlvl(7), lc(4), page(HT13), description(A toolbox-sized battery found in cars, trucks, golf carts, etc. It can power radios or other heavyduty electronics for extended periods. A bank of these is often used for external power.)
+
+<High-Tech - Power, High-Tech - Power - Generators, High-Tech - Power - Generators - Steam Power>
+"Steam Engine, Semi-Portable", basecost(15000), baseweight(8000), techlvl(5), lc(4), page(HT14), description(A steam engine mounted on iron-shod wheels and pulled from one worksite to the next by draft horses. A typical model – trimmed in polished brass and painted in bright colors – consumes 250 lbs. of wood and 50 gallons of water per hour. A leather belt links it to various steam-powered tools (p. HT27).)
+"Steam Engine, Portable", basecost(250), baseweight(600), techlvl(6), lc(4), page(HT14), description(This is one of the smallest steam engines – the plaything of a retired railroad man. It looks like a small heating stove, but has the built-in equipment necessary to generate a small amount of electricity. A stove engine this size was pressed into action as a clandestine generator for radios during WWII by Britain’s Special Operations Executive. It burns 20 lbs. of wood (or 5 lbs. of coal) and uses 1 gallon of water per hour.)
+"Steam Engine, Homemade Semi-Portable", basecost(250), baseweight(600), techlvl(7), lc(4), page(HT14), description(This can be cobbled together from junk scavenged from city ruins. Roll against Scrounging +4 to find the parts in all but the most devastated cities; roll against Machinist or Mechanic (Steam Engine) to assemble it. It consumes 80 lbs. of wood and uses 5 gallons of water per hour. It converts the steam directly into electricity. Loud, ugly, and prone to malfunctions, it may be the only electrical generator available in a post-apocalypse setting.)
+
+<High-Tech - Power, High-Tech - Power - Generators, High-Tech - Power - Generators - Internal Combustion Engines>
+"Gasoline Generator, Semi-Portable", basecost(600), baseweight(125), techlvl(6), lc(4), page(HT14), description(An early model gasoline generator, circa 1900. The 1-gallon tank lasts for about 3 hours.)
+"Gasoline Generator, Portable (TL 7)", basecost(600), baseweight(50), techlvl(7), lc(4), page(HT14), description(The 1-gallon fuel tank lasts for 10 hours. Weight is x2/3 at TL8.)
+"Gasoline Generator, Portable (TL 8)", basecost(600), baseweight(33), techlvl(8), lc(4), page(HT14), description(The 1-gallon fuel tank lasts for 10 hours. Weight is x2/3 at TL8.)
+
+<High-Tech - Power, High-Tech - Power - Generators, High-Tech - Power - Generators - Mechanical Generators>
+"Muscle-Powered Generator, Portable", basecost(50), baseweight(10), techlvl(6), lc(4), page(HT14), description(From WWI to Vietnam, military units carried hand-crank generators to recharge radio batteries. This generator provides external power to one device, or can recharge a battery.)
+"Muscle-Powered Generator, Semi-Portable", basecost(125), baseweight(50), techlvl(6), lc(4), page(HT14), description(This is a larger, bicycle-type generator that might be found in an “off-the-grid” cabin. It works like the generator above but can provide external power to two or three devices at once (e.g., a TV, a laptop, and a small refrigerator). A successful Machinist roll can build this system in a couple of hours; it requires simple hand tools and some creative scrounging (and a bike, of course; see p. HT230).)
+"Muscle-Powered Generator, Miniature", basecost(100), baseweight(0.25), techlvl(8), lc(4), page(HT14), description(A palm-sized generator, this can power only small electronic gadgets (cellular phone, GPS, PDA, MP3 player, etc.). Two minutes of cranking provide five minutes of operating time for such a device; in normal use, it doesn’t fatigue the operator. It has a built-in flashlight (pp. HT51-52) with a 5-hour internal battery, and folds flat to fit in a pocket when not in use.)
+
+<High-Tech - Power, High-Tech - Power - Generators, High-Tech - Power - Generators - Fuel Cells>
+"Fuel Cell, Methanol (Portable)", basecost(5000), baseweight(13), techlvl(8), lc(4), page(HT15), description(A suitcase-sized generator. It uses 1 gallon of methanol every 3 days.)
+"Fuel Cell, Hydrogen (Semi-Portable)", basecost(6000), baseweight(100), techlvl(8), lc(4), page(HT15), description(A large cart capable of powering a whole household on a single hydrogen cylinder for 5 hours (extra cylinders are $100, 65 lbs.).)
+"Fuel Cell, Hydrogen (Extra Cylinder)", basecost(100), baseweight(65), techlvl(8), lc(4), page(HT15), description(Extra cylinder for Semi-Portable Hydrogen Fuel Cell. Can fuel the Fuel Cell for 5 hours.)
+
+<High-Tech - Power, High-Tech - Power - Energy Collectors>
+"Windmill", basecost(10000), baseweight(500), techlvl(5), lc(4), page(HT15), description(In the 19th century (TL5), many farms in windy areas used windmills. They were common in the U.S. Midwest and Great Plains to pump water from deep wells into holding tanks or ponds. At TL6+, a windmill or wind turbine produces electrical power; in a good windy site, it can provide external power to a small household or workshop. Of course, it provides no power on calm days!)
+"Hydroelectric Turbine, Small", basecost(10000), baseweight(250), techlvl(8), lc(4), page(HT15), description(At TL8, a waterwheel or a small water-powered turbine can provide external power to a single household in an area with a fast-flowing, yearround water source; a small hydroelectric turbine suitable for the purpose is $10,000, 250 lbs.)
+"Solar Power Array", basecost(25000), baseweight(1200), techlvl(7), lc(4), page(HT15), description(A large array of solar panels capable of providing external power to a whole household. It covers a sizable portion of the roof of a family sized dwelling.)
+"Solar Powered Battery Recharger", basecost(100), baseweight(2), techlvl(8), lc(4), page(HT15), description(This flexible, portable solar panel can be rolled up like a tarp and stuffed in a backpack. In good sunlight, it can power a hand-held device or recharge a handful of batteries in a few hours.)
+
+<High-Tech - Power, High-Tech - Power - Fuel, High-Tech - Power - Fuel - Wood>
+"Wood, Fuel (Per cord)", basecost(50), baseweight(2000), techlvl(0), lc(4), page(HT15)
+
+<High-Tech - Power, High-Tech - Power - Fuel, High-Tech - Power - Fuel - Alcohol>
+"Alcohol (Per gallon)", basecost(1.3), baseweight(6.8), techlvl(5), lc(4), page(HT15)
+
+<High-Tech - Power, High-Tech - Power - Fuel, High-Tech - Power - Fuel - Hydrocarbon Fuels>
+"Diesel Fuel (Per gallon)", basecost(1.25), baseweight(6), techlvl(6), lc(4), page(HT16)
+"Gasoline (Per gallon)", basecost(1.5), baseweight(6), techlvl(6), lc(4), page(HT16)
+"Kerosene (Per gallon)", basecost(1.5), baseweight(6.5), techlvl(6), lc(4), page(HT16)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Printing Technology>
+"Hand-Screw Press", basecost(2500), baseweight(1000), techlvl(4), lc(4), page(HT17)
+"Rotary Press", basecost(5000), baseweight(1000), techlvl(5), lc(4), page(HT17)
+"Steam-Powered Rotary Press", basecost(15000), baseweight(20000), techlvl(5), lc(4), page(HT17)
+"Offset Printing Press (TL 6)", basecost(30000), baseweight(2000), techlvl(6), lc(4), page(HT17)
+"Offset Printing Press (TL 8)", basecost(30000), baseweight(800), techlvl(8), lc(4), page(HT17)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Books>
+"Blank Book", basecost(15), baseweight(0.5), techlvl(5), lc(4), page(HT17), description(A journal or diary. Higher-quality versions have a nicer cover. Holdout -1.)
+"Notebook", basecost(1), baseweight(0.1), techlvl(6), lc(4), page(HT17), description(A pocket-sized book with a few dozen pages. At TL8, higher-quality versions have waterproof paper.) 
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Libraries>
+"Library, Small Collection", basecost(350), baseweight(25), techlvl(5), lc(4), page(HT17), description(Perhaps a dozen works on a single topic. This is “improvised equipment”; if the GM allows a Research roll, it should be at -2 or worse. $350, 25 lbs. per skill)
+"Library, Basic", basecost(3500), baseweight(250), techlvl(5), lc(4), page(HT17), description(A large shelf or small bookcase (approximately 10 linear feet) covering a particular field. Allows a basic Research roll on it topic. $3,500, 250 lbs. per skill.)
+"Library, Good", basecost(17500), baseweight(1200), techlvl(5), lc(4), page(HT17), description(A couple of bookshelves (approximately 50 linear feet). Gives +1 to Research. $17,500, 1,200 lbs. per skill.)
+"Library, Fine", basecost(70000), baseweight(5000), techlvl(5), lc(4), page(HT17), description(A dozen large bookshelves (several hundred linear feet). Gives +2 to Research. $70,000, 5,000 lbs. per skill.)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Business Cards>
+"Business Card, Paper (per 100)", basecost(1), baseweight(0), techlvl(5), lc(4), page(HT18)
+"Business Card, CD/DVD", basecost(0.5), baseweight(neg.), techlvl(8), lc(4), page(HT18)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Calculators>
+"Slide Rule", basecost(50), baseweight(0.5), techlvl(5), lc(4), page(HT18)
+"Adding Machine", basecost(500), baseweight(60), techlvl(6), lc(4), page(HT18)
+"Desktop Adding Machine", basecost(300), baseweight(5), techlvl(7), lc(4), page(HT18)
+"Scientific Calculator", basecost(30), baseweight(0.2), techlvl(8), lc(4), page(HT18)
+	
+<High-Tech - Information Technology, High-Tech - Information Technology - Letter Copiers>
+"Copying Press", basecost(100), baseweight(15), techlvl(5), lc(4), page(HT18)
+"Roller Letter Copier", basecost(250), baseweight(50), techlvl(6), lc(4), page(HT18)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Writing Supplies>
+"Paper, per pound (TL 5)", basecost(6), baseweight(1), techlvl(5), lc(4), page(HT19)
+"Paper, per pound (TL 6)", basecost(6), baseweight(0.5), techlvl(6), lc(4), page(HT19)
+"Paper, 500 sheets (TL 8)", basecost(6), baseweight(0.5), techlvl(8), lc(4), page(HT19)
+"Quill", basecost(0.5), baseweight(neg.), techlvl(5), lc(4), page(HT19)
+"Carbon Paper", basecost(0.1), baseweight(neg.), techlvl(6), lc(4), page(HT19)
+"Fountain Pen", basecost(3), baseweight(0.25), techlvl(6), lc(4), page(HT19)
+"Paperclip (per 500)", basecost(1), baseweight(0.25), techlvl(6), lc(4), page(HT19)
+"Ballpoint Pen", basecost(0.5), baseweight(neg.), techlvl(7), lc(4), page(HT19)
+"''Space'' Pen", basecost(25), baseweight(neg.), techlvl(7), lc(4), page(HT19)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Duplicators>
+"Duplicator, Hand-Cranked", basecost(20), baseweight(25), techlvl(6), lc(4), page(HT19)
+"Duplicator, Motorized", basecost(200), baseweight(250), techlvl(6), lc(4), page(HT19)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Typewriters>
+"Typewriter", basecost(20), baseweight(20), techlvl(6), lc(4), page(HT19)
+"Typewriter, Portable", basecost(35), baseweight(6), techlvl(6), lc(4), page(HT19)
+"Typewriter, Electric", basecost(250), baseweight(35), techlvl(6), lc(4), page(HT19)
+"Typewriter, Automatic", basecost(750), baseweight(50), techlvl(6), lc(4), page(HT19)
+"Typewriter, Electronic", basecost(200), baseweight(15), techlvl(8), lc(4), page(HT19)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Photocopiers>
+"Photocopier (TL 7)", basecost(15000), baseweight(650), techlvl(7), lc(4), page(HT19)
+"Photocopier, Desktop", basecost(500), baseweight(30), techlvl(8), lc(4), page(HT19)
+"Photocopier (TL 8)", basecost(6500), baseweight(300), techlvl(8), lc(4), page(HT19)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Computers, High-Tech - Information Technology - Computers - Computer Types>
+"Tiny Computer (TL 8)", basecost(50), baseweight(0.04), techlvl(8), lc(4), page(HT20), mods(Computer)
+"Small Computer (TL 8)", basecost(100), baseweight(0.4), techlvl(8), lc(4), page(HT20), mods(Computer)
+"Medium Computer (TL 8)", basecost(1000), baseweight(4), techlvl(8), lc(4), page(HT20), mods(Computer)
+"Microframe Computer (TL 8)", basecost(10000), baseweight(40), techlvl(8), lc(4), page(HT20), mods(Computer)
+"Mainframe Computer (TL 8)", basecost(100000), baseweight(400), techlvl(8), lc(4), page(HT20), mods(Computer)
+"Macroframe Computer (TL 8)", basecost(1000000), baseweight(4000), techlvl(8), lc(4), page(HT20), mods(Computer)
+"Megacomputer (TL 8)", basecost(10000000), baseweight(40000), techlvl(8), lc(4), page(HT20), mods(Computer)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Computers, High-Tech - Information Technology - Computers - Terminals>
+"Terminal, Primitive", basecost(5000), baseweight(500), techlvl(6), lc(4), page(HT21)
+"Terminal, Workstation", basecost(500), baseweight(25), techlvl(7), lc(4), page(HT21)
+"Terminal, Portable", basecost(50), baseweight(0.5), techlvl(8), lc(4), page(HT21)
+"Terminal, Datapad", basecost(10), baseweight(0.05), techlvl(8), lc(4), page(HT21)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Computers, High-Tech - Information Technology - Computers - Peripherals>
+"Printer", basecost(2500), baseweight(200), techlvl(7), lc(4), page(HT21)
+"Printer, Desktop", basecost(100), baseweight(10), techlvl(8), lc(4), page(HT21)
+"Printer, High-Quality", basecost(5000), baseweight(50), techlvl(8), lc(4), page(HT21)
+"Document Scanner", basecost(25), baseweight(2), techlvl(8), lc(4), page(HT21)
+"Document Scanning Pen", basecost(150), baseweight(0.1), techlvl(8), lc(4), page(HT21)
+"Heads-Up Display (HUD)", basecost(5000), baseweight(1.5), techlvl(8), lc(4), page(HT21)
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Computers, High-Tech - Information Technology - Computers - Data Storage>
+
+<High-Tech - Information Technology, High-Tech - Information Technology - Computers, High-Tech - Information Technology - Computers - Software>
+
+<High-Tech - Tools, High-Tech - Tools - Tool Kits>
+"Mini-Tool Kit (Electronics Repair ([Type]))", basecost(400), baseweight(2), techlvl(7), lc(4), page(HT24), description(Gives a -2 (quality) modifier for the specific skill and specialty for which it’s designed.),
+	x( #InputReplace("Choose what specialty of the Electronics Repair skill the tools are designed for:", "[Type]", , "Electronics Repair") )
+
+"Mini-Tool Kit (%Skill%)", basecost(200), baseweight(4), techlvl(5), lc(4), page(HT24), description(Gives a -2 (quality) modifier for the specific skill and specialty for which it’s designed.), 
+	x(#ChoiceList(_
+		list(_
+			"Electrician",
+			"Machinist",
+			"Armory (Battlesuits)",
+			"Armory (Body Armor)",
+			"Armory (Force Shields)",
+			"Armory (Heavy Weapons)",
+			"Armory (Melee Weapons)",
+			"Armory (Small Arms)",
+			"Armory (Vehicular Armor)",
+		),
+		name(Skill),
+		text(Choose the skill which the Tool Kit is for),
+		picksallowed(exactly 1),
+		method(ByNumber)_
+		)_
+	)
+
+"Mini-Tool Kit (Mechanic ([Type]))", basecost(200), baseweight(4), techlvl(5), lc(4), page(HT24), description(Gives a -2 (quality) modifier for the specific skill and specialty for which it’s designed.), 
+	x( #InputReplace("Choose what specialty of the Mechanic skill the tools are designed for:", "[Type]", , "Mechanic") )
+
+"Portable Tool Kit (Electronics Repair ([Type]))", basecost(1200), baseweight(10), techlvl(7), lc(4), page(HT24), description(Counts as basic equipment for the specific skill and specialty for which it’s designed, and gives a -2 (quality) modifier for other specialties of the same skill.),	
+	x( #InputReplace("Choose what specialty of the Electronics Repair skill the tools are designed for:", "[Type]", , "Electronics Repair") )
+"Portable Tool Kit (%Skill%)", basecost(600), baseweight(20), techlvl(5), lc(4), page(HT24), description(Counts as basic equipment for the specific skill and specialty for which it’s designed, and gives a -2 (quality) modifier for other specialties of the same skill.),
+	x(#ChoiceList(_
+			list(_
+				"Electrician",
+				"Machinist",
+				"Armory (Battlesuits)",
+				"Armory (Body Armor)",
+				"Armory (Force Shields)",
+				"Armory (Heavy Weapons)",
+				"Armory (Melee Weapons)",
+				"Armory (Small Arms)",
+				"Armory (Vehicular Armor)",
+			),
+			name(Skill),
+			text(Choose the skill which the Tool Kit is for),
+			picksallowed(exactly 1),
+			method(ByNumber)_
+			)_
+		)
+"Portable Tool Kit (Mechanic ([Type]))", basecost(600), baseweight(20), techlvl(5), lc(4), page(HT24), description(Counts as basic equipment for the specific skill and specialty for which it’s designed, and gives a -2 (quality) modifier for other specialties of the same skill.),
+	x( #InputReplace("Choose what specialty of the Mechanic skill the tools are designed for:", "[Type]", , "Mechanic") )
+"Workshop (Electronics Repair ([Type]))", basecost(30000), baseweight(500), techlvl(7), lc(4), page(HT24),	
+	x( #InputReplace("Choose what specialty of the Electronics Repair skill the tools are designed for:", "[Type]", , "Mechanic") )
+"Workshop (%Skill%)", basecost(15000), baseweight(2000), techlvl(5), lc(4), page(HT24),
+	x(#ChoiceList(_
+			list(_
+				"Electrician",
+				"Machinist",
+				"Armory (Battlesuits)",
+				"Armory (Body Armor)",
+				"Armory (Force Shields)",
+				"Armory (Heavy Weapons)",
+				"Armory (Melee Weapons)",
+				"Armory (Small Arms)",
+				"Armory (Vehicular Armor)",
+			),
+			name(Skill),
+			text(Choose the skill which the Tool Kit is for),
+			picksallowed(exactly 1),
+			method(ByNumber)_
+			)_
+		)
+"Workshop (Mechanic ([Type]))", basecost(15000), baseweight(2000), techlvl(5), lc(4), page(HT24),
+	x( #InputReplace("Choose what specialty of the Mechanic skill the tools are designed for:", "[Type]", , "Mechanic") )
+		
+<High-Tech - Tools, High-Tech - Tools - Hand Tools, High-Tech - Tools - Hand Tools - Axes>
+"Broad Axe", basecost(100), baseweight(6), techlvl(5), lc(4), page(HT24), description(This is an axe for hewing timbers. It has a wide and heavy head with a chisel-like cutting edge. The handle is bent or slightly offset from the head so the user can chop round logs into square timbers without busting his knuckles. -3 to Two-Handed Axe/Mace.), usernotes(-3 to Two-Handed Axe/Mace if used in combat), break(0), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace-3, ST:DX-5, SK:Axe/Mace-6, SK:Polearm-7, SK:Two-Handed Flail-7)
+
+"Felling Axe", basecost(100), baseweight(5), techlvl(5), lc(4), page(HT24), description(An axe with a comparatively thin, light blade designed for felling trees. It rings like a bell when it strikes a tree; it’s said that a skilled lumberjack knows the type of wood being struck by the “song” of a felling axe.), break(0), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace, ST:DX-5, SK:Axe/Mace-3, SK:Polearm-4, SK:Two-Handed Flail-4)
+
+"Spike or Fireman's Axe", basecost(100), baseweight(8), techlvl(5), lc(4), page(HT24), description(A felling axe with “ripper” spike opposite the blade. With a Ready maneuver, the wielder can switch from the blade to the spike and use it as a warhammer. Gives +1 (quality) to Forced Entry skill.), usernotes(+1 to Forced Entry skill.),
+	newmode(Axe, break(0), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace, ST:DX-5, SK:Axe/Mace-3, SK:Polearm-4, SK:Two-Handed Flail-4)),
+	newmode(Spike, break(0), damage(sw+3), damtype(imp), reach(1,2*), parry(0U), notes([2]), minst(12‡), skillused(SK:Two-Handed Axe/Mace, ST:DX-5, SK:Axe/Mace-3, SK:Polearm-4, SK:Two-Handed Flail-4)),
+	itemnotes(_
+				{} | {May get stuck; see Picks (p. B405).}_
+			)
+			
+"Double-Bitted Axe", basecost(100), baseweight(5), techlvl(6), lc(4), page(HT24), description(This axe has one edge ground thin for felling and delicate chopping work and the other left somewhat blunter for heavier cutting.), break(0), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace, ST:DX-5, SK:Axe/Mace-3, SK:Polearm-4, SK:Two-Handed Flail-4)
+
+"Splitting Maul", basecost(100), baseweight(8), techlvl(7), lc(4), page(HT24), description(An axe suitable only for splitting logs, as the massive, wedge-shaped head is too clumsy for felling or hewing. -3 to Two-Handed Axe/Mace.), usernotes(-3 to Two-Handed Axe/Mace if used in combat), break(0), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace-3, ST:DX-5, SK:Axe/Mace-6, SK:Polearm-7, SK:Two-Handed Flail-7)
+
+"Multi-Purpose Rescue Axe", basecost(200), baseweight(4.5), techlvl(8), lc(4), page(HT24), description(A non-sparking, nonmagnetic axe. The wicked-looking head has a pick opposite the blade (treat it as an axe or a pick in combat, depending on the side used). Like a barbarian’s version of the Swiss Army Knife, it has cutouts in the blade and metal handle that allow it to function as a hydrant wrench, fire-hose spanner, or gas-shutoff tool. The haft end of the axe is shaped for use as a pry bar. Gives +1 (quality) to Forced Entry skill.), usernotes(+1 to Forced Entry skill.),
+	newmode(Axe, break(0), damage(sw+2), damtype(cut), reach(1), parry(0U), minst(11), skillused(SK:Axe/Mace, ST:DX-5, SK:Flail-4, SK:Two-Handed Axe/Mace-3)),
+	newmode(Pick, break(0), damage(sw+1), damtype(imp), reach(1), parry(0U), minst(10), notes([2]), skillused(SK:Axe/Mace, ST:DX-5, SK:Flail-4, SK:Two-Handed Axe/Mace-3)),
+	itemnotes(_
+				{} | {May get stuck; see Picks (p. B405).}_
+			)
+<High-Tech - Tools, High-Tech - Tools - Hand Tools, High-Tech - Tools - Hand Tools - Miscellaneous>
+"Bit and Brace", basecost(30), baseweight(5), techlvl(5), lc(4), page(HT25), description(A hand-cranked drill and a set of bits. Does sw-2(2) pi++ per second when drilling through wood or similar materials.)
+"Crosscut Saw", basecost(80), baseweight(8), techlvl(5), lc(4), page(HT25), description(A two-man logging saw. Does sw- 3(2) cut per second to wood. Add the two sawyers’ ST scores to determine damage.)
+"Grinder", basecost(35), baseweight(40), techlvl(5), lc(4), page(HT25), description(A hand-powered grinder for sharpening blades. At TL6, it’s powered by an electric motor, which uses external power.)
+"Hacksaw", basecost(10), baseweight(2), techlvl(5), lc(4), page(HT25), description(Does sw-3(2) cut per second to metal bars, chains, and cables. Early hacksaw blades ($5, 0.1 lb.) wear out after only a few minutes of use; TL7+ models with carbide or diamond teeth last much longer and get +1 to damage.)
+"Hammer", basecost(15), baseweight(3), techlvl(5), lc(4), page(HT25), description(Some have claws for removing nails, others have two heads. TL7+ models have all-steel heads and steel or fiberglass handles; halve weight. Treat as a small mace (p. B271) in combat.), break(0), damage(sw+2), damtype(cr), reach(1), parry(0U), minst(10), skillused(SK:Axe/Mace, ST:DX-5, SK:Flail-4, SK:Two-Handed Axe/Mace-3)
+"Jack (TL 5)", basecost(75), baseweight(75), techlvl(5), lc(4), page(HT25), description(Capable of lifting 4 tons.)
+"Jack (TL 6)", basecost(75), baseweight(32), techlvl(6), lc(4), page(HT25), description(Capable of lifting 8 tons.)
+"Saw", basecost(20), baseweight(3), techlvl(5), lc(4), page(HT25), description(A handsaw for carpentry. Does sw-2(2) cut per second to wood.)
+"Shovel", basecost(15), baseweight(6), techlvl(5), lc(4), page(HT25), description(When use to dig, see p. B350. When used as a weapon, treat as a cheap great axe (p. B274) at -2 to skill.), break(+2), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace-2, ST:DX-5, SK:Axe/Mace-5, SK:Polearm-6, SK:Two-Handed Flail-6)
+"Sledgehammer", basecost(10), baseweight(15), techlvl(5), lc(4), page(HT25), description(A two-handed hammer for driving posts, rock drills (p. HT26), and so on. Treat as a maul (p. B274) at -2 to skill.), break(0), damage(sw+4), damtype(cr), reach(1,2*), parry(0U), minst(13‡), skillused(SK:Two-Handed Axe/Mace-2, ST:DX-5, SK:Axe/Mace-5, SK:Polearm-6, SK:Two-Handed Flail-6)
+"Whetstone", basecost(5), baseweight(1), techlvl(5), lc(4), page(HT25), description(For sharpening tools and weapons.)
+"Wire Cutters", basecost(30), baseweight(2), techlvl(5), lc(4), page(HT25), description(Do 2d(2) cut to rope, barbed wire, thin cable, etc.)
+"Bolt Cutters, Heavy", basecost(50), baseweight(30), techlvl(6), lc(4), page(HT25), description(Do 12d(2) cut to chains, bars, cables, etc., if the user can make a ST+4 roll.)
+"Bolt Cutters, Light", basecost(30), baseweight(15), techlvl(6), lc(4), page(HT25), description(Do 8d(2) cut to chains, bars, cables, etc., if the user can make a ST+4 roll.)
+"Utility Knife", basecost(2), baseweight(0.25), techlvl(6), lc(4), page(HT25), description(A short handle with about 1” of blade at one end. Treat as a small knife (p. B272) that can only make cutting attacks. The blade is retractable and replaceable.), break(0), damage(sw-3), damtype(cut), reach(C,1), parry(-1), minst(5), skillused(SK:Sword!, SK:Knife, ST:DX-4, SK:Force Sword-3, SK:Main-Gauche-3, SK:Shortsword-3)
+"Wire Saw", basecost(10), baseweight(neg.), techlvl(6), lc(4), page(HT25), description(A serrated wire “commando” saw that does 1 point of cutting damage every four seconds. DR 5+ material will quickly ruin it. Works as a wire garrote (pp. B272, B405) at no penalty.), itemnotes({A piece of rope used to strangle; see Garrotes (p. B405).}), break(0), damage(), damtype(spcl.), reach(C), parry(No), minst(), notes([8]), skillused(SK:Garrote, ST:DX-4)
+"Superglue", basecost(2), baseweight(neg.), techlvl(7), lc(4), page(HT25), description(One application holds up to 2 tons (ST 20). Also used in surgery for suturing! 10 uses.), uses(10)
+"Shovel, Titanium", basecost(15), baseweight(6), techlvl(8), lc(4), page(HT25), description(A corrosion-resistant, nonmagnetic, but otherwise normal shovel. When use to dig, see p. B350. When used as a weapon, treat as a cheap great axe (p. B274) at -2 to skill.), break(+2), damage(sw+3), damtype(cut), reach(1,2*), parry(0U), minst(12‡), skillused(SK:Two-Handed Axe/Mace-2, ST:DX-5, SK:Axe/Mace-5, SK:Polearm-6, SK:Two-Handed Flail-6)
+"Multi-Function Knife", basecost(25), baseweight(neg.), techlvl(5), lc(4), page(HT26), description(Depending on the job, the GM may treat a multifunction knife as improvised equipment (-5 quality) for minor repairs or as basic equipment for extremely simple tasks (e.g., using the screwdriver to open a gadget’s case).)
+"Multi-Tool", basecost(50), baseweight(0.5), techlvl(5), lc(4), page(HT26), description(It’s probably at least improvised equipment (-5 quality) for most technological tasks. For routine tasks, the GM might allow it to stand-in for a mini-tool kit (p. HT24).)
+"Rock Drill", basecost(200), baseweight(200), techlvl(5), lc(4), page(HT26), description(A set of rock drills ranging from 1’ to 16’ in length.)
+"Duct Tape", basecost(1), baseweight(2), techlvl(6), lc(4), page(HT26), description(A 60-yard roll.)
+"Glass Cutter", basecost(140), baseweight(1), techlvl(6), lc(4), page(HT26), description(In a cinematic campaign, the “circle cutter” is the definitive cat burglar’s tool. Requires a DX or Forced Entry roll to use. Failure means a noisy break; critical failure also means 1d-2 cutting damage to the hand.  Rolls for this stunt are at -6 in a realistic game.)
+
+<High-Tech - Tools, High-Tech - Tools - Power Tools, High-Tech - Tools - Power Tools - Sewing Machines>
+"Sewing Machine", basecost(50), baseweight(100), techlvl(5), lc(4), page(HT27), description(A treadle-powered machine produces over 200 stitches a minute versus a professional tailor’s 30. Gives +1 (quality) to Sewing skill.)
+"Electric Sewing Machine", basecost(240), baseweight(100), techlvl(6), lc(4), page(HT27), description(Capable of 1,500 stitches per minute. Gives +2 (quality) to Sewing skill.)
+
+<High-Tech - Tools, High-Tech - Tools - Power Tools, High-Tech - Tools - Power Tools - Steam Powered>
+"Drill, Steam-Powered", basecost(2000), baseweight(500), techlvl(5), lc(4), page(HT27), description(This tripod-mounted drill does 6d(2) pi++ per second to concrete or rock.)
+"Pump, Steam-Powered", basecost(5000), baseweight(450), techlvl(5), lc(4), page(HT27), description(Pumps 200 gallons per minute.)
+"Saw Mill, Steam-Powered", basecost(7500), baseweight(4000), techlvl(5), lc(4), page(HT27), description(Can produce 2,000 board feet of lumber per day (200 10’ boards, 100 20’ boards, 80 25’ boards, etc.).)
+
+<High-Tech - Tools, High-Tech - Tools - Power Tools, High-Tech - Tools - Power Tools - Miscellaneous>
+"Air Compressor", basecost(100), baseweight(125), baseweightformula(@if($val(me::techlvl) > 7 then 62 else 125)), techlvl(6), lc(4), page(HT27), description(Consumes 1 gallon of gasoline per hour.),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Air Compressor Hose (per 5' of length)", basecost(5), baseweight(1), techlvl(6), lc(4), page(HT27), description(For air-powered tools.)
+"Circular Saw", basecost(150), baseweight(20), techlvl(6), lc(4), page(HT27), description(Does sw+3(2) cut per second.)
+"Cutting Torch", basecost(75), baseweight(7), techlvl(6), lc(4), page(HT27), description(Does 1d+3(2) burn per second, with 30 seconds of cutting time per bottle (extra bottles are $50, 5 lbs.).)
+"Cutting Torch, Extra Bottle", basecost(50), baseweight(5), techlvl(6), lc(4), page(HT27), description(Extra bottle of fuel for Cutting Torch.)
+"Jackhammer", basecost(1500), baseweight(160), baseweightformula(@if($val(me::techlvl) > 7 then 160*0.5 else 160)), techlvl(6), lc(4), page(HT27), description(Does 7d(2) pi++ damage per second. At TL6, it requires an air compressor and hose; at TL8, weight is halved and it runs off normal building power.),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Power Drill", basecost(50), baseweight(2), techlvl(6), lc(4), page(HT27), description(Does 1d+2(2) pi++ per second to wood, plastic, or metal. Diamond or carbide replacements bits are $40 each. At TL8, battery-powered versions are available.)
+"Rotary Hammer", basecost(500), baseweight(10), techlvl(6), lc(4), page(HT27), description(Does 2d+2(2) pi++ to concrete or rock.)
+"Pocket Torch", basecost(25), baseweight(neg.), techlvl(7), lc(4), page(HT27), description(Does 1d-2 burn per second, with 20 minutes of burn time ($1 for refills).)
+"Plasma Torch", basecost(2000), baseweight(35), techlvl(8), page(HT27), description(Does 3d+6(2) burn per second. Requires a small tank of compressed air every 10 minutes (see Air Tanks, p. 74) – or an air compressor.)
+
+<High-Tech - Tools, High-Tech - Tools - Power Tools, High-Tech - Tools - Power Tools - Chainsaws>
+"Chainsaw", basecost(150), baseweight(25), baseweightformula(@if($val(me::techlvl) > 7 then 13*0.5 else 25)), techlvl(7), lc(4), page(HT27), description(As a rescue tool, a chainsaw uses the Forced Entry skill. In combat, it uses the Two-Handed Axe/Mace skill. A chainsaw has an (0.5) armor divisor when striking or parrying anything made of concrete, metal, or a material of comparable hardness (not wood, plastic, flesh, bone, etc.). If it fails to penetrate DR, it can malfunction. Roll 1d: on 1-2, nothing happens; on 3-5, the chainsaw stalls and must be restarted; and on a 6, the chain snaps. At TL7, a snapped chain whips around and strikes the wielder for 1d cutting damage; at TL8, it simply breaks the saw until it can be repaired. For double cost, a carbide-toothed chain can be had. This eliminates the (0.5) armor divisor and the accompanying limitations on cutting hard materials.), gives(=$if($val(me::techlvl) < 8 then "11‡" else "10‡") to me::minst),
+	damage(sw+1d), damtype(cut), armordivisor(0.5), reach(1), parry(0U), minst(), break(0), skillused(SK:Two-Handed Axe/Mace, ST:DX-5, SK:Axe/Mace-3, SK:Polearm-4, SK:Two-Handed Flail-4),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 7", techlvl))
+"Chainsaw, Carbide-Toothed Chain", basecost(300), baseweight(25), baseweightformula(@if($val(me::techlvl) > 7 then 13*0.5 else 25)), techlvl(7), lc(4), page(HT27), description(As a rescue tool, a chainsaw uses the Forced Entry skill. In combat, it uses the Two-Handed Axe/Mace skill. A chainsaw has an (0.5) armor divisor when striking or parrying anything made of concrete, metal, or a material of comparable hardness (not wood, plastic, flesh, bone, etc.). If it fails to penetrate DR, it can malfunction. Roll 1d: on 1-2, nothing happens; on 3-5, the chainsaw stalls and must be restarted; and on a 6, the chain snaps. At TL7, a snapped chain whips around and strikes the wielder for 1d cutting damage; at TL8, it simply breaks the saw until it can be repaired. For double cost, a carbide-toothed chain can be had. This eliminates the (0.5) armor divisor and the accompanying limitations on cutting hard materials.), gives(=$if($val(me::techlvl) < 8 then "11‡" else "10‡") to me::minst),
+	damage(sw+1d), damtype(cut), reach(1), parry(0U), minst(), break(0), skillused(SK:Two-Handed Axe/Mace, ST:DX-5, SK:Axe/Mace-3, SK:Polearm-4, SK:Two-Handed Flail-4),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 7", techlvl))
+
+<High-Tech - Tools, High-Tech - Tools - Power Tools, High-Tech - Tools - Power Tools - Nail Guns>
+"Nail Gun, Pneumatic", basecost(200), baseweight(7), techlvl(7), lc(4), page(HT28), description(Holds 50 nails.), 
+	damage(2d-1), damtype(pi-), acc(0), rangehalfdam(5), rangemax(25), rof(1), shots(50(3)), uses(50), minst(11†), bulk(-4), rcl(2), skillused(SK:Guns (Pistol)-4, ST:DX-4)
+"Nail Gun, Powder-Actuated", basecost(220), baseweight(5), techlvl(7), lc(4), page(HT28), description(Uses 10-shot blank cartridge strips ($0.7, 0.01 lb.).), 
+	damage(2d-1), damtype(pi-), acc(0), rangehalfdam(5), rangemax(25), rof(1), shots(50(3)), uses(50), minst(11†), bulk(-4), rcl(2), skillused(SK:Guns (Pistol)-4, ST:DX-4)
+"Nail Gun, Combustion", basecost(350), baseweight(8), techlvl(8), lc(4), page(HT28), description(Drives 1,000 nails per fuel canister ($7, 0.15 lb.). The rechargeable battery can ignite four fuel canisters before being drained.), 
+	damage(2d-1), damtype(pi-), acc(0), rangehalfdam(5), rangemax(25), rof(1), shots(50(3)), uses(50), minst(11†), bulk(-4), rcl(2), skillused(SK:Guns (Pistol)-4, ST:DX-4)
+
+<High-Tech - Tools, High-Tech - Tools - Industrial Equipment>
+
+
+<High-Tech - Tools, High-Tech - Tools - Rescue Tools>
+"Hand Ram", basecost(150), baseweight(35), techlvl(6), lc(4), page(HT29), description(Against a braced, unmoving object such as a door, roll against Forced Entry to hit. A successful attack does sw+3d+1 cr. The ram has Reach 1 and ST 20†, requiring either a strong wielder or at least two Ready maneuvers between strikes. Used as a weapon, it functions as a clumsy maul (p. B274): -3 to Two-Handed Axe/Mace. A non-sparking, nonmagnetic model costs double but comes in handy if the door being busted down leads to a volatile drug lab.), break(0), damage(sw+4), damtype(cr), reach(1,2*), parry(0U), minst(13‡), skillused(SK:Two-Handed Axe/Mace-3, ST:DX-5, SK:Axe/Mace-6, SK:Polearm-7, SK:Two-Handed Flail-7)
+"Fire Extinguisher, Large", basecost(75), baseweight(20), techlvl(6), lc(4), page(HT29), description(Good for 20 one-second bursts. Has a 3-yard range; see Cone Attacks (p. B413) and Attacking an Area (p. B414) for rules. It puts out a fire immediately on a roll on TL+2 or less.)
+"Fire Extinguisher, Small", basecost(50), baseweight(8), techlvl(6), lc(4), page(HT29), description(Good for 8 one-second bursts. Has a 2-yard range; see Cone Attacks (p. B413) and Attacking an Area (p. B414) for rules. It puts out a fire immediately on a roll on TL+2 or less.)
+"Spanner Wrench", basecost(15), baseweight(3), techlvl(6), lc(4), page(HT29), description(A firefighter’s multi-tool, used to connect fire hoses, operate fire hydrants and gas mains, and cut seat belts. In combat, treat as a small mace (p. B271) at -2 to skill.), break(0), damage(sw+2), damtype(cr), reach(1), parry(0U), minst(10), skillused(SK:Axe/Mace-2, ST:DX-5, SK:Flail-6, SK:Two-Handed Axe/Mace-5)
+"Come-A-Long", basecost(20), baseweight(15), techlvl(7), lc(4), page(HT29), description(A lever-operated pulling device. It moves objects at only a few feet per minute but has Lifting ST 25.)
+"Go-Bar", basecost(175), baseweight(17), techlvl(7), lc(4), page(HT29), description(This heavy-duty, non-sparking, and nonmagnetic “gorilla bar” is typically used with the Forced Entry skill to bust locks, hinges, and other door hardware. Treat it as a maul (p. B274) in combat, at -2 to skill.), break(0), damage(sw+4), damtype(cr), reach(1,2*), parry(0U), minst(13‡), skillused(SK:Two-Handed Axe/Mace-2, ST:DX-5, SK:Axe/Mace-5, SK:Polearm-6, SK:Two-Handed Flail-6)
+"Stokes Litter", basecost(500), baseweight(20), techlvl(7), lc(4), page(HT29), description(A wire basket that holds a single casualty securely during a risky evacuation (up a cliff, across a river, via rescue hoist, etc.). The occupant has DR 5 in the event the litter is dropped or suffers a collision.)
+"Cable Ladder", basecost(100), baseweight(5), techlvl(8), lc(4), page(HT30), description(A flexible 10-yard ladder with aluminum steps suspended between two cables.)
+"Carbon Monoxide Monitor", basecost(350), baseweight(0.25), techlvl(8), lc(4), page(HT30), description(Alerts firefighters or workers in confined spaces to dangerous carbon monoxide levels.)
+"Crowbar, Titanium", basecost(50), baseweight(2), techlvl(8), lc(4), page(HT30), description(Non-sparking, nonmagnetic tool for Forced Entry. Treat as a small mace (p. B271) in combat, at -1 to skill.), break(0), damage(sw+2), damtype(cr), reach(1), parry(0U), minst(10), skillused(SK:Axe/Mace-1, ST:DX-5, SK:Flail-5, SK:Two-Handed Axe/Mace-4)
+"Doorbuster", basecost(1500), baseweight(6), techlvl(8), lc(4), page(HT30), description(The so-called “knock-knock gun” resembles a pistol with chisel replacing the barrel. The user holds the head against a lock, hinge, bolt, etc., and pulls the trigger, which causes the chisel to slam forward with great force: 4d(2) pi++. It uses 10-shot strips, as described for the nail gun (p. HT28).)
+"Folding Ladder", basecost(300), baseweight(20), techlvl(8), lc(4), page(HT30), description(This goes from a briefcase-sized package to a 16’ ladder in two seconds; capacity is 300 lbs.)
+"Hydraulic Door Opener", basecost(1500), baseweight(9), techlvl(8), lc(4), page(HT30), description(A hand-pumped hydraulic spreader jack for silently forcing open locked or barred doors. After three Ready maneuvers spent pumping, it inflicts 10d cr to doors and doorjambs.)
+"Lock Buster", basecost(50), baseweight(3), techlvl(8), lc(4), page(HT30), description(A hooked beak that’s placed on a padlock and then struck with a sledgehammer. It doubles the damage done to the padlock.)
+"Rescue Hoist", basecost(3500), baseweight(20), techlvl(7), lc(4), page(HT30), description(This is a hand-cranked hoist with a working load of 500 lbs. (see Rope, p. HT56) and a lifting speed of 8 yards per minute. It’s either attached to a tripod ($1,500, 75 lbs., 3-ton rating) for use over manholes or vertical mine shafts, or clamped to a tree, vehicle bumper, window sill, or other sturdy attachment point.)
+"Rescue Hoist, Tripod", basecost(1500), baseweight(75), techlvl(7), lc(4), page(HT30), description(3-ton rating, see Rescue Hoist (p. HT30).)
+"Rescue Spreader/Cutter", nameext(TL 7), basecost(15000), baseweight(90), techlvl(7), lc(4), page(HT30), description(The handheld unit does 6dx4(2) cr per activation, has Reach 1 and ST 16†, and weighs 38 lbs. It has Arm ST 36, BL 259 as a spreader. The power pack weighs 50 lbs. and uses 1 gallon of gasoline per hour.)
+"Rescue Spreader/Cutter", nameext(TL 8), basecost(15000), baseweight(55), techlvl(8), lc(4), page(HT30), description(The handheld unit does 6dx5(2) cr per activation, has Reach 1 and ST 14†, and weighs 23 lbs. It has Arm ST 45, BL 405 as a spreader. The power pack weighs 30 lbs. and uses 0.5 gallon of gasoline per hour.)
+"Fire Shelter", basecost(400), baseweight(5), techlvl(8), lc(4), page(HT30), description(A fire shelter resembles a sleeping bag made of reflective, nonflammable material. It protects those inside it from being burned alive in a wildland fire, giving them DR 10 vs. burning damage. Users might still die from breathing superheated air, however; see Heat (p. B434).)
+"Firefighter Alert System", basecost(100), baseweight(0.25), techlvl(8), lc(4), page(HT30), description(This is a personal alarm worn by firefighters. The user must shake it at regular intervals (20 seconds is common) in order to reset it. Should it remain motionless – presumably because its wearer is trapped or incapacitated – it will sound a piercing audible alarm (+4 to Hearing). This gets progressively louder, alerting those nearby that a firefighter is down, pinned by debris, or otherwise in need of help. For double cost, it also has temperature alarm that goes off when the wearer has been in especially hot areas (200- 350°F) for too long or when the temperature increases rapidly – which may indicate that a flashover is imminent.)
+"Lift-Bag Kit", basecost(5000), baseweight(75), techlvl(8), lc(4), page(HT30), description(A “lift bag” is a reinforced bag designed to lift or shift a heavy load as it’s inflated. It’s connected to an air compressor (p. HT27) or the power pack of a rescue spreader/cutter (p. HT30). A standard kit includes an assortment of bags capable of lifting from a couple of tons to more than 70 tons.)
+
+<High-Tech - Personal Devices and Consumer Goods, High-Tech - Personal Devices and Consumer Goods - Personal Accessories>
+"Belt", basecost(10), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(Can retain holsters and sheaths (pp. HT153-154, HT198), conceal money or a survival kit (pp. HT58-59) in its lining (+4 to Holdout), or act as an improvised climbing harness (p. HT55). The buckle can hide a dagger, a push knife (p. HT197), or a small gun.)
+"Towel, 2'x4'", basecost(5), baseweight(1), techlvl(5), lc(4), page(HT31), description(A towel is valuable to any adventurer – interstellar or not. Besides being useful when bathing, it can serve as a blanket, a fire tender, clothing, or a head covering. Attached to a stick, it’s a legionnaire’s pack – or a sail. It’s a privacy screen, a signaling device, or a cushion for an uncomfortable seat. Lashed to a foot and stuffed with newspapers, it’s a passable arctic boot. A soldier can use it to keep body armor from chafing or to cushion his helmet, or cut it into strips for bandages or a weapon sling.)
+"Towel, 2'x4' (Microfiber)", basecost(30), baseweight(0.25), techlvl(7), lc(4), page(HT31), description(A microfiber towel – quick-drying and highly absorbent.)
+"Cane", basecost(5), baseweight(2.5), techlvl(5), lc(4), page(HT31), description(A walking stick – possibly with ornate carvings, exotic woods, a sculpted or silver handle, etc., all of which would count as styling. It’s useful for pointing, poking, and, if necessary, fighting.)
+"Cigar or Cigarette Case", basecost(30), baseweight(0.1), techlvl(5), lc(4), page(HT31), description(Holds half a dozen cigars or 20 cigarettes, a box of matches, a cigar cutter, etc.)
+"Collapsible Cup", basecost(3), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(Usually pewter or steel.)
+"Grooming Kit", basecost(25), baseweight(0.5), techlvl(5), lc(4), page(HT31), description(A leather Gladstone, vanity, or toilet bag holding comb, hairbrush, razor, toothbrush, soap, aftershave, shoepolish kit, etc.)
+"Handbag", basecost(10), baseweight(1), techlvl(5), lc(4), page(HT31), description(A woman’s purse, a doctor’s medical bag, or a day-hiker’s fanny pack. Holds up to 10 lbs.), weightcapacity(10), isparent(yes)
+"Waist Bag", basecost(10), baseweight(1), techlvl(5), lc(4), page(HT31), description(A woman’s purse, a doctor’s medical bag, or a day-hiker’s fanny pack. Holds up to 10 lbs.), weightcapacity(10), isparent(yes)
+"Hip Flask", basecost(10), baseweight(1), techlvl(5), lc(4), page(HT31), description(Holds 1 pint. Holdout -1.), usernotes(Holds 1 pint.), isparent(yes)
+"Mirror", basecost(5), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(Handy when applying makeup – and for peering around corners and signaling. At TL5-6, it will break if dropped! At TL7-8, it’s made of nearly indestructible plastic.)
+"Pocket Watch", basecost(100), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(A good-quality pocket watch.)
+"Pocketknife", basecost(5), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(A small knife with one or more short, folding blades. The largest pocketknife blade might count as a small knife (p. B272) at -1 to damage; the shortest aren’t useful weapons.)
+"Religious Symbol", basecost(1), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(A small crucifix, rosary, ankh, etc.)
+"Sewing Kit", basecost(1), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(Includes a needle, several colors of thread, a thimble, etc. It counts as basic equipment for sewing.)
+"Tobacco Box", basecost(20), baseweight(neg.), techlvl(5), lc(4), page(HT31), description(Holds 1-2 oz. of tobacco.)
+"Umbrella", basecost(5), baseweight(1), techlvl(5), lc(4), page(HT31), description(A folding umbrella keeps the rain off and is useful for prodding suspicious items.)
+"Attaché Case", basecost(20), baseweight(2), techlvl(6), lc(4), page(HT31), description(A briefcase with a simple lock.), isparent(yes)
+"Wristwatch", basecost(25), baseweight(neg.), techlvl(6), lc(4), page(HT31), description(A good basic watch is $25; a luxury watch, such as a Rolex, can go as high as $40,000!)
+"Gadget Wristwatch", basecost(100), baseweight(neg.), techlvl(6), lc(4), page(HT32), description(At TL8, miniaturization lets wristwatches contain a bewildering array of gadgets. Some common features are altimeter, barometer, calculator (p. HT18), cell phone (p. HT39), compass (p. HT52), digital camera (p. HT43), digital storage device (p. HT22), dosimeter (p. HT49), GPS (p. HT53), pepper spray (p. HT180), and thermometer. Treat such watches as improvised equipment (-5 quality) for relevant technological skills. To reduce the penalty, the operator must spend extra time fiddling with the controls (see Time Spent, p. B346). Prices start at $100 and rise quickly; minimum cost is that of the built-in gadget.)
+
+<High-Tech - Personal Devices and Consumer Goods, High-Tech - Personal Devices and Consumer Goods - Appliances>
+<High-Tech - Personal Devices and Consumer Goods, High-Tech - Personal Devices and Consumer Goods - Foodstuffs>
+<High-Tech - Personal Devices and Consumer Goods, High-Tech - Personal Devices and Consumer Goods - Luxuries>
+
+<High-Tech - Communications, High-Tech - Communications - Mail and Freight>
+<High-Tech - Communications, High-Tech - Communications - Telegraph>
+<High-Tech - Communications, High-Tech - Communications - Telephone>
+"Communications Wire (per mile)", basecost(15), baseweight(35), techlvl(6), lc(4), page(HT37), description(A mile of phone line on a hand-held spool, used to link two military telephones, phone and switchboard, etc.)
+"Military Telephone", basecost(50), baseweight(5), techlvl(6), lc(4), page(HT37), description(Sound-powered – meaning that a hand crank rings a connected phone and a loud voice generates the power to carry the message.)
+"Telephone", basecost(25), baseweight(3), techlvl(6), lc(4), page(HT37), description()
+"Telephone Switchboard", basecost(1000), baseweight(50), techlvl(6), lc(4), page(HT37), description(A portable 10-line switchboard; female operators worked these behind the trench lines during WWI.)
+"Teletype", basecost(7500), baseweight(200), techlvl(6), lc(4), page(HT37), description(Prints text from information transmitted via phone line. From the 1920s, a model capable of printing photos is available for x2 cost – or x4 cost if it can handle color photos (TL7). Renting a teletype line costs $500/month.)
+
+<High-Tech - Communications, High-Tech - Communications - Radio>
+"Radio, Large", basecost(3500), displaycost(varies), basecostformula(@if($val(me::techlvl) = 6 then 3500 elseif $val(me::techlvl) = 7 then 5000 else 15000)), baseweight(100), techlvl(6), lc(4), page(HT37), description(), mods(Radio Options),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Radio, Medium", basecost(2500), displaycost(varies), basecostformula(@if($val(me::techlvl) = 6 then 2500 elseif $val(me::techlvl) = 7 then 3500 else 2000)), baseweight(30), displayweight(varies), baseweightformula(@if($val(me::techlvl) = 6 then 30 elseif $val(me::techlvl) = 7 then 25 else 8)), techlvl(6), lc(4), page(HT38), description(), mods(Radio Options),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Radio, Small", basecost(250), displaycost(varies), basecostformula(@if($val(me::techlvl) = 6 then 250 elseif $val(me::techlvl) = 7 then 500 else 250)), baseweight(5), displayweight(varies), baseweightformula(@if($val(me::techlvl) = 6 then 5 elseif $val(me::techlvl) = 7 then 2 else 0.5)), techlvl(6), lc(4), page(HT38), description(), mods(Radio Options),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Radio, Tiny", basecost(100), displaycost(varies), basecostformula(@if($val(me::techlvl) = 7 then 100 else 50)), baseweight(5), displayweight(varies), baseweightformula(@if($val(me::techlvl) = 7 then 1 else 0.25)), techlvl(7), lc(4), page(HT38), description(), mods(Radio Options),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 7", techlvl))
+
+<High-Tech - Communications, High-Tech - Communications - Radio, High-Tech - Communications - Radio - Accessories>
+"Headphones and Throat Mike", basecost(500), baseweight(2), baseweightformula(@if($val(me::techlvl) > 7 then 0 else 2)), techlvl(6), lc(4), page(HT39), description(Vehicle crewmen (fighter pilots, tankers, etc.) wear headphones and a throat mike. The throat mike detects vibrations from the voice box, which prevents noise from the vehicle from garbling the message. Weight becomes negligible at TL8.),
+	x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Ear Microphone System", basecost(500), baseweight(0.25), techlvl(8), lc(4), page(HT39), description(A thin cable connects a single “earbud” to the radio. This earpiece acts as both earphone and mike (via bone induction), allowing the operator to subvocalize and avoid detection in a crowd.)
+"Tactical Headset", basecost(200), baseweight(1), techlvl(8), lc(4), page(HT39), description(Soldiers and SWAT officers prefer a hands-free, voice-activated boom microphone set to transmit whispers, but not screams or the sounds of battle. Headphones or earbuds keep nearby enemies (or civilians) from hearing the conversation. Earbuds double as hearing protection (p. HT70).)
+"Wireless Earphone", basecost(300), baseweight(0.5), techlvl(8), lc(3), page(HT39), description(A tiny earpiece picks up audio signals from a short-range transmitter box connected to the radio. The voice-activated microphone is worn like a necklace, and is concealable under normal clothing.)
+
+<High-Tech - Communications, High-Tech - Communications - Cell Phones>
+"Cellular Phone, Early", basecost(4000), baseweight(2), techlvl(8), lc(4), page(HT39), description(A big “brick,” with 15-30 minutes of talk time. Battery: S/30 min.)
+"Cellular Phone", basecost(100), baseweight(0.5), techlvl(8), lc(4), page(HT39), description(A sleek, modern phone, with a few extra functions. Good- and fine-quality phones have more features. The battery lasts for several hours of talk time and perhaps a week on standby.)
+
+<High-Tech - Communications, High-Tech - Communications - Satellite Phones>
+"Satellite Phone", basecost(1000), baseweight(1), techlvl(8), lc(4), page(HT40), description(In addition to normal cell-phone service (and many of the features common to cell phones, above), this phone can relay calls through a communications satellite to reach any other phone in the world. It can also act as a modem for a computer.)
+"Satellite Videoconferencing System", basecost(10000), baseweight(10), techlvl(8), lc(4), page(HT40), description(A satellite phone and video screen built into a rugged, waterproof suitcase. It can transmit live video from a digital video source or use its built-in camera for videoconferencing.)
+
+<High-Tech - Communications, High-Tech - Communications - Other>
+"Heliograph", basecost(100), baseweight(50), techlvl(5), lc(4), page(HT40), description(The heliograph consists of a mirror-and-shutter apparatus atop a tripod. In sunny conditions, it can flash a signal across 30 miles, terrain permitting. The U.S. Cavalry occasionally transmitted from mountaintop to mountaintop, achieving distances in excess of 150 miles! Anyone might see the signals, but they can be encoded or enciphered.)
+"Pocket Laser Communicator", basecost(1000), baseweight(0.75), techlvl(8), lc(4), page(HT40), description(The communicator can operate in two modes: narrowbeam and wide-beam. Narrow-beam mode requires line of sight, but the communicator cannot be jammed or intercepted except by enemies directly in the beam path. Effective range is about 1 mile. In wide-beam mode, the signal is broadcast (this requires no line of sight if indoors) and thus can be intercepted; range is about 0.5 mile.)
+"Divecom Base Station", basecost(3000), baseweight(10), techlvl(8), lc(4), page(HT40), description(A surface base station, mounted on a boat, pier, etc. It only works while its transceiver array is in the water.)
+"Diver Communicator", basecost(1000), baseweight(1), techlvl(8), lc(4), page(HT40), description(The civilian version has a range of up to 3,000 yards. The military version has builtin encryption and double the range, but cost and weight are x3.)
+
+<High-Tech - Media, High-Tech - Media - Audio Storage Recording and Playback>
+"Headphones", basecost(50), baseweight(1), techlvl(6), lc(4), page(HT41), description()
+"Microphone", basecost(100), baseweight(3), basecostformula(@if($val(me::techlvl) = 8 then 50 else 100)), baseweightformula(@if($val(me::techlvl) = 8 then 1 else 3)), techlvl(6), lc(4), page(HT41), description(At TL8, halve price and divide weight by three.), x(#InputToTagReplace("Choose the tech level of the device, minimum 6", techlvl))
+"Phonograph", basecost(2000), baseweight(30), techlvl(6), lc(4), page(HT41), description(Some models are powered by a hand crank, others by electricity.)
+"Gramophone", basecost(500), baseweight(40), techlvl(6), lc(4), page(HT41), description(Records and plays records. Sound quality is terribly poor and scratchy.)
+"Pocket Phonograph", basecost(250), baseweight(4), techlvl(6), lc(4), page(HT41), description(Looks like an oversized pocket watch (4” across) but unfolds to become a hand-cranked record player. Holdout -2.)
+"Portable Phonograph", basecost(100), baseweight(10), techlvl(6), lc(4), page(HT41), description(A hand-cranked record player in a small briefcase – the perfect picnic Victrola.)
+"Record Player", basecost(50), baseweight(10), techlvl(7), lc(4), page(HT41), description(Plays records but doesn’t record.)
+"Wire Recorder", basecost(1500), baseweight(15), techlvl(6), lc(4), page(HT41), description()
+"Magnetic Tape Recorder", basecost(8500), baseweight(100), techlvl(6), lc(4), page(HT41), description()
+"Reel-to-Reel Tape Recorder", basecost(150), baseweight(10), techlvl(7), lc(4), page(HT41), description()
+"Reel-to-Reel Tape Recorder, Miniature", basecost(500), baseweight(1), techlvl(7), lc(4), page(HT41), description(Miny-reel lasts 1 hour. Holdout -1.)
+"Self-Playing Piano", basecost(6000), baseweight(600), techlvl(6), lc(4), page(HT41), description()
+"Cassette Recorder", basecost(150), baseweight(3), techlvl(7), lc(4), page(HT41), description(A portable player/recorder, about as large as a mid-sized book.)
+"Cassette Recorder, Handheld", basecost(10), baseweight(0.5), techlvl(8), lc(4), page(HT41), description(A pocket-sized player/recorder with an AM/FM tuner.)
+"Compact Disc Player", basecost(900), baseweight(15), techlvl(8), lc(4), page(HT41), description(A CD-player console, with AM/FM tuner, etc.)
+"Compact Disc Player, Portable", basecost(25), baseweight(0.5), techlvl(8), lc(4), page(HT42), description(A “walkman” style CD player. Later models have FM tuner, “anti-skip,” etc.)
+"Digital Media Player", basecost(100), baseweight(0.25), techlvl(8), lc(4), page(HT42), description(Digital media players are tiny audio-playback devices, typified by Apple’s iPod.)
+"12'' LP", basecost(15), baseweight(0.5), techlvl(6), lc(4), page(HT42), description(Plays 20-30 minutes per side.)
+"5.5'' Record", basecost(1.5), baseweight(0.25), techlvl(6), lc(4), page(HT42), description(One of the first popular collectable records, these “Little Wonders” played about 90 seconds of music per side.)
+"Wax Cylinder", basecost(5), baseweight(0.25), techlvl(6), lc(4), page(HT42), description(Holds about 10 minutes of scratchy, poor-quality audio. Holdout -2.)
+"Wire Reel", basecost(15), baseweight(0.5), techlvl(6), lc(4), page(HT42), description(Holds about an hour of poor-quality audio. Holdout -1.)
+"Audio Cassette Tape", basecost(1), baseweight(0.15), techlvl(7), lc(4), page(HT42), description(A plastic cassette holding 30-60 minutes of music (660 KB of data) per side. Holdout 0.)
+"Reel-to-Reel Tape", basecost(3), baseweight(1), techlvl(7), lc(4), page(HT42), description(The most common reel at TL7 is a 1,200’ length of 1/4” tape on a 7” reel, which holds about an hour of standard audio or 15 minutes of professional quality recording.)
+"Compact Disk", basecost(0.5), baseweight(0.05), techlvl(8), lc(4), page(HT42), description(A single CD holds 74-90 minutes of audio (650-800 MB of data). Holdout 0.)
+
+<High-Tech - Media, High-Tech - Media - Video Storage Recording and Playback>
+"Camera Obscura", basecost(50), baseweight(10), techlvl(5), lc(4), page(HT42), description(Use Artist (Drawing) skill to make an accurate or attractive copy.)
+"Wet-Plate Camera, Developing Equipment", basecost(300), baseweight(25), techlvl(5), lc(4), page(HT42), description(Enough chemicals and containers for developing a few hundred wet-plate images and accompanying prints. Many of the chemicals are flammable or poisonous!)
+"Wet-Plate Camera, Glass Plates", basecost(5), baseweight(0.5), techlvl(5), lc(4), page(HT42), description(A common 5” x 8” glass plate.)
+"Wet-Plate Camera", basecost(1000), baseweight(50), techlvl(5), lc(4), page(HT42), description(A camera and tripod.)
+"Box Camera", basecost(20), baseweight(0.5), techlvl(6), lc(4), page(HT42), description(Holds 6-12 exposures.)
+"Movie Camera", basecost(2500), baseweight(6), techlvl(6), lc(4), page(HT43), description(Halve cost and weight at TL7-8.)
+"SLR Camera", basecost(400), baseweight(3), techlvl(6), lc(4), page(HT43), description(Expensive, higher-quality systems (p. B345) provide a bonus to Photography skill.)
+"Subminiature Camera", basecost(500), baseweight(0.1), techlvl(6), lc(4), page(HT43), description(A tiny camera about 2” long by 1” wide. It takes from 12 to 50 exposures per roll of film. At TL8, digital versions record to a digital storage device (p. HT22) instead. Holdout +2.)
+"Camera Bag", basecost(25), baseweight(1), techlvl(6), lc(4), page(HT43), cat(High-Tech - Media - Video Storage Recording and Playback - Video Accessories), description(Holds camera, lenses, film, cleaning gear, etc.)
+"Darkroom", basecost(500), baseweight(25), techlvl(6), lc(4), page(HT43), cat(High-Tech - Media - Video Storage Recording and Playback - Video Accessories), description(All the equipment needed to develop film. Higher-quality equipment can develop unusual film (UV, IR, etc.), produce professional-quality prints and enlargements, and so on.)
+"Telephoto Lens", basecost(500), baseweight(8.5), techlvl(6), lc(4), page(HT43), cat(High-Tech - Media - Video Storage Recording and Playback - Video Accessories), description(30x magnification.)
+"Tripod", basecost(75), baseweight(9), techlvl(6), lc(4), page(HT43), cat(High-Tech - Media - Video Storage Recording and Playback - Video Accessories), description(Stands 4’ tall, but collapses to 12”. Divide weight by 3 at TL8.)
+"Underwater Housing", basecost(200), baseweight(1), techlvl(7), lc(4), page(HT43), cat(High-Tech - Media - Video Storage Recording and Playback - Video Accessories), description(An airtight plastic shell (DR 2) for a camera, allowing full access to all controls.)
+"Wireless Pan-Tilt-Zoom", basecost(1000), baseweight(3), techlvl(8), lc(4), page(HT43), cat(High-Tech - Media - Video Storage Recording and Playback - Video Accessories), description(A motorized aiming system that’s mounted on a tripod and operated by remote control. Battery: 3xS/10 hrs.)
+"Watch Camera", basecost(25), baseweight(neg.), techlvl(6), lc(4), page(HT43), description(Its pocket-watch size makes it difficult to operate: -3 to skill. It uses a miniature roll of film that holds 25 exposures ($2.50, neg.). Holdout +2.)
+"VHS Camcorder", basecost(1500), baseweight(8), techlvl(8), lc(4), page(HT43), description(Battery: M/2 hrs.)
+"Micro-Camcorder", basecost(200), baseweight(0.25), techlvl(8), lc(4), page(HT43), description(Uses a digital storage device. Holds about 1 hour of video per 256 MB. +1 Holdout. Rechargeable battery lasts for 1 hour.)
+"Mini-DV Camera", basecost(500), baseweight(1), techlvl(8), lc(4), page(HT43), description(Gives Night Vision 3 and Telescopic Vision 2. Rechargeable battery lasts for 1 hour.)
+"Professional Mini-DV Camera", basecost(10000), baseweight(8), techlvl(8), lc(4), page(HT43), description(It gives +2 (quality) to Photography skill. The rechargeable battery lasts for 90 minutes.)
+"Digital Camera", basecost(75), baseweight(0.5), techlvl(8), lc(4), page(HT43), description(Amount of images it can store depends on image quality and storage size. Cheap cameras are often small (Holdout 0). Battery: 2xXS/10hrs.)
+"Digital Video Recorder", basecost(150), baseweight(0.5), techlvl(8), lc(4), page(HT44), mods(Computer), description(A computer with Complexity 2 software with a $50 adapter. See pp. HT19-22 for software and hardware prices. 1 hour of video requires 1GB of storage.)
+"Film", basecost(2), baseweight(neg.), techlvl(6), lc(4), page(HT44), description(Regular or high-speed film for a 35mm SLR or similar. 24-36 exposures/roll. Holdout +1.)
+"Infrared Film", basecost(30), baseweight(neg.), techlvl(6), lc(4), page(HT44), description(Takes pictures with Infravision (pp.B60). ”Color” version appears TL7. 24-36 exposures/roll.)
+"Movie Camera Film", basecost(30), baseweight(0.5), techlvl(6), lc(4), page(HT44), description(A 100’ reel of film. Lasts 4-6 minutes. Holdout -3.)
+"Ultraviolet Film", basecost(100), baseweight(neg.), techlvl(6), lc(4), page(HT44), description(Takes pictures in Ultravision (pp.B94). ”Color” versions are available at TL7. 24-36 exposures/roll.)
+"Digital Versatile Disc (DVD)", basecost(2), baseweight(neg.), techlvl(8), lc(4), page(HT44), description(Holds 120-240 minutes of film depending on format. Holdout 0.)
+"Mini-DV Cassette", basecost(6), baseweight(0.25), techlvl(8), lc(4), page(HT44), description(Stores about 80 minutes of digital video. Holdout -1.)
+"VHS Cassette", basecost(2), baseweight(0.5), techlvl(8), lc(4), page(HT44), description(Records for 2-3 hours. Holdout 0.)
+
+<High-Tech - Media, High-Tech - Media - Broadcast Radio>
+"Cabinet Radio", basecost(1500), baseweight(150), techlvl(6), lc(4), page(HT44), description()
+"Transistor Radio", basecost(15), baseweight(0.5), techlvl(7), lc(4), page(HT44), description(Battery: S/10hrs.)
+"Boom Box", basecost(100), baseweight(15), techlvl(8), lc(4), page(HT44), description(Loud enough to rock the block! Battery: 6xS/5hrs.)
+"Satellite Radio Receiver", basecost(50), baseweight(0.5), techlvl(8), lc(4), page(HT44), description(Service costs $10 per month. Battery: XS/5hrs.)
+
+<High-Tech - Media, High-Tech - Media - Television, High-Tech - Media - Television Set>
+"TV Set, Early (TL6)", basecost(4000), baseweight(150), techlvl(6), lc(4), page(HT45), description()
+"TV Set (TL7)", basecost(500), baseweight(150), techlvl(7), lc(4), page(HT45), description()
+"TV Set, Color (TL7)", basecost(5000), baseweight(150), techlvl(7), lc(4), page(HT45), description()
+"TV Set (TL8)", basecost(1500), baseweight(100), techlvl(8), lc(4), page(HT45), description(A 42” flat-panel, high-definition color TV. External power.)
+"TV Watch", basecost(200), baseweight(neg.), techlvl(8), lc(4), page(HT45), description(Rechargable battery runs for about an hour.)
+
+<High-Tech - Media, High-Tech - Media - Television, High-Tech - Media - Television Accessories>
+"TV Recorder", basecost(3500), baseweight(35), techlvl(7), lc(4), page(HT45), description(Records on open-reel video tape.)
+"VHS Recorder (TL7)", basecost(5000), baseweight(10), techlvl(7), lc(4), page(HT45), description()
+"DVD Player", basecost(80), baseweight(10), techlvl(8), lc(4), page(HT45), description()
+"DVD Recorder", basecost(200), baseweight(10), techlvl(8), lc(4), page(HT45), description()
+"VHS Recorder (TL8)", basecost(50), baseweight(5), techlvl(8), lc(4), page(HT45), description()
+
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Active Sensors, High-Tech - Sensors and Scientific Gear - Active Sensors - Sonar>
+"Sonar, Large", basecost(2000000), baseweight(2000), techlvl(6), lc(4), page(HT45), mods(Special Sonar Modes, Special Sonar Modes - Medium and Large), description(Range is 4,000 yards at TL6, 8,000 yards at TL7, and 20,000 yards at TL8. 1/10 range with Imaging Modification.)
+"Sonar, Medium", basecost(15000), baseweight(50), techlvl(8), lc(4), page(HT45), mods(Special Sonar Modes, Special Sonar Modes - Medium and Large), description(Range is 2000 yards. 1/10 range with Imaging Modification. Battery: 12xL/4hrs.)
+"Sonar, Small", basecost(2000), baseweight(8), techlvl(8), lc(4), page(HT45), mods(Special Sonar Modes), description(Range is 100 yards. 1/10 range with Imaging Modification. Battery: 8xs/20hrs.)
+
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Active Sensors, High-Tech - Sensors and Scientific Gear - Active Sensors - Radar>
+
+
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Passive Visual Sensors>
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Indirect Passive Sensors>
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Scientific Equipment>
+	
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Lights>
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Navigation Instruments>
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Load-Bearing Gear>
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Climbing and Mountaineering Gear>
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Survival and Camping Gear>
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Maritime Gear>
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Parachuting Gear>
+
+	
+<High-Tech - Stealth and Camouflage, High-Tech - Stealth and Camouflage - Camouflage>
+<High-Tech - Stealth and Camouflage, High-Tech - Stealth and Camouflage - Stealth>
+	
+<High-Tech - Covert Ops and Security, High-Tech - Covert Ops and Security - Security and Surveillance>
+<High-Tech - Covert Ops and Security, High-Tech - Covert Ops and Security - Deception and Intrusion>
+<High-Tech - Covert Ops and Security, High-Tech - Covert Ops and Security - Enforcement and Coercion>
+
+<High-Tech - Medical and Health Technology, High-Tech - Medical and Health Technology - Emergency Equipment>
+"Tracheotomy Kit", basecost(150), baseweight(0.5), techlvl(5), lc(4), page(HT219), description(This one-use kit consists of a large-bore needle that’s inserted into the windpipe – and, at TL6-8, a tube to which a bag mask or oxygen supply can be attached. The kit isn’t required to perform a tracheotomy, but improvised equipment gives the usual -5 to skill (see p. B345).)
+"Intubation Kit", basecost(200), baseweight(2), techlvl(6), lc(4), page(HT219), description(This single-use kit consists of a selection of laryngoscopes, tubing, and other equipment used to extend a breathing tube down a patient’s windpipe.)
+"Bag Mask", basecost(15), baseweight(1), techlvl(6), lc(4), page(HT219), description(This is a rubber or plastic mask with an attached bulb or bag. It replaces rescue breathing techniques during CPR (p. HT220). The rescuer holds the mask in place and pumps the bag by hand to deliver a steady flow of air to the patient.)
+"Medical Oxygen, Small Tank", basecost(200), baseweight(15), techlvl(6), lc(4), page(HT219), description(Duration is 2 hours (TL6), 3 hours and 40 minutes (TL7), or 7 hours and 30 minutes (TL8).)
+"Medical Oxygen, Medium Tank", basecost(400), baseweight(25), techlvl(6), lc(4), page(HT219), description(Duration is 3 hours and 40 minutes (TL6), 7 hours and 30 minutes (TL7), or 15 hours (TL8).)
+"Medical Oxygen, Large Tank", basecost(600), baseweight(35), techlvl(6), lc(4), page(HT219), description(Duration is 7 hours and 30 minutes (TL6), 15 hours (TL7), or 30 hours (TL8).)	
+"Ventilator", basecost(6000), baseweight(50), techlvl(7), lc(4), page(HT219), description(This mechanical lung or “vent” provides the correct number of breaths per minute, freeing a rescuer to do things other than pump a bag mask.)
+"IV Kit", basecost(15), baseweight(0.5), techlvl(6), lc(4), page(HT220), description(The needle, tubing, regulator, etc., needed to get an IV solution from its bottle or bag and into the patient.)
+"IV Stand", basecost(75), baseweight(15), techlvl(6), lc(4), page(HT220), description(This is a stand that holds IV fluids and other related equipment. It may be the only weapon that a combative patient can easily lay hands on – treat as clumsy maul at -2 to skill and -3 to damage!)
+"Plasma (per pint)", basecost(200), baseweight(0.5), techlvl(6), lc(4), page(HT220), description(Dehydrated; requires half a pint of water. Shelf life is one year.)
+"Whole Blood (per pint)", basecost(150), baseweight(1), techlvl(6), lc(4), page(HT220), description(Lasts a week in the fridge at TL6; a little over a month at TL8.)
+"Dextrose", basecost(4), baseweight(2), techlvl(6), lc(4), page(HT220), description(For meal replacement.)
+"Saline", basecost(3), baseweight(2), techlvl(6), lc(4), page(HT220), description(For hydration.)
+"Manual Defibrillator (TL 7)", basecost(10000), baseweight(60), techlvl(7), lc(3), page(HT220), description(Gives +2 to resuscitation rolls. Prints its output on a paper strip.)
+"Manual Defibrillator (TL 8)", basecost(10000), baseweight(15), techlvl(8), lc(3), page(HT220), description(Gives +3 to resuscitation rolls. Often has a digital readout.)
+"Automatic External Defibrillator", basecost(1200), baseweight(3), techlvl(8), lc(4), page(HT220), description(This miniature defibrillator has a dedicated computer that analyzes the patient’s heart rhythm and delivers a shock. The human operator need only hook it up to the subject by following audio instructions, cartoons, etc. (an IQ+4 roll). The AED then performs resuscitation with an effective skill of 12. It’s designed specifically not to allow abuse as a weapon! The internal battery is good for 30 shocks and has a five-year shelf life.)
+"Doctor's Bag", basecost(200), baseweight(10), techlvl(5), lc(3), page(HT220), description(This gear gives +1 (quality) to First Aid, and counts as basic equipment for Physician and improvised equipment for Surgery. At TL5, the major contents of a frontier doctor or field surgeon’s kit might be two dozen bandages (p. HT221), four small boards for splinting, an otological reflector (p. HT222), a percussor (p. HT222), a stethoscope (p. HT222), a suturing kit (p. HT224), four doses of chloroform or ether (p. HT224), 10 doses of quinine (p. HT226), 20 doses of castor oil (p. HT226), 220 MEDICAL AND HEALTH TECHNOLOGYsix doses of morphine (p. HT226), and a notebook (p. HT17) with a pencil, all in a leather handbag (p. HT31).)
+"Small First Aid Kit", basecost(10), baseweight(1), techlvl(6), lc(4), page(HT221), description(This is basic equipment for First Aid. It can treat one major wound or a couple of smaller ones. At TL6, a soldier’s individual kit might contain a handful of bandages (see p. HT221), an autoinjector with a dose of morphine (p. HT226), and two doses of sulfa drugs (see Antibiotics, p. HT226).)
+"First Aid Kit", basecost(50), baseweight(2), techlvl(7), lc(4), page(HT221), description(This kit gives +1 (quality) to First Aid. It contains more of everything in the small kit, plus foot powder (see box, p. HT221), insect repellant (see box, p. HT221), salt tablets (see box, p. HT221), ammonia inhalants (p. HT226), analgesics (p. HT226), antibiotic ointment (see Antibiotics, p. HT226), antimalarial pills (p. HT226), and water purification tablets (p. HT59).)
+"Crash Kit", basecost(200), baseweight(10), techlvl(8), lc(4), page(HT221), description(This gear is typical of what a military medic or a civilian EMT might carry. It gives +2 (quality) to First Aid, and counts as basic equipment for Physician and improvised equipment for Surgery. At TL8, typical contents are more of everything in the large first aid kit (above), plus splinting material, a bag mask (p. HT219), an IV kit with a unit of blood, plasma, or other fluids (p. HT220), a clinical thermometer (pp. 221-222), a stethoscope (p. HT222), a sphygmomanometer (p. HT222), a suturing kit (p. HT224), and a microflashlight (p. HT52).)
+"Bandages", basecost(1), baseweight(0.1), techlvl(5), lc(4), page(HT221), description(Lint at TL5, sterile gauze at TL6-7, or spray-on bandage at TL8. See Bandaging (p. B424). Enough for one wound.)
+"Litter", basecost(50), baseweight(25), techlvl(5), lc(4), page(HT221), description(For carrying the wounded.)
+"Body Bag", basecost(5), baseweight(2.5), techlvl(6), lc(4), page(HT221), description(With full-length zipper and tiedowns.)
+"Hemostatic Bandages", basecost(20), baseweight(neg.), techlvl(8), lc(4), page(HT221), description(Bandages impregnated with a protein – derived from insect chitin – that promotes clotting. This significantly reduces bleeding. When bandaging a bleeding wound (p. B424), these give +1 (quality) to First Aid and reduce the time required to 30 seconds. One treatment per item.)
+"Lightweight Litter", basecost(500), baseweight(12), techlvl(8), lc(4), page(HT221), description(This folding aluminum litter stows in a backpack.)
+"Soap", basecost(1), baseweight(0.25), techlvl(5), lc(4), page(HT221), description(One month's supply. Daily use gives at least +1 to HT rolls for Contagion (p. B443) and Infection (p. B444).)
+"Foot Powder", basecost(4), baseweight(0.5), techlvl(6), lc(4), page(HT221), description(One week's supply. Gives +2 to resist fungal infection of the feet: “trench foot,” “jungle rot,” etc.)
+"Salt Tablets", basecost(1), baseweight(0.1), techlvl(6), lc(4), page(HT221), description(Bottle of 50 tablets. Prevent dehydration, giving +1 to HT rolls to avoid FP loss due to heat (see Heat, p. B434). Each tablet treats a quart of water.)
+"Sunscreen", basecost(2), baseweight(0.25), techlvl(6), lc(4), page(HT221), description(Four-use bottle. Provides DR 2 vs. sunburn (see Heat, p. B434) for 2-4 hours.)
+"Vitamin Pills", basecost(3), baseweight(0.1), techlvl(7), lc(4), page(HT221), description(One month's supply. Compensate for poor diets, allowing subsistence on nutritionally inadequate food.)
+"Hand Sanitizer Gel", basecost(1), baseweight(0.01), techlvl(8), lc(4), page(HT221), description(One week's supply. Kills most germs in seconds and then evaporates. Regular use gives at least +1 to HT rolls for Contagion (p. B443).)
+
+<High-Tech - Medical and Health Technology, High-Tech - Medical and Health Technology - Medical Equipment>
+<High-Tech - Medical and Health Technology, High-Tech - Medical and Health Technology - Surgery>
+<High-Tech - Medical and Health Technology, High-Tech - Medical and Health Technology - Prosthetics>
+<High-Tech - Medical and Health Technology, High-Tech - Medical and Health Technology - Drugs and Poisons>
+"Activated Charcoal", basecost(1), baseweight(neg.), techlvl(6), lc(4), page(HT226), description(One dose. Activated charcoal can help neutralize and limit further damage from many common digestive poisons, including arsenic and strychnine. It adds +3 to HT rolls for this purpose.)
+"Antibiotics", basecost(0.5), baseweight(neg.), techlvl(6), lc(3), page(HT226), description(Antibiotics grant +TL/2 to HT rolls against bacterial disease or infection (see pp. B443-444). Resistant bacteria reduce or negate the bonus!)
+"Antibiotic Oinment", basecost(5), baseweight(neg.), techlvl(7), lc(4), page(HT226), description(10-dose tube. When applied to a wound it gives +TL/2 to HT rolls vs. infection.)
+	
+<High-Tech - Transportation, High-Tech - Transportation - Components>
+	
+<High-Tech - Weapons, High-Tech - Weapons - Land Mines>
+"M18A1 Claymore", basecost(50), baseweight(3.5), techlvl(8), lc(1), page(HT189), description({When triggered, everyone out to 270 yards in a 60° cone in front of the device is attacked at basic skill 9, with +9 for the rapid-fire bonus but minus the range penalty for distance from the mine. Treat this as a huge shotload (see Multiple Projectiles, pp. 172-174) with Dmg 2d(0.5) pi-, Range 55/270, RoF 1¥700, Rcl 1. Resolve attacks in order of distance – if all 700 pellets somehow manage to hit something, no more-distant targets can be hit. While the pellets are directed forward, the explosion (6d¥3 cr ex) isn’t directional and affects a large area to the sides and rear; thus, the weapon is usually deployed 20+ yards from friendly positions.}), itemnotes(Fires a multiple-projectile attack (p. B409) to the front: Dmg 2d(0.5) pi-, Range 55/270, RoF 1x700, Rcl 1.), damage(6dx3), damtype(cr ex), acc(0), rof(1), rcl(0)
+"M86 PDM", basecost(45), baseweight(1.2), techlvl(8), lc(1), page(HT189), description(The user simply arms it and drops it on the ground. After a 25-second delay, it deploys seven 20’ tripwires. After another 40 seconds, it’s fully armed – and if disturbed, launches itself 6’ above the ground and detonates. Left undisturbed, it self-destructs (explodes!) after four hours.), damage(8d), damtype([2d] cr ex), acc(0), rof(1), rcl(0)
+
+
+********************************************************************************************************\[STOP]
+[MODIFIERS]
+********************************************************************************************************\[START]
+<Computer>
+
+<Radio Options>
+{Radio: Code Only}, *0.5, page(HT38)
+{Radio: Radio Direction Finder}, *5, page(HT38)
+{Radio: Radio Intercept}, *5, page(HT39)
+{Radio: Radiotelephone}, *1.5, page(HT39)
+{Radio: Receive Only}, *0.1, page(HT39), gives(=*0.2 to owner::weight)
+{Radio: ECCM}, *2, page(HT39)
+{Radio: GPS}, *2, page(HT39)
+{Radio: Satellite Uplink}, *2, page(HT39)
+{Radio: Long-Range Antenna}, *1.25, page(HT39), gives(=*1.25 to owner::weight)
+
+<Special Sonar Modes>
+{Sonar: Imaging}, *5, page(HT39), gives(=*2 to owner::weight)
+<Special Sonar Modes - Medium and Large>
+{Sonar: Tactical}, *5, page(HT46)
+
+********************************************************************************************************\[STOP]

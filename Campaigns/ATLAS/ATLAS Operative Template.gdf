@@ -1,1 +1,995 @@
-Y:/Users/Daisy/Documents/GURPS Character Assistant 5/books/ATLAS Operative Template.gdf
+Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file,_
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+Program=5.0.199
+Description=26 September 2022. 
+
+[AUTHOR]
+******************************************************************************************************\[START]
+*
+* GURPS(R) Character Assistant Data File
+* Created: 2014 Oct 21
+* Updated: 2016 March 7
+* Requires GCA 5 or later!
+*
+*******************************************************************************************************\[STOP]
+[SETTINGS]
+DefaultTL=9
+BasePoints=401
+DisadLimit=-20
+QuirkLimit=-5
+UseDiceAddsConversion=yes
+
+
+
+*******************************************************************************************************\[STOP]
+[SKILLS]
+*******************************************************************************************************\[START]
+Piloting (Drone), DX/A, tl(0-12), default(IQ-6), cat(_General, Vehicle)
+
+#MergeTags in "SK:Acrobatics" with "skillcat(Athletic)"
+#MergeTags in "SK:Aerobatics" with "skillcat(Athletic)"
+#MergeTags in "SK:Aquabatics" with "skillcat(Athletic)"
+#MergeTags in "SK:Body Sense" with "skillcat(Athletic)"
+#MergeTags in "SK:Breath Control" with "skillcat(Athletic)"
+#MergeTags in "SK:Climbing" with "skillcat(Athletic)"
+#MergeTags in "SK:Flight" with "skillcat(Athletic)"
+#MergeTags in "SK:Free Fall" with "skillcat(Athletic)"
+#MergeTags in "SK:Hiking" with "skillcat(Athletic)"
+#MergeTags in "SK:Jumping" with "skillcat(Athletic)"
+#MergeTags in "SK:Lifting" with "skillcat(Athletic)"
+#MergeTags in "SK:Parachuting" with "skillcat(Athletic)"
+#MergeTags in "SK:Running" with "skillcat(Athletic)"
+#MergeTags in "SK:Scuba" with "skillcat(Athletic)"
+#MergeTags in "SK:Skating" with "skillcat(Athletic)"
+#MergeTags in "SK:Skiing" with "skillcat(Athletic)"
+#MergeTags in all "SK:Sports" with "skillcat(Athletic)"
+#MergeTags in "SK:Swimming" with "skillcat(Athletic)"
+#MergeTags in "SK:Throwing" with "skillcat(Athletic)"
+
+#MergeTags in all "SK:Animal Handling" with "skillcat(Animal)"
+#MergeTags in all "SK:Falconry" with "skillcat(Animal)"
+#MergeTags in "SK:Mimicry (Animal Sounds)" with "skillcat(Animal)"
+#MergeTags in "SK:Mimicry (Bird Calls)" with "skillcat(Animal)"
+#MergeTags in all "SK:Mount" with "skillcat(Animal)"
+#MergeTags in all "SK:Riding" with "skillcat(Animal)"
+#MergeTags in all "SK:Teamster" with "skillcat(Animal)"
+#MergeTags in all "SK:Veterinary" with "skillcat(Animal)"
+
+#MergeTags in all "SK:Artist" with "skillcat(Arts and Entertainment)"
+#MergeTags in all "SK:Connoisseur" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Dancing" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Fire Eating" with "skillcat(Arts and Entertainment)"
+#MergeTags in all "SK:Group Performance" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Makeup" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Mimicry (Speech)" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Musical Composition" with "skillcat(Arts and Entertainment)"
+#MergeTags in all "SK:Musical Instrument" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Performance" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Poetry" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Singing" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Stage Combat" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Ventriloquism" with "skillcat(Arts and Entertainment)"
+#MergeTags in "SK:Writing" with "skillcat(Arts and Entertainment)"
+
+#MergeTags in "SK:Accounting" with "skillcat(Business)"
+#MergeTags in "SK:Administration" with "skillcat(Business)"
+#MergeTags in "SK:Economics" with "skillcat(Business)"
+#MergeTags in "SK:Finance" with "skillcat(Business)"
+#MergeTags in "SK:Market Analysis" with "skillcat(Business)"
+
+#MergeTags in "SK:Axe/Mace" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Broadsword" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Boxing" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Brawling" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Cloak" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Fast-Draw (Knife)" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Fast-Draw (Sword)" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Fast-Draw (Two-Handed Sword)" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Flail" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Garrote" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Jitte/Sai" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Judo" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Karate" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Knife" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Kusari" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Main-Gauche" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Parry Missile Weapons" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Polearm" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Rapier" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Saber" with "skillcat(Combat - Melee)"
+#MergeTags in all "SK:Shield" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Shortsword" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Smallsword" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Spear" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Staff" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Sumo Wrestling" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Tonfa" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Two-Handed Axe/Mace" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Two-Handed Flail" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Two-Handed Sword" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Whip" with "skillcat(Combat - Melee)"
+#MergeTags in "SK:Wrestling" with "skillcat(Combat - Melee)"
+
+#MergeTags in all "SK:Artillery" with "skillcat(Combat - Ranged)"
+#MergeTags in all "SK:Beam Weapons" with "skillcat(Combat - Ranged)"
+#MergeTags in all "SK:Gunner" with "skillcat(Combat - Ranged)"
+#MergeTags in all "SK:Guns" with "skillcat(Combat - Ranged)"
+#MergeTags in all "SK:Innate Attack" with "skillcat(Combat - Ranged)"
+#MergeTags in "SK:Lasso" with "skillcat(Combat - Ranged)"
+#MergeTags in all "SK:Liquid Projector" with "skillcat(Combat - Ranged)"
+#MergeTags in "SK:Net" with "skillcat(Combat - Ranged)"
+#MergeTags in "SK:Sling" with "skillcat(Combat - Ranged)"
+#MergeTags in "SK:Spear Thrower" with "skillcat(Combat - Ranged)"
+#MergeTags in all "SK:Thrown Weapon" with "skillcat(Combat - Ranged)"
+
+#MergeTags in all "SK:Bolas Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Bow Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Boxing Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Brawling Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Crossbow Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Judo Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Karate Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Lance Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Lasso Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Net Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Sling Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Main-Gauche Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Rapier Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Saber Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Smallsword Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Flail Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Two-Handed Flail Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Axe/Mace Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Two-Handed Axe/Mace Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Polearm Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Spear Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Staff Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Broadsword Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Force Sword Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Jitte/Sai Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Knife Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shortsword Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Two-Handed Sword Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Force Whip Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Kusari Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Monowire Whip Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Whip Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Tonfa Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Wrestling Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Sumo Wrestling Art" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shield Art (Shield)" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shield Art (Buckler)" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shield Art (Force)" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Cloak Art" with "skillcat(Combat - Art/Sport)"
+
+#MergeTags in all "SK:Bolas Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Bow Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Boxing Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Brawling Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Crossbow Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Judo Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Karate Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Lance Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Lasso Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Net Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Sling Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Main-Gauche Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Rapier Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Saber Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Smallsword Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Flail Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Two-Handed Flail Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Axe/Mace Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Two-Handed Axe/Mace Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Polearm Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Spear Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Staff Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Broadsword Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Force Sword Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Jitte/Sai Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Knife Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shortsword Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Two-Handed Sword Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Force Whip Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Kusari Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Monowire Whip Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Whip Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Tonfa Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Wrestling Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Sumo Wrestling Sport" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shield Sport (Shield)" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shield Sport (Buckler)" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Shield Sport (Force)" with "skillcat(Combat - Art/Sport)"
+#MergeTags in all "SK:Cloak Sport" with "skillcat(Combat - Art/Sport)"
+
+#MergeTags in "SK:Computer Hacking" with "skillcat(Computers)"
+#MergeTags in "SK:Computer Operation" with "skillcat(Computers)"
+#MergeTags in "SK:Computer Programming" with "skillcat(Computers)"
+
+#MergeTags in "SK:Carpentry" with "skillcat(Craft)"
+#MergeTags in "SK:Jeweler" with "skillcat(Craft)"
+#MergeTags in "SK:Leatherworking" with "skillcat(Craft)"
+#MergeTags in "SK:Masonry" with "skillcat(Craft)"
+#MergeTags in "SK:Sewing" with "skillcat(Craft)"
+#MergeTags in all "SK:Smith" with "skillcat(Craft)"
+
+#MergeTags in "SK:Counterfeiting" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Disguise" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Escape" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Filch" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Forced Entry" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Forensics" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Forgery" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Holdout" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Lip Reading" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Lockpicking" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Pickpocket" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Scrounging" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Search" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Shadowing" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Smuggling" with "skillcat(Criminal and Spy)"
+#MergeTags in "SK:Stealth" with "skillcat(Criminal and Spy)"
+
+#MergeTags in "SK:Architecture" with "skillcat(Design, Invention and Engineering)"
+#MergeTags in all "SK:Bioengineering" with "skillcat(Design, Invention and Engineering)"
+#MergeTags in all "SK:Engineer" with "skillcat(Design, Invention and Engineering)"
+#MergeTags in "SK:Weird Science" with "skillcat(Design, Invention and Engineering)"
+
+#MergeTags in all "SK:Electronics Operation" with "skillcat(Electronics)"
+#MergeTags in all "SK:Electronics Repair" with "skillcat(Electronics)"
+
+#ReplaceTags in "SK:Electronics Repair (Computers)" with "skillcat(Computers)"
+
+#MergeTags in "SK:Autohypnosis" with "skillcat(Esoteric)"
+#MergeTags in "SK:Blind Fighting" with "skillcat(Esoteric)"
+#MergeTags in "SK:Body Control" with "skillcat(Esoteric)"
+#MergeTags in "SK:Breaking Blow" with "skillcat(Esoteric)"
+#MergeTags in "SK:Dreaming" with "skillcat(Esoteric)"
+#MergeTags in all "SK:Enthrallment" with "skillcat(Esoteric)"
+#MergeTags in "SK:Esoteric Medicine" with "skillcat(Esoteric)"
+#MergeTags in "SK:Flying Leap" with "skillcat(Esoteric)"
+#MergeTags in "SK:Immovable Stance" with "skillcat(Esoteric)"
+#MergeTags in "SK:Invisibility Art" with "skillcat(Esoteric)"
+#MergeTags in "SK:Kiai" with "skillcat(Esoteric)"
+#MergeTags in "SK:Light Walk" with "skillcat(Esoteric)"
+#MergeTags in "SK:Meditation" with "skillcat(Esoteric)"
+#MergeTags in "SK:Mental Strength" with "skillcat(Esoteric)"
+#MergeTags in "SK:Mind Block" with "skillcat(Esoteric)"
+#MergeTags in "SK:Musical Influence" with "skillcat(Esoteric)"
+#MergeTags in "SK:Power Blow" with "skillcat(Esoteric)"
+#MergeTags in "SK:Pressure Points" with "skillcat(Esoteric)"
+#MergeTags in "SK:Pressure Secrets" with "skillcat(Esoteric)"
+#MergeTags in "SK:Push" with "skillcat(Esoteric)"
+#MergeTags in "SK:Throwing Art" with "skillcat(Esoteric)"
+#MergeTags in "SK:Zen Archery" with "skillcat(Esoteric)"
+
+#MergeTags in "SK:Housekeeping" with "skillcat(Everyman)"
+
+#MergeTags in all "SK:Explosives" with "skillcat(Explosives)"
+
+#MergeTags in all "SK:Fast-Draw" with "skillcat(Fast-Draw)"
+
+#MergeTags in all "SK:Area Knowledge" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Current Affairs" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Expert Skill" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Games" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Heraldry" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Hidden Lore" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Hobby Skill" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Law" with "skillcat(Knowledge)"
+#MergeTags in all "SK:Professional Skill" with "skillcat(Knowledge)"
+#MergeTags in "SK:Research" with "skillcat(Knowledge)"
+
+#MergeTags in all "SK:Diagnosis" with "skillcat(Medical)"
+#MergeTags in all "SK:First Aid" with "skillcat(Medical)"
+#MergeTags in all "SK:Pharmacy" with "skillcat(Medical)"
+#MergeTags in all "SK:Physician" with "skillcat(Medical)"
+#MergeTags in all "SK:Physiology" with "skillcat(Medical)"
+#MergeTags in all "SK:Poisons" with "skillcat(Medical)"
+#MergeTags in all "SK:Psychology" with "skillcat(Medical)"
+#MergeTags in all "SK:Surgery" with "skillcat(Medical)"
+
+#MergeTags in all "SK:Armoury" with "skillcat(Military)"
+#MergeTags in "SK:Battlesuit" with "skillcat(Military)"
+#MergeTags in "SK:Camouflage" with "skillcat(Military)"
+#MergeTags in "SK:Cryptography" with "skillcat(Military)"
+#MergeTags in "SK:Forward Observer" with "skillcat(Military)"
+#MergeTags in "SK:Intelligence Analysis" with "skillcat(Military)"
+#MergeTags in "SK:Propaganda" with "skillcat(Military)"
+#MergeTags in "SK:Observation" with "skillcat(Military)"
+#MergeTags in "SK:Soldier" with "skillcat(Military)"
+#MergeTags in all "SK:Strategy" with "skillcat(Military)"
+#MergeTags in "SK:Tactics" with "skillcat(Military)"
+#MergeTags in "SK:Traps" with "skillcat(Military)"
+
+#MergeTags in all "SK:Astronomy" with "skillcat(Natural Science)"
+#MergeTags in all "SK:Biology" with "skillcat(Natural Science)"
+#MergeTags in all "SK:Chemistry" with "skillcat(Natural Science)"
+#MergeTags in all "SK:Geology" with "skillcat(Natural Science)"
+#MergeTags in all "SK:Mathematics" with "skillcat(Natural Science)"
+#MergeTags in all "SK:Paleontology" with "skillcat(Natural Science)"
+#MergeTags in "SK:Physics" with "skillcat(Natural Science)"
+
+#MergeTags in "SK:Cartography" with "skillcat(Navigation)"
+#MergeTags in all "SK:Navigation" with "skillcat(Navigation)"
+
+#MergeTags in "SK:Alchemy" with "skillcat(Occult and Magical)"
+#MergeTags in "SK:Exorcism" with "skillcat(Occult and Magical)"
+#MergeTags in "SK:Herb Lore" with "skillcat(Occult and Magical)"
+#MergeTags in "SK:Occultism" with "skillcat(Occult and Magical)"
+#MergeTags in all "SK:Religious Ritual" with "skillcat(Occult and Magical)"
+#MergeTags in all "SK:Ritual Magic" with "skillcat(Occult and Magical)"
+#MergeTags in all "SK:Symbol Drawing" with "skillcat(Occult and Magical)"
+#MergeTags in "SK:Thaumatology" with "skillcat(Occult and Magical)"
+
+#MergeTags in "SK:Farming" with "skillcat(Plant)"
+#MergeTags in "SK:Gardening" with "skillcat(Plant)"
+
+#MergeTags in "SK:Fishing" with "skillcat(Survival)"
+#MergeTags in "SK:Knot-Tying" with "skillcat(Survival)"
+#MergeTags in all "SK:Naturalist" with "skillcat(Survival)"
+#MergeTags in "SK:Prospecting" with "skillcat(Survival)"
+#MergeTags in all "SK:Survival" with "skillcat(Survival)"
+#MergeTags in "SK:Tracking" with "skillcat(Survival)"
+#MergeTags in "SK:Urban Survival" with "skillcat(Survival)"
+#MergeTags in "SK:Weather Sense" with "skillcat(Survival)"
+
+#MergeTags in "SK:Acting" with "skillcat(Social)"
+#MergeTags in all "SK:Body Language" with "skillcat(Social)"
+#MergeTags in "SK:Carousing" with "skillcat(Social)"
+#MergeTags in "SK:Detect Lies" with "skillcat(Social)"
+#MergeTags in "SK:Diplomacy" with "skillcat(Social)"
+#MergeTags in "SK:Fast-Talk" with "skillcat(Social)"
+#MergeTags in "SK:Gambling" with "skillcat(Social)"
+#MergeTags in "SK:Interrogation" with "skillcat(Social)"
+#MergeTags in "SK:Intimidation" with "skillcat(Social)"
+#MergeTags in "SK:Leadership" with "skillcat(Social)"
+#MergeTags in "SK:Merchant" with "skillcat(Social)"
+#MergeTags in "SK:Panhandling" with "skillcat(Social)"
+#MergeTags in "SK:Politics" with "skillcat(Social)"
+#MergeTags in all "SK:Public Speaking" with "skillcat(Social)"
+#MergeTags in all "SK:Savoir-Faire" with "skillcat(Social)"
+#MergeTags in "SK:Sex Appeal" with "skillcat(Social)"
+#MergeTags in "SK:Streetwise" with "skillcat(Social)"
+
+#MergeTags in "SK:Anthropology" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in "SK:Archaeology" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in "SK:Criminology" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in all "SK:Geography" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in all "SK:History" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in "SK:Linguistics" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in "SK:Literature" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in all "SK:Philosophy" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in "SK:Sociology" with "skillcat(Social Sciences/Humanities)"
+#MergeTags in all "SK:Theology" with "skillcat(Social Sciences/Humanities)"
+
+
+#MergeTags in "SK:Electrician" with "skillcat(Technical)"
+#MergeTags in "SK:Diving Suit" with "skillcat(Technical)"
+#MergeTags in all "SK:Hazardous Materials" with "skillcat(Technical)"
+#MergeTags in "SK:NBC Suit" with "skillcat(Technical)"
+#MergeTags in "SK:Machinist" with "skillcat(Technical)"
+#MergeTags in all "SK:Mechanic" with "skillcat(Technical)"
+#MergeTags in "SK:Photography" with "skillcat(Technical)"
+#MergeTags in "SK:Typing" with "skillcat(Technical)"
+#MergeTags in "SK:Vacc Suit" with "skillcat(Technical)"
+
+#MergeTags in "SK:Airshipman" with "skillcat(Vehicle)"
+#MergeTags in all "SK:Bicycling" with "skillcat(Vehicle)"
+#MergeTags in all "SK:Boating" with "skillcat(Vehicle)"
+#MergeTags in all "SK:Driving" with "skillcat(Vehicle)"
+#MergeTags in "SK:Freight Handling" with "skillcat(Vehicle)"
+#MergeTags in all "SK:Piloting" with "skillcat(Vehicle)"
+#MergeTags in "SK:Seamanship" with "skillcat(Vehicle)"
+#MergeTags in all "SK:Shiphandling" with "skillcat(Vehicle)"
+#MergeTags in "SK:Spacer" with "skillcat(Vehicle)"
+#MergeTags in all "SK:Submarine" with "skillcat(Vehicle)"
+#MergeTags in "SK:Submariner" with "skillcat(Vehicle)"
+
+#MergeTags in all "SK:Acrobatic Stand" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Aggressive Parry" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Arm Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Armed Grapple" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Attack from Above" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Axe Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Back Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Back Strike" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Beat" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Bind Weapon" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Breakfall" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Cavalry Training" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Choke Hold" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Close Combat" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Combat Riding" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Counterattack" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Crack" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Disarming" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Drop Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Ear Clap" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Elbow Drop" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Elbow Strike" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Entangle" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Evade" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Exotic Hand Strike" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Eye-Gouge" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Eye-Pluck" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Eye-Poke" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Eye-Rake" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Feint" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Finger Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Ground Fighting" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Hammer Fist" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Handcuffing" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Hands-Free Riding" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Head Butt" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Head Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Hook" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Horse Archery" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Jam" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Judo Throw" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Jump Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Kicking" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Knee Drop" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Knee Strike" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Leg Grapple" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Leg Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Leg Throw" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Lethal Eye-Poke" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Low Fighting" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Low-Line Defense" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Lower-Body Arm Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Lower-Body Head Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Lower-Body Leg Lock" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Mounted Shooting" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Neck Snap" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Push Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Quick Mount" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Retain Weapon" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Return Strike" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Reverse Grip" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Ruse" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Sacrifice Throw" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Scissors Hold" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Spinning Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Spinning Punch" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Spinning Strike" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Stamp Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Staying Seated" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Sweep" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Sweeping Kick" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Targeted Attack" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Triangle Choke" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Trip" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Two-Handed Punch" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Uppercut" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Wrench Arm" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Wrench Leg" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Wrench Spine" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Wrench [Limb]" with "skillcat(zTechniques - Combat)"
+#MergeTags in all "SK:Wrist Lock" with "skillcat(zTechniques - Combat)"
+
+#MergeTags in all "SK:Impersonate" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Lifesaving" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Motion-Picture Camera" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:No-Landing Extraction" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Rope Up" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Scaling" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Set Trap" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Slip Handcuffs" with "skillcat(zTechniques - Non-Combat)"
+#MergeTags in all "SK:Work by Touch" with "skillcat(zTechniques - Non-Combat)"
+*******************************************************************************************************\[STOP]
+[LISTS]
+******************************************************************************************************\[START]
+<Operative Skills>
+SK:Acting #NoNeeds 
+SK:Armoury (Body Armor)=4pts #NoNeeds 
+SK:Armoury (Heavy Weapons) #NoNeeds 
+SK:Armoury (Small Arms)=4pts #NoNeeds 
+SK:Battlesuit=2pts #NoNeeds
+SK:Boating (Motorboat) #NoNeeds 
+SK:Body Language=2pts #NoNeeds 
+SK:Camouflage=2pts #NoNeeds 
+SK:Carousing #NoNeeds 
+SK:Cartography #NoNeeds 
+SK:Climbing=2pts #NoNeeds 
+SK:Computer Hacking #NoNeeds 
+SK:Computer Operation=2pts #NoNeeds 
+SK:Computer Programming #NoNeeds 
+SK:Detect Lies #NoNeeds 
+SK:Disguise #NoNeeds respond "Human"
+SK:Driving (Automobile)=8pts #NoNeeds 
+SK:Driving (Halftrack) #NoNeeds 
+SK:Driving (Heavy Wheeled)==0pts #NoNeeds 
+SK:Driving (Hovercraft) #NoNeeds 
+SK:Driving (Motorcycle) #NoNeeds 
+SK:Driving (Tracked) #NoNeeds 
+SK:Electronics Operation (Communications) #NoNeeds 
+SK:Electronics Operation (Electronic Warfare) #NoNeeds 
+SK:Electronics Operation (Security) #NoNeeds 
+SK:Electronics Operation (Sensors) #NoNeeds 
+SK:Electronics Operation (Surveillance) #NoNeeds 
+SK:Electronics Repair (Communications) #NoNeeds 
+SK:Electronics Repair (Computers) #NoNeeds 
+SK:Escape
+SK:Explosives (Demolition) #NoNeeds 
+SK:Explosives (Explosive Ordnance Disposal) #NoNeeds 
+SK:Explosives (Underwater Demolition) #NoNeeds 
+SK:First Aid=4pts #NoNeeds
+SK:Forced Entry #NoNeeds 
+SK:Forgery #NoNeeds 
+SK:Forward Observer #NoNeeds 
+SK:Gunner (Machine Gun) #NoNeeds 
+SK:Gunner (Rockets) #NoNeeds 
+SK:Guns (Grenade Launcher) #NoNeeds 
+SK:Guns (Light Machine Gun) #NoNeeds 
+SK:Guns (Pistol)=2pts #NoNeeds 
+SK:Guns (Rifle)=2pts #NoNeeds 
+SK:Guns (Shotgun) #NoNeeds 
+SK:Guns (Submachine Gun) #NoNeeds 
+SK:Hazardous Materials (Biological) #NoNeeds 
+SK:Hazardous Materials (Chemical) #NoNeeds 
+SK:Hazardous Materials (Radioactive) #NoNeeds 
+SK:Hiking=2pts #NoNeeds 
+SK:Intelligence Analysis=8pts #NoNeeds 
+SK:Interrogation=4pts #NoNeeds 
+SK:Intimidation=2pts #NoNeeds 
+SK:Knife #NoNeeds 
+SK:Law=2pts #NoNeeds respond "International Law"
+SK:Lockpicking #NoNeeds 
+SK:Mechanic ([Type]) #NoNeeds respond "Land Vehicles"
+SK:Naturalist #NoNeeds respond "Earth"
+SK:Navigation (Land)=4pts #NoNeeds 
+SK:Navigation (Sea)==3pts #NoNeeds 
+SK:Parachuting #NoNeeds 
+SK:Pharmacy (Herbal) #NoNeeds 
+SK:Piloting (Drone) #NoNeeds 
+SK:Piloting (Flight Pack) #NoNeeds 
+SK:Piloting (Helicopter) #NoNeeds 
+SK:Piloting (High-Performance Airplane) #NoNeeds 
+SK:Research #NoNeeds 
+SK:Riding (Equines) #NoNeeds 
+SK:Savoir-Faire (Military)=2pts #NoNeeds 
+SK:Scuba #NoNeeds
+SK:Search=2pts #NoNeeds 
+SK:Shadowing #NoNeeds 
+SK:Soldier=4pts #NoNeeds 
+SK:Stealth=2pts #NoNeeds 
+SK:Survival (Arctic)=2pts #NoNeeds 
+SK:Survival (Desert)=2pts #NoNeeds 
+SK:Survival (Jungle)=2pts #NoNeeds 
+SK:Survival (Mountain)=2pts #NoNeeds 
+SK:Survival (Woodlands)=2pts #NoNeeds 
+SK:Swimming=2pts #NoNeeds 
+SK:Tactics=4pts #NoNeeds 
+SK:Tracking #NoNeeds 
+SK:Rope Up (Climbing) #NoNeeds
+SK:Scaling (Climbing) #NoNeeds
+
+<Operative H2H Krav Maga>
+SK:Karate=2pts #NoNeeds
+SK:Wrestling=2pts #NoNeeds 
+SK:Choke Hold (Wrestling) #NoNeeds
+SK:Breakfall (Wrestling) #NoNeeds
+SK:Disarming ([Melee Combat Skill]) #NoNeeds respond Karate
+SK:Disarming ([Melee Combat Skill]) #NoNeeds respond Wrestling
+SK:Elbow Strike (Karate) #NoNeeds
+SK:Eye-Rake (Karate) #NoNeeds
+SK:Ground Fighting ([Melee Combat Skill]) #NoNeeds respond Wrestling
+SK:Hammer Fist (Karate) #NoNeeds
+SK:Head Lock (Wrestling) #NoNeeds
+SK:Knee Strike (Karate) #NoNeeds
+SK:Stamp Kick (Karate) #NoNeeds
+*******************************************************************************************************\[STOP]
+[TEMPLATES]
+******************************************************************************************************\[START]
+<ATLAS>
+ATLAS Operative Training, displaycost(250),cost(0), cat(ATLAS - Training),
+	description(International Person of Mystery.),
+	triggers(_
+		sets(_
+			"ST:ST"=11,
+			"ST:DX"=12,
+			"ST:IQ"=11,
+			"ST:HT"=10_
+		),
+		adds(_
+			{AD:Combat Reflexes} #NoNeeds,
+			{AD:Fit} #NoNeeds,
+			{LA:Language - Native} #NoNeeds respond "English"_
+		),
+//		select(_
+//			text("Choose two additional languages you are fluent in."),
+//			pointswanted(12),
+//			itemswanted(2),
+//			list(_
+//				{LA:Language} #codes(upto 3, downto 3),
+//				{LA:Language} #codes(upto 3, downto 3)_
+//			)_
+//		),
+//		select(_
+//			text("Select an additional language you speak at Accented level."),
+//			pointswanted(2),
+//			itemswanted(1),
+//			list(_
+//				{LA:Language (Spoken)} #codes(upto 2, downto 2)_
+//			)_
+//		),
+		adds(_
+			#list(Operative Skills)_
+		),
+		adds(_
+			#list(Operative H2H Krav Maga)_
+		),
+		creates(_
+			{PE:Improvised Weapons (Karate), 1, cat(Style Perks - Realistic), page(MA50)} #NoNeeds_
+		)_
+	)
+
+ATLAS Operative Equipment, displaycost(), cost(0), cat(ATLAS - Equipment),
+	description(),
+	triggers(_
+		select(_
+			text("Choose what armor to bring, if any."),
+			itemswanted(atleast 0),
+			list(_
+				{EQ:Advanced Body Armor},
+				{EQ:Assault Boots (TL 9)},
+				{EQ:Assault Vest},
+				{EQ:Ballistic Gloves (TL 9)},
+				{EQ:Ballistic Helmet (TL 9)},
+				{EQ:Ballistic Helmet Visor (TL 9)},
+				{EQ:Ballistic Leggings},
+				{EQ:Ballistic Plate},
+				{EQ:Ballistic Plate, Small},
+				{EQ:Ballistic Suit (TL 9)},
+				{EQ:Ballistic Vest (TL 9)},
+				{EQ:Boots},
+				{EQ:Boots, Jungle},
+				{EQ:Boots, Steel-Toed},
+				{EQ:Bulletproof Vest},
+				{EQ:Concealable Vest},
+				{EQ:DAP},
+				{EQ:Face Mask},
+				{EQ:Frag Helmet},
+				{EQ:Frag Helmet Visor},
+				{EQ:Gas Mask (TL 8)},
+				{EQ:Light Body Armor},
+				{EQ:Light Body Armor Leggings},
+				{EQ:Light Body Armor Sleeves},
+				{EQ:Reinforced Boots},
+				{EQ:Sharp-Protective Gloves},
+				{EQ:Shoes},
+				{EQ:Tactical Vest (TL 8)},
+				{EQ:Targeting Visor}_
+			)_
+		),
+		loadout(Armored),
+		select(_
+			text("Select a backpack"),
+			itemswanted(1),
+			list(_
+				{EQ:Backpack, Frame} #Note(100 lbs. capacity),
+				{EQ:Backpack, Medium} #Note(65 lbs. capacity),
+				{EQ:Backpack, Small} #Note(40 lbs. capacity)_
+			)_
+		),
+		select(_
+			text("Select secondary weaponry, explosives and tools."),
+			itemswanted(atleast 0),
+			list(_
+				{EQ:Bowie Knife (Large)},
+				{EQ:Bowie Knife (Small)},
+				{EQ:Detonating Cord (per pound)},
+				{EQ:Chemical Grenade},
+				{EQ:EMP-Grenade},
+				{EQ:Fragmentation Grenade (TL 7)},
+				{EQ:Large Machete},
+				{EQ:Plastic Explosives, Standard Block (C4)},
+				{EQ:Plastic Explosives, Chewing-Gum Stick (C4)},
+				{EQ:Remote Detonator},
+				{EQ:Shaped Charge (Large)},
+				{EQ:Shaped Charge (Small)},
+				{EQ:Small Machete},
+				{EQ:TASER M26},
+				{EQ:Zap Glove}_
+			)_
+		),
+		select(_
+			text("Select utility equipment."),
+			itemswanted(atleast 0),
+			list(_
+				{EQ:Antibiotic},
+				{EQ:Antitoxin Kit},
+				{EQ:Ballpoint Pen},
+				{EQ:Bandages},
+				{EQ:Battle-Stim},
+				{EQ:Binoculars},
+				{EQ:Binoculars, Advanced},
+				{EQ:Bug Stomper},
+				{EQ:Camelback},
+				{EQ:Camouflage Net (per 25 square yards)},
+				{EQ:Camp Stove, Small},
+				{EQ:Canteen},
+				{EQ:Chemlight},
+				{EQ:Cigarette Lighter},
+				{EQ:Climbing Gear},
+				{EQ:Compass},
+				{EQ:Computer, Laptop},
+				{EQ:Computer, Wearable},
+				{EQ:Cord, 3/16'' (per 10 yards)},
+				{EQ:Crash Kit},
+				{EQ:Crowbar, 3'},
+				{EQ:Drone, Raptor},
+				{EQ:Drone, Sparrow},
+				{EQ:Ear Muffs},
+				{EQ:Electronic Lockpicks},
+				{EQ:Fast-Draw Rig},
+				{EQ:First Aid Kit},
+				{EQ:Fishhooks & Line},
+				{EQ:Glass Cutter},
+				{EQ:GPS Reciever},
+				{EQ:Group Basics},
+				{EQ:Gun-Cleaning Kit},
+				{EQ:HADIS MK2},
+				{EQ:Hammock},
+				{EQ:Hand Flare},
+				{EQ:Handcuffs},
+				{EQ:Hatchet},
+				{EQ:ICARUS MK6},
+				{EQ:Identification, Friend or Foe Tags (IFF)},
+				{EQ:Large Battery},
+				{EQ:Life Jacket},
+				{EQ:Lockpicks},
+				{EQ:Map of Mission Area},
+				{EQ:Medi-Gel},
+				{EQ:Mini-Camera, Digital},
+				{EQ:Mini-Tool Kit},
+				{EQ:Mini-Tool Kit (Electronics)},
+				{EQ:Nanobug},
+				{EQ:Night Vision Goggles},
+				{EQ:Ordinary Clothes},
+				{EQ:Painkillers},
+				{EQ:Parachute},
+				{EQ:Perimeter System Base Unit},
+				{EQ:Perimeter System Node},
+				{EQ:Personal Basics},
+				{EQ:Personal Dosimeter},
+				{EQ:Plasma Torch},
+				{EQ:Plasma Torch Canister},
+				{EQ:Portable Armoury Tool Kit},
+				{EQ:Portable Electrician Tool Kit},
+				{EQ:Portable Explosives Tool Kit},
+				{EQ:Portable Machinist Tool Kit},
+				{EQ:Portable Mechanic Tool Kit},
+				{EQ:Powered Tripod Mount},
+				{EQ:Powered Tripod Mount, Large},
+				{EQ:Powered Tripod Mount, Small},
+				{EQ:Radio Jammer},
+				{EQ:Radio, Backpack},
+				{EQ:Radio, Hand},
+				{EQ:Radio, Headset, Secure/Encrypted},
+				{EQ:Ration},
+				{EQ:Rope, 3/4'' (per 10 yards)},
+				{EQ:Rope, 3/8'' (per 10 yards)},
+				{EQ:Satellite Phone},
+				{EQ:Scuba Gear},
+				{EQ:Shotgun Mike},
+				{EQ:Sleeping Bag},
+				{EQ:Sleeping Bag, Insulated},
+				{EQ:Small Battery},
+				{EQ:Spy Camera},
+				{EQ:Surgical Instruments},
+				{EQ:SVARM System},
+				{EQ:Tactical Flashlight (TL8)},
+				{EQ:Tactical Flashlight, Small (TL8)},
+				{EQ:TALOS MK3},
+				{EQ:Tent, 1-Man},
+				{EQ:Tent, 2-Man},
+				{EQ:Tent, 4-Man},
+				{EQ:Thermal-Imaging Goggles},
+				{EQ:Water (per gallon)},
+				{EQ:Water (per quart)},
+				{EQ:Water Purification Tablets},
+				{EQ:Web Gear},
+				{EQ:Winter Clothes},
+				{EQ:Wire Cutters},
+				{EQ:Wireless Earpiece},
+				{EQ:Wristwatch},
+				{EQ:Zip-Ties}_
+			)_
+		)_
+	),
+	x(_
+		#deleteme_
+	)
+
+*******************************************************************************************************\[STOP]
+[EQUIPMENT]
+*******************************************************************************************************\[START]
+#Clone "EQ:Walther Leuchtpistole, 26.5x103mmR" as "EQ:Flaregun"
+#Clone "EQ:Binoculars" as "EQ:Binoculars, Advanced"
+#ReplaceTags in "EQ:Binoculars, Advanced" with "description(TL:6 Notes: Gives (TL-4) levels of Telescopic Vision. Grants Thermal Vision, Night Vision, Range finding.), weight(2)"
+#Clone "EQ:Backpack, Small" as "EQ:Backpack, Medium"
+#ReplaceTags in "EQ:Backpack, Medium" with "description(TL:1 Notes: Holds 65 lbs. of gear.), weight(6), weightcapacity(65)"
+#Clone "EQ:Wineskin" as "EQ:Camelback"
+#ReplaceTags in "EQ:Camelback" with "isparent(yes), weightcapacity(1)"
+#Clone "EQ:Fragmentation Vest Trauma Plates (TL 8)" as "EQ:Ballistic Plate"
+#Clone "EQ:Fragmentation Vest Trauma Plates (TL 8)" as "EQ:Ballistic Plate, Small"
+#ReplaceTags in "EQ:Ballistic Plate, Small" with "baseweight(2.5), description(TL:8 LC:2 DR:18 Location:torso 2 is needed for full torso protection. One in the front and one in the back.)"
+#ReplaceTags in "EQ:Ballistic Plate" with "baseweight(4), description(TL:8 LC:2 DR:25 Location:Torso <CRLF>2 is needed for full torso coverage. One in the front and one in the back.)"
+
+<ATLAS, ATLAS - Equipment>
+"Battle-Stim", basecost(0), baseweight(0.5), description(A clear liquid delieverd trough a syringe. The stimulant numbs pain and hightens senses for a brief duration. For 30 minutes the user gets the benefits from Hard to Subdue 7, Combat Reflexes, High Pain Threshold and Acute Senses 2. The user also suffer the drawbacks from Bloodlust, Callous, Overconfidence, and Light Sleeper (8 hours). Repeated use of Battle-Stim can incur physical dangers and even addiction. If another Battle-Stim is used within 12 hours roll HT-4. If the roll is a failure suffer a seizure as under Epilepsy. Regardless of the outcome from the roll also add Berserk to the negative effects of the stim.)
+"Drone, Raptor", basecost(0), baseweight(8), techlvl(9), description(Large Drone (45cm x 35cm) that connects wirelessly to a computer system. Equipped with front facing camera that has Ranging, NV and Thermal Capabilites. Flightspeed: 120km/h, Can hover. DR 5, HP 26, EMP-Shielded. Battery Life: 1 Hour. Carries a Payload of 6 Rockets: 6dx3 pi++ (2d [1d] cr ex). Carries Armament: 4d pi+, Acc 2, 220/2500, RoF 3, Shots 18 (.50 ammo)),
+	newmode(Armament, damage(4d), damtype(pi+), rangehalfdam(220), rangemax(2500), acc(2), rof(3), shots(18)),
+	newmode(Rockets, damage(6dx3), damtype(pi++), rangehalfdam(100), rangemax(100), uses(6), shots(6), rof(1)),
+	newmode(Rockets Follow-Up, damage(2d [1d]), damtype(cr ex), rangehalfdam(0), rangemax(0))
+"Drone, Sparrow", basecost(1), baseweight(1.5), techlvl(9), description(A small drone (16x8 cm) that connects wirelessly to a computer system. It has a front facing camera with NV and Thermal capabilites. Flightspeed: 85km/h. Can Hover. Battery Life: 30 Minutes. Abillity: Stealth; can not be detected by Thermal sensors and runs extremely silent.)
+"Drone, Thunderbolt", basecost(1), baseweight(5), techlvl(9), description(A small drone (25x8 cm) that connects wirelessly to a computer system. It has a front facing camera for navigation during manual mode. Flightspeed: 135km/h. Reach: 10 minutes of fuel. Ability: Autonomous Mode. The drone can be quickly deployed in search of a fitting target profile (user selection). It can also be laser-designated to a target in this mode. Tracking skill of 15. +3 for laser. 4dx4 (10) cr ex, linked 4dx2 cr ex.)
+"Hammock", basecost(15), baseweight(3), techlvl(1), page(LT33)
+ICARUS MK6, basecost(1), baseweight(88), techlvl(9), lc(1)
+Medi-Gel, basecost(0), baseweight(2.5), techlvl(9), description(A Canister of White foam. Used to spray on wounds to stop bleeding. Gives +5 when rolling to stop bleeding. One Canister contains enough gel for 6 minor wounds or 2 major wounds. (6 charges, Major Wound takes 3.) If below 3 charges the gel can still help for major wounds but not as effectively. <CRLF>2 charges = +2 <CRLF>1 charge = +1 <CRLF>Besides these benefits the gel also incresases the healing factor of a wound by +2 when rolling for health recovery.)
+Perimeter System Base Unit, basecost(1), baseweight(0), techlvl(9), description(Recieves alerts and shows the status of connected Perimeter System Nodes.)
+Perimeter System Node, basecost(1), baseweight(3), techlvl(9), description(Sensor nodes that reacts to movement or thermal (user's choice). 4 - 15 yards. Sends adubile, light or vibration alert to the base unit. Uses Small Batteries, 1 Battery powers one Node for 24 hours.)
+Plasma Torch, basecost(500), baseweight(1), techlvl(9), page(HT27), description(Does 3d+6(2) burn per second. Requires a small tank of compressed air every 10 minutes.)
+Plasma Torch Canister, basecost(0), baseweight(0.5), techlvl(9)
+Powered Tripod Mount, basecost(5000), baseweight(10), techlvl(9), lc(1), page(UT151), description(A tripod with an electric motor built into it. The Tripod can mount any handgun or rifle up to 8 lb. Has integrated AI, sensors and cameras that allows it to operate on its own or remotely via wireless computer connection. AI Fires at skill 16.)
+"Powered Tripod Mount, Large", basecost(5000), baseweight(36), techlvl(9), lc(1), page(UT151), description(A tripod with an electric motor built into it. The Tripod can mount any handgun or rifle up to 30 lb. Has integrated AI, sensors and cameras that allows it to operate on its own or remotely via wireless computer connection. AI Fires at skill 16.)
+"Powered Tripod Mount, Small", basecost(5000), baseweight(4), techlvl(9), lc(1), page(UT151), description(A tripod with an electric motor built into it. The Tripod can mount any handgun or rifle up to 3 lb. Has integrated AI, sensors and cameras that allows it to operate on its own or remotely via wireless computer connection. AI Fires at skill 16.)
+Radio Jammer, basecost(500), baseweight(5), techlvl(8), lc(2), description(Blocks radiowaves in 200 yards area. Quick-contest Electronics Operation (Electronic Warfare), jammer uses effective skill 18.)
+Remote Detonator, basecost(1), baseweight(1), techlvl(7), description(Used to remotely trigger detonators that are synchronized to the Remote. Range is 250 yards.)
+SVARM System, basecost(1), baseweight(39), techlvl(9), lc(1)
+TALOS MK3, basecost(1), baseweight(105), techlvl(9), lc(1)
+EMP-Grenade, basecost(400), baseweight(1), techlvl(9), lc(2), description(TL:8 LC:2 Dam:HT-8(2) aff Fuse:2 Notes: [2,5] A range based affliction that affects a 12-yard radius. Takes one Ready maneuver to draw the grenade and a second Ready maneuver to pull the pin. Detonates 2-4 seconds later, depending on grenade type.),
+	newmode(Damage, damage(HT-8), damageistext(yes), armordivisor(2), damtype(aff), acc(0), rof(1), shots(T(1)), minst(5), bulk(-2), rcl(0), fuse(4), rangemax(@int(_
+					@indexedvalue(ST:Lifting ST,0.12,0.4,0.7,1,1.5,2,2,2.5,2.5,3.5) * _
+					(ST:Striking ST  + @MAX(@IF(SK:Throwing::level = ST:DX+1 THEN 1 ELSE @IF(SK:Throwing::level > ST:DX+1 THEN 2 ELSE 0)),@IF(SK:Throwing Art::level = ST:DX THEN 1 ELSE @IF(SK:Throwing Art::level > ST:DX THEN 2 ELSE 0))))_
+			))_
+	)
+HADIS MK2, basecost(1), baseweight(30)
+Ration, basecost(2), baseweight(0.5), techlvl(0), lc(4), description(TL:0 Notes: One meal of field rations.)
+Targeting Visor, basecost(1), baseweight(2), techlvl(9), lc(3), description(TL:8 LC:3 DR: 4 Notes: [3,8] DR increases with TL. After the TL of introduction, consult the table on p. B285. Provides Protected Vision.<CRLF>Augmented reality improves threat detection for the user. Can sync with Drones and other Visors. +2 to aim and +4 to perception rolls using vision. Battery life: 24 hours)
+Map of Mission Area, basecost(1), baseweight(0), techlvl(0)
+Zip-Ties, basecost(1), baseweight(0), description(-1 to escape. 1DR 2HP.)
+
+<ATLAS, ATLAS - Hacking Tools>
+"Hacking Tool, AI Hacking", basecost(0), baseweight(0.5), techlvl(9), description(Integrated AI helps the user to hack more effeciently, greatly increasing the speed of the hacking. Requires a computer.)
+"Hacking Tool, Discreet Access", basecost(0), baseweight(0.5), techlvl(9), description(Allows the user to more easily avoid detection while hacking. Requires a computer.)
+"Hacking Tool, Trace Jammer", basecost(0), baseweight(0.5), techlvl(9), description(Allows the user to distract tracer programs while hacking. Requires a computer.)
+"Hacking Tool, Wireless", basecost(0), baseweight(0.5), techlvl(9), description(Allows the user to hack computer systems from up to 60 yards away. Requires a computer.)
+
+<High-Tech - Tools, High-Tech - Tools - Hand Tools, ATLAS>
+Glass Cutter, basecost(140), baseweight(1), techlvl(6), lc(4), page(HT26), description(The user attaches its suction cup to a window or a glass case, pivots the blade 360° to score a circle in the glass, and then uses the suction cup to lift out a perfect glass disk – allowing him to reach through and open locks, steal secret plans, etc. This procedure requires a DX or Forced Entry roll. Failure means a noisy break; critical failure also means 1d-2 cutting damage to the hand.)
+Wire Cutters, basecost(30), baseweight(2), techlvl(5), lc(4), description(Do 2d(2) cut to rope, barbed wire, thin cable, etc.)
+
+<High-Tech - Communications, ATLAS>
+Wireless Earpiece, basecost(300), baseweight(0.5), techlvl(8), lc(3), description(A tiny earpiece picks up audio signals from a short-range transmitter box connected to the radio. The voice-activated microphone is worn like a necklace, and is concealable under normal clothing.)
+GPS Reciever, basecost(100), baseweight(0.25), techlvl(8), lc(4), description(A GPS receiver gives +3 to Navigation (Air, Land, or Sea) while it’s within line of sight of a satellite constellation. Maximum accuracy is to within a few feet. Early units were the size of a paperback book, but the smallest ones today fit inside a wristwatch or other tiny electronic device (add $50). A typical handheld model, the size of pack of cigarettes.)
+
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Thermographs, ATLAS, ATLAS - Equipment>
+Thermal-Imaging Goggles, basecost(13000), baseweight(1.5), techlvl(8), lc(4), description(A thermal-imaging camera mounted on a helmet or a head-strap. 4¥ magnification.)
+<High-Tech - Sensors and Scientific Gear, High-Tech - Sensors and Scientific Gear - Radiation Detectors, ATLAS, ATLAS - Equipment>
+"Personal Dosimeter", basecost(120), baseweight(0.5), techlvl(8), page(HT49), description(Industrial or military versions are the size of a pager, but the electronics can be miniaturized to fit inside a wristwatch. 2xXS/yr.)
+
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Lights, ATLAS>
+"Chemlight", basecost(2), baseweight(0.1), techlvl(7), lc(4), page(HT52), description(Simply snap the plastic rod and shake for three seconds. Most models provide 12 hours of light and come in a variety of colors – including a version that acts as an infrared illuminator. Illuminates a 2-yard radius.)
+
+<High-Tech - Expedition Gear, High-Tech - Expedition Gear - Survival and Camping Gear, ATLAS>
+Hand Flare, basecost(5), baseweight(1), techlvl(6), lc(4), page(HT58), description(A brightly burning road flare that can easily set fires. Lasts about 30 minutes. Illuminates a 5-yard radius.)
+
+<High-Tech - Stealth and Camouflage, High-Tech - Stealth and Camouflage - Camouflage, ATLAS>
+"Camouflage Net", nameext(per 25 square yards), basecost(20), baseweight(8), techlvl(6), lc(4), page(HT77), description(A net covered with real or faux foliage. It works like any camouflage pattern, providing a bonus to the Camouflage skill in the right terrain.)
+
+<High-Tech - Weapons, High-Tech - Weapons - Explosives, High-Tech - Weapons - Explosives - Conventional, ATLAS>
+"Plastic Explosives, Standard Block", nameext(C4), basecost(38), baseweight(1.25), techlvl(7), lc(2), page(HT186), description(Modern military C4 comes in 1.25-lb. blocks (5dx3 cr ex), with a self-adhesive sticky side for placement.),
+	newmode(Damage, damage(5dx3), damtype(cr ex), rangehalfdam(1), rangemax(1))
+"Plastic Explosives, Chewing-Gum Stick", nameext(C4), basecost(5), baseweight(0.1), techlvl(7), lc(2), page(HT186), description(One Chewing-Gum stick of explosive doing 1d+1 cr ex. Self-adhesive sticky side for placement.),
+	newmode(Damage, damage(1d+1), damtype(cr ex), rangehalfdam(1), rangemax(1))
+"Shaped Charge (Large)", basecost(1), baseweight(8), techlvl(7), description(Shaped charge with plastic explosives designed to breach 1.5 m of reinforced concrete creating a 2 m diameter hole. The shaped charge directs the blast towards the surface it is placed against doubling the force of the explosion. Without the shape aspect of the charge twice the amount of explosives would be required for the same effect.<CRLF>The area directly behind the charge is in the blast zone for debri and the rare back-blast. Standing to the sides of the explosion is relatively safe.)
+"Shaped Charge (Small)", basecost(1), baseweight(8), techlvl(7), description(Shaped charge with plastic explosives designed to breach 10 cm of steel creating a 8 cm diameter hole. The shaped charge directs the blast towards the surface it is placed against doubling the force of the explosion. Without the shape aspect of the charge twice the amount of explosives would be required for the same effect. The area directly behind the charge is in the blast zone for debri and the rare back-blast. Standing to the sides of the explosion is relatively safe.)
+
+<High-Tech - Weapons, High-Tech - Weapons - Explosives, High-Tech - Weapons - Explosives - Equipment, ATLAS>
+Detonating Cord (per pound), basecost(100), baseweight(1), techlvl(6), lc(2), page(HT187), description(Intended primarily for linking detonators with explosives, and for connecting multiple charges for simultaneous detonation. Other applications are mine-clearing, cutting girders and trees, and laying booby traps. A pound of detonating cord does 5dx2 cr ex damage. Many thicknesses are available. The standard military type has a diameter of 0.2”, and a pound is about 55.5’ long; it usually comes as a 500’ roll of 9 lbs. of cord, which weighs 11.7 lbs. with spool. One foot weighs 0.018 lb. and does 1d+2 cr ex; one yard weighs 0.054 lb. and does 2d+2 cr ex. Detonating cord wrapped around something to cut it inflicts maximum damage on the object (roll damage normally for those nearby).)
+
+<High-Tech - Medical and Health Technology, High-Tech - Medical and Health Technology - Drugs and Poisons, ATLAS>
+Painkillers, basecost(3), baseweight(0), techlvl(6), lc(4), page(HT226), description(Aspirin and similar mild pain relievers negate -1 or -2 in penalties from pain (p. B428) after adjusting for High or Low Pain Threshold. They’re also useful against hangovers. Contains 100 doses.)
+
+<High-Tech - Transportation, High-Tech - Transportation - Components, ATLAS, ATLAS - Equipment>
+"Identification, Friend or Foe Tags", nameext(IFF), basecost(0), baseweight(0), techlvl(6), page(HT229)
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Miscellaneous Accessories and Modifications, ATLAS>
+Foregrip, techlvl(7), lc(4), baseweight(1), basecost(100), gives(-1 to parent::bulk, -1 to parent::minst, -1 to parent::rcl bymode where rcl excludes anyof "1,2")
+Short Barrel, techlvl(5), lc(4), basecost(100), baseweight(0), gives(*0.95 to parent::weight, *0.8 to parent::rangehalfdam, *0.8 to parent::rangemax, +1 to parent::bulk)
+Long Barrel, techlvl(5), lc(4), basecost(100), baseweight(0), gives(*1.05 to parent::weight, *1.2 to parent::rangehalfdam, *1.2 to parent::rangemax, -1 to parent::bulk)
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Magazine Modifications and Reloading Aids, ATLAS>
+Small Magazine, techlvl(6), lc(3), baseweight(1), baseweightformula(@getnum($val(parent::ammo))*0.66), basecost(25), basecostformula(@round((@getnum($val(parent::ammo))*5)*0.66)), gives(=-@getnum($val(parent::shots)) to parent::shots, =+@round(@getnum($val(parent::shots))*0.66) to parent::shots, =-@getnum($val(parent::ammo)) to parent::baseweight)
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Muskets and Rifles, _Firearms, _Firearms - High-Tech>
+{H&K G36C, 5.56x45mm}, cat(High-Tech, High-Tech - Weapons), ammo(1 lb.), page(HT120), basecost(1200), baseweight(7.2), techlvl(8), mods(Guns, Equipment), lc(2),_
+	itemnotes(_
+				{Folding or unfolding the stock requires a Ready maneuver (High-Tech, p. 160).}|_
+				{Folding or unfolding the stock requires a Ready maneuver (High-Tech, p. 160).}_
+			),_
+	description(TL:8 LC:2 Ammo:1 lb. Damage:4d pi Acc:4 Range:600/2500 RoF:12 Shots:30+1(3) ST:9† Bulk:-4* Rcl:2 Skill:Guns (Rifle)),_
+	newmode(Standard, damage(4d), damtype(pi), minst(9†), rangehalfdam(600), rangemax(2500), acc(4), rof(12), uses(31), shots(30+1(3)), rcl(2), bulk(-4), skillused(SK:Guns (Rifle), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!)),_
+	newmode(Folded Stock, damage(4d), damtype(pi), minst(11†), rangehalfdam(600), rangemax(2500), acc(3), rof(12), uses(31), shots(30+1(3)), rcl(3), bulk(-3), skillused(SK:Guns (Rifle), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!))
+	
+{Colt Mk 18 MOD 0, 5.56x45mm}, cat(High-Tech, High-Tech - Weapons), ammo(1 lb.), page(HT120), basecost(1200), baseweight(6.8), techlvl(8), mods(Guns, Equipment), lc(2),_
+	itemnotes(_
+				{Accessory rail (High-Tech, p. 161).}_
+			),_
+	description(TL:8 LC:2 Ammo:1 lb. Damage:4d pi Acc:4 Range:600/2500 RoF:15 Shots:30+1(3) ST:9† Bulk:-4 Rcl:2 Skill:Guns (Rifle) Notes:[8], [8] Accessory rail (p. 161). ),_
+	mode(Standard), damage(4d), damtype(pi), minst(9†), rangehalfdam(600), rangemax(2500), acc(4), rof(15), uses(31), shots(30+1(3)), rcl(2), bulk(-4), notes([8]), skillused(SK:Guns (Rifle), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!)
+	
+{Springfield M14 DMR, 7.62x51mm}, cat(High-Tech, High-Tech - Weapons), ammo(1.6 lb.), page(HT120), basecost(2500), baseweight(11), techlvl(7), mods(Guns, Equipment), lc(3),_
+	description(The RTE M14 Designated Marksman Rifle (2002-) is a refurbished M14 fitted with a synthetic stock, a bipod, and a 1.4-lb. 3.5-10x variable scope: Acc 5+3, Wt. 11/1.6, RoF 3, Cost $2,500, LC3.),_
+	newmode(w/o Bipod, damage(7d), damtype(pi), minst(10†), rangehalfdam(1000), rangemax(4200), acc(5), scopeacc(3), rof(3), uses(21), shots(20+1(3)), rcl(3), bulk(-5), skillused(SK:Guns (Rifle), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!)),
+	newmode(w/ Bipod, damage(7d), damtype(pi), minst(7†), rangehalfdam(1000), rangemax(4200), acc(5), scopeacc(3), rof(3), uses(21), shots(20+1(3)), rcl(3), bulk(-5), skillused(SK:Guns (Rifle), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!))
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Machine Guns and Autocannon, _Firearms, _Firearms - High-Tech>
+{FN Mk 48 MOD 0, 7.62x51mm}, ammo(6.8 lb.), page(HT137), basecost(8000), baseweight(25.3), techlvl(8), mods(Guns, Equipment), lc(1),_
+	description(Variant of FN MINIMI chambered for the 7.62x51mm NATO cartridge, also known as the FN MAXIMI. TL:8 LC:1 Ammo:6.8 lb. \par [Mode:w/o Bipod Damage:6d+1 pi Acc:5 Range:900/3750 RoF:12! Shots:100(5) ST:11B† Bulk:-6 Rcl:2 Skill:Guns (Light Machine Gun)]),_
+	newmode(w/o Bipod, damage(6d+1), damtype(pi), minst(11B†), rangehalfdam(900), rangemax(3750), acc(5), rof(12!), uses(100), shots(100(5)), rcl(2), bulk(-6), skillused(SK:Guns (Light Machine Gun), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!)),_
+	newmode(w/ Bipod, damage(6d+1), damtype(pi), minst(8B†), rangehalfdam(900), rangemax(3750), acc(6), rof(12!), uses(100), shots(100(5)), rcl(2), bulk(-6), skillused(SK:Guns (Light Machine Gun), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)-2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2, SK:Gun!))
+	
+<High-Tech - Ammunition>
+"5.7x28mm Fabrique Nationale", basecost(0.4), baseweight(0.013), techlvl(8), lc(4), page(HT176)
+"9x19mm Parabellum", basecost(0.3), baseweight(0.026), techlvl(8), lc(4), page(HT176)
+"5.56x45mm NATO", basecost(0.5), baseweight(0.027), techlvl(8), lc(4), page(HT176)
+"7.62x51mm NATO", basecost(0.8), baseweight(0.056), techlvl(8), lc(4), page(HT176)
+
+*******************************************************************************************************\[STOP]	
+[MODIFIERS]
+*******************************************************************************************************\[START]	
+<Guns>
+Remove Scope, 0, addmode(, scopeacc()), x(#message("You can delete the Remove Scope modifier after closing this box, the item's built-in scope bonus will still be removed"))
+Remove Scope for w/ Bipod, 0, addmode(w/ Bipod, scopeacc()), x(#message("You can delete the Remove Scope modifier after closing this box, the item's built-in scope bonus will still be removed"))
+Remove Scope for w/o Bipod, 0, addmode(w/o Bipod, scopeacc()), x(#message("You can delete the Remove Scope modifier after closing this box, the item's built-in scope bonus will still be removed"))
+
+"Ammo: EMF", +0, group(Guns), shortname(EMF Rounds), description(Potentially stun a target. Consecutive hits increases chance. Roll against HT-2, with an extra -2 per consecutive hit, or be stunned for 20-HT seconds, then roll against HT-5 each second to recover. Drones and electrical systems are stunned and non-functional for twice as long.),
+	gives(=*0.75 to owner::damage bymode where mode is "EMF"),
+	addmode({EMF,
+		damage(%copyfirst),
+		damtype(%copyfirst),
+		armordivisor(%copyfirst),
+		lc(%copyfirst),
+		acc(%copyfirst),
+		scopeacc(%copyfirst),
+		calcrange(%copyfirst),
+		rangehalfdam(%copyfirst),
+		rangemax(%copyfirst),
+		rof(%copyfirst),
+		shots(%copyfirst),
+		minst(%copyfirst),
+		bulk(%copyfirst),
+		skillused(%copyfirst),
+		rcl(%copyfirst)} | _
+		{Linked,
+		damage(HT-2),
+		damtype(aff),
+		calcrange(%copyfirst),
+		rangehalfdam(%copyfirst),
+		rangemax(%copyfirst),
+		minst(%copyfirst),
+		skillused(%copyfirst),
+		itemnotes("On a failed HT-2, with an extra -2 per consecutive hit, victim is stunned for 20-HT seconds and can then roll vs HT-5 to recover.")}_
+	)
+
+*******************************************************************************************************\[STOP]	
+*******************************************************************************************************\[START]	
+
+#DeleteByTag Equipment, Text, cat HasInList "Ultra-Tech" unless cat contains "Computer"
+
+#DeleteModGroup "Ammunition" 
+#DeleteModsFromGroup "Guns" "Ammo: Armor-Piercing Hard Core, TL7+, below 20mm", "Ammo: Armor-Piercing Hard Core, TL7+, 20mm+", "Ammo: Armor-Piercing Discarding-Sabot, TL8+, below 20mm", "Ammo: Armor-Piercing Discarding-Sabot, TL8+, 20mm+", "Ammo: Armor-Piercing Enhanced Penetrator, TL 9+, below 20mm", "Ammo: Armor-Piercing Enhanced Penetrator, TL 9+, 20mm+", "Ammo: Armor-Piercing Hardcore Explosive, TL 9,  10mm", "Ammo: Armor-Piercing Hardcore Explosive, TL 9,  15mm", "Ammo: Armor-Piercing Hardcore Explosive, TL 9,  18.5mm", "Ammo: Armor-Piercing Hardcore Explosive, TL 9,  25mm", "Ammo: Armor-Piercing Hardcore Explosive, TL 9,  40mm", "Ammo: Armor-Piercing Hardcore Explosive, TL 9,  64mm", "Ammo: Armor-Piercing Hardcore Explosive, TL 9, 100mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+,  10mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+,  15mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+,  18.5mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+,  25mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+,  40mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+,  64mm", "Ammo: Armor-Piercing Hardcore Explosive, TL10+, 100mm", "Ammo: Biochemical Aerosol, TL 9+,  10mm", "Ammo: Biochemical Aerosol, TL 9+,  15mm", "Ammo: Biochemical Aerosol, TL 9+,  18.5mm", "Ammo: Biochemical Aerosol, TL 9+,  25mm", "Ammo: Biochemical Aerosol, TL 9+,  40mm", "Ammo: Biochemical Aerosol, TL 9+,  64mm", "Ammo: Biochemical Aerosol, TL 9+, 100mm", "Ammo: Biochemical Liquid, TL 9+,  15mm", "Ammo: Biochemical Liquid, TL 9+,  18.5mm", "Ammo: Biochemical Liquid, TL 9+,  25mm", "Ammo: Biochemical Liquid, TL 9+,  40mm", "Ammo: Biochemical Liquid, TL 9+,  64mm", "Ammo: Biochemical Liquid, TL 9+, 100mm", "Ammo: Flare, TL 9+,  15mm", "Ammo: Flare, TL 9+,  18.5mm", "Ammo: Flare, TL 9+,  25mm", "Ammo: Flare, TL 9+,  40mm", "Ammo: Flare, TL 9+,  64mm", "Ammo: Flare, TL 9+, 100mm", "Ammo: High Explosive, TL 9,  10mm", "Ammo: High Explosive, TL 9,  15mm", "Ammo: High Explosive, TL 9,  18.5mm", "Ammo: High Explosive, TL 9,  25mm", "Ammo: High Explosive, TL 9,  40mm", "Ammo: High Explosive, TL 9,  64mm", "Ammo: High Explosive, TL 9, 100mm", "Ammo: High Explosive, TL10+,  10mm", "Ammo: High Explosive, TL10+,  15mm", "Ammo: High Explosive, TL10+,  18.5mm", "Ammo: High Explosive, TL10+,  25mm", "Ammo: High Explosive, TL10+,  40mm", "Ammo: High Explosive, TL10+,  64mm", "Ammo: High Explosive, TL10+, 100mm", "Ammo: High Explosive Concussion, TL 9,  10mm", "Ammo: High Explosive Concussion, TL 9,  15mm", "Ammo: High Explosive Concussion, TL 9,  18.5mm", "Ammo: High Explosive Concussion, TL 9,  25mm", "Ammo: High Explosive Concussion, TL 9,  40mm", "Ammo: High Explosive Concussion, TL 9,  64mm", "Ammo: High Explosive Concussion, TL 9, 100mm", "Ammo: High Explosive Concussion, TL10+,  10mm", "Ammo: High Explosive Concussion, TL10+,  15mm", "Ammo: High Explosive Concussion, TL10+,  18.5mm", "Ammo: High Explosive Concussion, TL10+,  25mm", "Ammo: High Explosive Concussion, TL10+,  40mm", "Ammo: High Explosive Concussion, TL10+,  64mm", "Ammo: High Explosive Concussion, TL10+, 100mm", "Ammo: Hollow-Point, TL6+", "Ammo: Shaped Charge, TL 9,  25mm", "Ammo: Shaped Charge, TL 9,  40mm", "Ammo: Shaped Charge, TL 9,  64mm", "Ammo: Shaped Charge, TL 9, 100mm", "Ammo: Shaped Charge, TL10+,  25mm", "Ammo: Shaped Charge, TL10+,  40mm", "Ammo: Shaped Charge, TL10+,  64mm", "Ammo: Shaped Charge, TL10+, 100mm", "Ammo: Memory Baton, TL 9+,  15mm+", "Ammo: Monochain, TL 9^,  10mm+", "Ammo: Shotshell, TL 9, 10mm+", "Ammo: Smart Explosively Forged Projectile, TL 9,  15mm", "Ammo: Smart Explosively Forged Projectile, TL 9,  18.5mm", "Ammo: Smart Explosively Forged Projectile, TL 9,  25mm", "Ammo: Smart Explosively Forged Projectile, TL 9,  40mm", "Ammo: Smart Explosively Forged Projectile, TL 9,  64mm", "Ammo: Smart Explosively Forged Projectile, TL 9, 100mm", "Ammo: Tangler, TL 9,  25mm", "Ammo: Tangler, TL 9,  40mm", "Ammo: Tangler, TL 9,  64mm", "Ammo: Tangler, TL 9, 100mm", "Ammo: Burrow Darts, TL10+,  10mm", "Ammo: Thermobaric, TL 9,  25mm", "Ammo: Thermobaric, TL 9,  40mm", "Ammo: Thermobaric, TL 9,  64mm", "Ammo: Thermobaric, TL 9, 100mm", "Ammo: Thermobaric, TL10+,  25mm", "Ammo: Thermobaric, TL10+,  40mm", "Ammo: Thermobaric, TL10+,  64mm", "Ammo: Thermobaric, TL10+, 100mm", "Ammo: High Explosive Multi-Purpose, TL10,  10mm", "Ammo: High Explosive Multi-Purpose, TL10,  15mm", "Ammo: High Explosive Multi-Purpose, TL10,  18.5mm", "Ammo: High Explosive Multi-Purpose, TL10,  25mm", "Ammo: High Explosive Multi-Purpose, TL10,  40mm", "Ammo: High Explosive Multi-Purpose, TL10,  64mm", "Ammo: High Explosive Multi-Purpose, TL10, 100mm", "Ammo: High Explosive Multi-Purpose, TL11+,  10mm", "Ammo: High Explosive Multi-Purpose, TL11+,  15mm", "Ammo: High Explosive Multi-Purpose, TL11+,  18.5mm", "Ammo: High Explosive Multi-Purpose, TL11+,  25mm", "Ammo: High Explosive Multi-Purpose, TL11+,  40mm", "Ammo: High Explosive Multi-Purpose, TL11+,  64mm", "Ammo: High Explosive Multi-Purpose, TL11+, 100mm", "Ammo: Stingray, TL10+,  10mm", "Ammo: Stingray, TL10+,  15mm", "Ammo: Stingray, TL10+,  18.5mm", "Ammo: Stingray, TL10+,  25mm", "Ammo: Stingray, TL10+,  40mm", "Ammo: Stingray, TL10+,  64mm", "Ammo: Stingray, TL10+, 100mm", "Ammo: Swarm, TL10+,  40mm", "Ammo: Swarm, TL10+,  64mm", "Ammo: Swarm, TL10+, 100mm", "Ammo: Armor Piercing Hyperdense Dart, TL11+, below 20mm", "Ammo: Armor Piercing Hyperdense Dart, TL11+, 20mm+", "Ammo: Mininuke, TL 9, 100mm", "Ammo: Mininuke, TL10,  64mm", "Ammo: Mininuke, TL11,  40mm", "Ammo: Mininuke, TL12,  25mm", "Ammo: Micro-Antimatter Warhead; 0.1 micrograms, TL10, 100mm", "Ammo: Micro-Antimatter Warhead; 1 micrograms, TL10, 100mm", "Ammo: Micro-Antimatter Warhead; 10 micrograms, TL10, 100mm", "Ammo: Micro-Antimatter Warhead; 0.1 micrograms, TL11,  40mm", "Ammo: Micro-Antimatter Warhead; 1 micrograms, TL11,  40mm", "Ammo: Micro-Antimatter Warhead; 10 micrograms, TL11,  40mm", "Ammo: Micro-Antimatter Warhead; 0.1 micrograms, TL12,  10mm", "Ammo: Micro-Antimatter Warhead; 1 micrograms, TL12,  10mm", "Ammo: Micro-Antimatter Warhead; 10 micrograms, TL12,  10mm", "Ammo: EMP Warhead, TL 9,  15mm", "Ammo: EMP Warhead, TL 9,  18.5mm", "Ammo: EMP Warhead, TL 9,  25mm", "Ammo: EMP Warhead, TL 9,  40mm", "Ammo: EMP Warhead, TL 9,  64mm", "Ammo: EMP Warhead, TL 9, 100mm", "Ammo: Expendable Jammer, TL 9+,  10mm", "Ammo: Expendable Jammer, TL 9+,  15mm", "Ammo: Expendable Jammer, TL 9+,  18.5mm", "Ammo: Expendable Jammer, TL 9+,  25mm", "Ammo: Expendable Jammer, TL 9+,  40mm", "Ammo: Expendable Jammer, TL 9+,  64mm", "Ammo: Expendable Jammer, TL 9, 100mm", "Ammo: Strobe, TL 9+,  25mm", "Ammo: Strobe, TL 9+,  40mm", "Ammo: Strobe, TL 9+,  64mm", "Ammo: Strobe, TL 9+, 100mm", "Ammo: Warbler, TL 9+,  25mm", "Ammo: Warbler, TL 9+,  40mm", "Ammo: Warbler, TL 9+,  64mm", "Ammo: Warbler, TL 9+, 100mm", "Ammo: Force, TL10^,  15mm", "Ammo: Force, TL10^,  18.5mm", "Ammo: Force, TL10^,  25mm", "Ammo: Force, TL10^,  40mm", "Ammo: Force, TL10^,  64mm", "Ammo: Force, TL10^, 100mm", "Ammo: Plasma, TL10^,  10mm", "Ammo: Plasma, TL10^,  15mm", "Ammo: Plasma, TL10^,  18.5mm", "Ammo: Plasma, TL10^,  25mm", "Ammo: Plasma, TL10^,  40mm", "Ammo: Plasma, TL10^,  64mm", "Ammo: Plasma, TL10^, 100mm", "Ammo: Implosion, TL11^,  40mm", "Ammo: Implosion, TL11^,  64mm", "Ammo: Implosion, TL11^, 100mm", "Ammo: Psi-Bomb, TL12^,  25mm", "Ammo: Psi-Bomb, TL12^,  40mm", "Ammo: Psi-Bomb, TL12^,  64mm", "Ammo: Psi-Bomb, TL12^, 100mm", "Ammo: Stasis, TL12^,  40mm", "Ammo: Stasis, TL12^,  64mm", "Ammo: Stasis, TL12^, 100mm", "Ammo: Vortex, TL12^,  40mm", "Ammo: Vortex, TL12^,  64mm", "Ammo: Vortex, TL12^, 100mm"
+
+#DeleteByTag All, Numeric IgnoreEmpty, techlvl >= 10
+
+#DeleteByTag Spells, Text, name isnotempty
+#DeleteByTag Skills, Text, cat contains "Magic"
+
+#DeleteByTag Equipment, Text, cat HasInList "Basic Set - Firearms"
+*******************************************************************************************************\[STOP]	

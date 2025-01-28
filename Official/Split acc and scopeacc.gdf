@@ -1,1 +1,102 @@
-Y:/Users/Daisy/Documents/GURPS Character Assistant 5/books/Split acc and scopeacc.gdf
+Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file, 
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+
+Description=2023 October 5. Changes acc(X+X) to use acc() and scopeacc() to take advantage of GCA5 features.
+Program=5.0.0
+
+[AUTHOR]
+*******************************************************************************************************\[START]
+// 
+//  GURPS® Character Assistant
+//  Filename: Basic Set 4e - Scope Acc.gdf
+//  Created: October 5, 2023
+//  Requires GCA v5 or later!
+//
+//  This data file contains information taken from the GURPS Basic Set sourcebook.
+//  GURPS Basic Set is Copyright © 1988, 1992, 1994, 1998, 2001, 2007 by Steve Jackson Games
+//  Incorporated. All rights reserved.
+// 
+//  Information in this file includes:
+// 	Splitting up acc(x+x) into acc() and scopeacc()
+// 
+*******************************************************************************************************************
+// 
+//  Daisy Paradis	-	GCA afficionado
+//	If you find problems with the file it's easiest to contact me through the GURPS Discord Server by the Discord Handle: deathdaisy
+//  
+*******************************************************************************************************************
+// 
+//  GURPS is a registered trademark of Steve Jackson Games Incorporated, used with GCA by permission of Steve Jackson
+//  Games. All rights reserved.
+// 
+//  The GURPS game is Copyright © 1986-1989, 1991-1994 by Steve Jackson Games Incorporated. This product includes
+//  copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games Incorporated. All
+//  rights reserved by Steve Jackson Games Incorporated.
+// 
+*******************************************************************************************************************
+
+********************************************************************************************************\[STOP]
+//Basic Set 4e
+#ReplaceModTags in "Guns:Scope, 4x (TL 6)" with "gives(+1.5 to owner::baseweight, +2 to owner::scopeacc)"
+#ReplaceModTags in "Guns:Scope, 4x, Thermal Imaging (TL 8)" with "gives(+1.5 to owner::baseweight, +2 to owner::scopeacc)"
+
+#ReplaceTags in "EQ:Gauss PDW, 4mm" with "acc(6), scopeacc(1)"
+#ReplaceTags in "EQ:Dart Rifle, 11mm" with "acc(5), scopeacc(1)"
+#ReplaceTags in "EQ:ICW, 6.88mm" with "acc(4), scopeacc(2)"
+#ReplaceTags in "EQ:Gauss Rifle, 4mm" with "acc(7), scopeacc(2)"
+#ReplaceTags in "EQ:RPG, 85mm" with "acc(3), scopeacc(1)"
+#ReplaceTags in "EQ:Electrolaser Carbine" with "acc(8), scopeacc(1)"
+
+//High-Tech 4e
+#ReplaceTags in "EQ:Dan-Inject JM Standard, 11mm" with "acc(3), scopeacc(2)"
+#ReplaceTags in "EQ:Steyr-Solothurn S18-1000, 20x138mmB" with "acc(5|6), scopeacc(1)"
+#ReplaceTags in "EQ:Izhmash SVD, 7.62x54mmR" with "acc(5), scopeacc(2)"
+#ReplaceTags in "EQ:Enfield L85A1, 5.56x45mm" with "acc(5), scopeacc(2)"
+#ReplaceTags in "EQ:Barrett M82A1, .50 Browning" with "acc(6|7), scopeacc(3)"
+#ReplaceTags in "EQ:AI AW, 7.62x51mm" with "acc(6|7), scopeacc(3)"
+#ReplaceTags in "EQ:H&K G36, 5.56x45mm" with "acc(5), scopeacc(1)"
+#ReplaceTags in "EQ:Molot NSV-12.7, 12.7x108mm" with "acc(5), scopeacc(2)"
+#ReplaceTags in "EQ:Hughes M242, 25x137mm" with "acc(6), scopeacc(3)"
+#ReplaceTags in "EQ:Rheinmetall 3.7cm PaK, 37x249mmR" with "acc(5), scopeacc(1)"
+#ReplaceTags in "EQ:RIA M2A1, 105x371mmR" with "acc(5), scopeacc(2)"
+#ReplaceTags in "EQ:Rheinmetall KwK40, 75x495mmR" with "acc(6), scopeacc(1)"
+#ReplaceTags in "EQ:Watervliet M1, 76.2x539mmR" with "acc(5), scopeacc(1)"
+#ReplaceTags in "EQ:Watervliet M40, 106x607mmR" with "acc(5), scopeacc(1)"
+#ReplaceTags in "EQ:DTAT MR60CS, 60mm" with "acc(2), scopeacc(2)"
+#ReplaceTags in "EQ:Motovilikha D-81TM, 125x408mmR" with "acc(5), scopeacc(3)"
+#ReplaceTags in "EQ:KBP AGS-17, 30x28mmB" with "acc(2), scopeacc(1)"
+#ReplaceTags in "EQ:GD M307, 25x59mmB" with "acc(3), scopeacc(3)"
+#ReplaceTags in "EQ:ATK-H&K M29, 20x28mm" with "acc(3), scopeacc(3)"
+#ReplaceTags in "EQ:Firestone M18, 57x305mmR" with "acc(4|5), scopeacc(1)"
+#ReplaceTags in "EQ:Carl Gustaf M2, 84x250mmR" with "acc(4), scopeacc(1)"
+#ReplaceTags in "EQ:KMZ RPG-7, 40mm" with "acc(2), scopeacc(1)"
+#ReplaceTags in "EQ:Dynamit-Nobel PZF3, 60mm" with "acc(2), scopeacc(1)"
+#ReplaceTags in "EQ:Aérospatiale SS.11, 164mm" with "acc(1), scopeacc(3)"
+#ReplaceTags in "EQ:Hughes BGM-71A TOW, 127mm" with "acc(3), scopeacc(3)"
+#ReplaceTags in "EQ:Euromissile MILAN, 103mm" with "acc(3), scopeacc(2)"
+#ReplaceTags in "EQ:McDonnell FGM-77A Dragon, 127mm" with "acc(3|4), scopeacc(2)"
+
+//High-Tech Pulp Guns Volume 2
+#ReplaceTags in "EQ:Steyr-Solothurn S18-100, 20x105mmB" with "acc(5), scopeacc(1)"
+#ReplaceTags in "EQ:Hotchkiss 6-pdr Mk II, 57x305mmR" with "acc(4), scopeacc(1)"
+#ReplaceTags in "EQ:APX Mle 1916TRP, 37x94mmR" with "acc(4), scopeacc(1)"
+
+//Lite 4e
+#ReplaceTags in "EQ:Sniper Rifle, .338" with "acc(6), scopeacc(3)"
+
+//Monster Hunters 1
+#ReplaceTags in "EQ:Sniper Rifle, 7.62mm" with "acc(5), scopeacc(3)"
+
+//Ultra-Tech 4e
+#ReplaceTags in "EQ:Heavy Plasma Gun" with "acc(8), scopeacc(3)"
+#ReplaceTags in "EQ:Heavy Fusion Gun" with "acc(8), scopeacc(4)"
+#ReplaceTags in "EQ:Plasma Battle Rifle" with "acc(8), scopeacc(2)"
+#ReplaceTags in "EQ:Anti-Materiel Rifle" with "acc(6|7), scopeacc(3)"
+#ReplaceTags in "EQ:Underbarrel Grenade Launcher, 25mmPC" with "acc(4), scopeacc(2)"
+#ReplaceTags in "EQ:Gauss PDW, 4mm" with "acc(6), scopeacc(1)"
+#ReplaceTags in "EQ:Sniper Railgun, 7mm" with "acc(7|8), scopeacc(3)"
+#ReplaceTags in "EQ:Gauss Rifle, 4mm" with "acc(7), scopeacc(2)"
+#ReplaceTags in "EQ:Underbarrel EMGL, 25mmG" with "acc(4), scopeacc(2)"
+#ReplaceTags in "EQ:Gauss LSW, 4mm" with "acc(7|8), scopeacc(2)"

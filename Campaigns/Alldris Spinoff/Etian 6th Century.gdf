@@ -1,0 +1,6193 @@
+Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file, 
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+
+Description=2022 August 29. _
+Minor NPC Templates to make it easier to generate NPCs with minor variations to make it interesting.
+Program=5.0.157
+Requires="GURPS Low-Tech 4e.gdf", "GURPS Martial Arts 4e.gdf"
+LoadAfter="GURPS Low-Tech 4e.gdf", "GURPS Martial Arts 4e.gdf"
+
+[AUTHOR]
+*******************************************************************************************************\[START]
+// 
+//  GURPS® Character Assistant
+//  Filename: Minor NPC Templates
+//  Created: August 29, 2022
+//  Requires GCA v5 or later!
+// 
+//  Information in this file includes:
+// 	Skills
+// 	Character Templates
+// 
+*******************************************************************************************************************
+// 
+//  GURPS is a registered trademark of Steve Jackson Games Incorporated, used with GCA by permission of Steve Jackson
+//  Games. All rights reserved.
+// 
+//  The GURPS game is Copyright © 1986-1989, 1991-1994 by Steve Jackson Games Incorporated. This product includes
+//  copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games Incorporated. All
+//  rights reserved by Steve Jackson Games Incorporated.
+// 
+*******************************************************************************************************************
+
+********************************************************************************************************\[STOP]
+[Settings]
+********************************************************************************************************\[START]
+DefaultTL=4
+********************************************************************************************************\[STOP]
+[LANGUAGES]
+*******************************************************************************************************\[START]
+<North-Western Etian Languages> 
+Bomani, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Bomani (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Bomani (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Teutoni, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Teutoni (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Teutoni (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Theraonian, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Theraonian (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Theraonian (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Verdinian, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Verdinian (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Verdinian (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Kaitoan, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Kaitoan (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Kaitoan (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Argomu, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Argomu (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Argomu (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Vagröm, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Vagröm (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Vagröm (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Drigian, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Drigian (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Drigian (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+Caldonian, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, North-Western Etian Languages Spoken/Written, North-Western Etian Languages Spoken, North-Western Etian Languages Written), taboo(Native Languages > 1)
+Caldonian (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, North-Western Etian Languages Spoken), taboo(Native Languages > 1)
+Caldonian (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, North-Western Etian Languages Written), taboo(Native Languages > 1)
+
+<Near South Etian Languages>
+Ethonian, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Near South Etian Languages Spoken And Written, Near South Etian Languages Spoken, Near South Etian Languages Written), taboo(Native Languages > 1)
+Ethonian (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Near South Etian Languages Spoken), taboo(Native Languages > 1)
+Ethonian (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Near South Etian Languages Written), taboo(Native Languages > 1)
+
+Mirradhin, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Near South Etian Languages Spoken And Written, Near South Etian Languages Spoken, Near South Etian Languages Written), taboo(Native Languages > 1)
+Mirradhin (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Near South Etian Languages Spoken), taboo(Native Languages > 1)
+Mirradhin (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, Near South Etian Languages Written), taboo(Native Languages > 1)
+
+<Other Etian Languages>
+Taluxian, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Other Etian Languages Spoken and Written, Other Etian Languages Spoken, Other Etian Languages Written), taboo(Native Languages > 1)
+Taluxian (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, Other Etian Languages Spoken), taboo(Native Languages > 1)
+Taluxian (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, Other Etian Languages Written), taboo(Native Languages > 1)
+
+*******************************************************************************************************\[STOP]
+[LISTS]
+*******************************************************************************************************\[START]
+<Commoner Advantages>
+AD:Charisma
+AD:Voice
+AD:Reputation
+AD:Appearance
+AD:Ambidexterity
+AD:Fit
+AD:Flexibility
+AD:Hard to Kill
+AD:Hard to Subdue
+AD:High Pain Threshold
+AD:Indomitable
+AD:Unfazable
+AD:Absolute Direction
+AD:Absolute Timing
+AD:Perfect Balance
+AD:Pitiable
+AD:Peripheral Vision
+AD:Rapid Healing
+AD:Status
+AD:Wealth
+
+<Commoner Disadvantages>
+DI:Absent-Mindedness
+DI:Addiction (Tobacco)
+DI:Alcoholism
+DI:Bad Sight (Nearsighted)
+DI:Bad Sight (Farsighted)
+DI:Bad Back
+DI:Bad Temper
+DI:Appearance
+DI:Bully
+DI:Callous
+DI:Charitable
+DI:Chronic Pain
+DI:Chummy
+DI:Code of Honor (Professional)
+DI:Combat Paralysis
+DI:Cowardice
+DI:Curious
+DI:Dwarfism
+DI:Easy to Kill
+DI:Easy to Read
+DI:Fat
+DI:Fearfulness
+DI:Gigantism
+DI:Greed
+DI:Gullibility
+DI:Hard of Hearing
+DI:Hidebound
+DI:Honesty
+DI:Hunchback
+DI:Impulsiveness
+DI:Incurious
+DI:Indecisive
+DI:Intolerance
+DI:Jelousy
+DI:Klutz
+DI:Laziness
+DI:Lecherousness
+DI:Light Sleeper
+DI:Loner
+DI:Low Pain Threshold
+DI:Low Self-Image
+DI:Manic-Depressive
+DI:Miserliness
+DI:Missing Digit
+DI:Mute
+DI:Neurological Disorder
+DI:No Sense of Humor
+DI:Oblivious
+DI:One Eye
+DI:One Hand
+DI:Overconfidence
+DI:Overweight
+DI:Paranoia
+DI:Phobia (%example%)
+DI:Post-Combat Shakes
+DI:Reputation
+DI:Selfish
+DI:Selfless
+DI:Shyness
+DI:Skinny
+DI:Social Stigma (Criminal Record)
+DI:Social Stigma (Minority Group)
+DI:Social Stigma (Second-Class Citizen)
+DI:Status
+DI:Stubbornness
+DI:Stuttering
+DI:Very Fat
+DI:Unfit
+DI:Truthfulness
+DI:Very Unfit
+DI:Wealth
+
+<Commoner Build>
+DI:Overweight
+DI:Fat
+DI:Very Fat
+DI:Skinny
+
+<Commoner Disadvantages - Physical>
+DI:Appearance
+DI:Unfit
+DI:Very Unfit
+DI:Bad Sight (Nearsighted)
+DI:Bad Sight (Farsighted)
+DI:Bad Back
+DI:Dwarfism
+DI:Gigantism
+DI:Klutz
+DI:Light Sleeper
+DI:Low Pain Threshold
+DI:Missing Digit
+DI:Mute
+DI:Neurological Disorder
+DI:One Eye
+DI:One Hand
+DI:Stuttering
+DI:Easy to Kill
+DI:Hard of Hearing
+DI:Hunchback
+
+<Commoner Disadvantages - Mental>
+DI:Absent-Mindedness
+DI:Addiction (Tobacco)
+DI:Alcoholism
+DI:Bad Temper
+DI:Bully
+DI:Callous
+DI:Charitable
+DI:Chummy
+DI:Code of Honor (Professional)
+DI:Combat Paralysis
+DI:Cowardice
+DI:Curious
+DI:Easy to Read
+DI:Fearfulness
+DI:Greed
+DI:Gullibility
+DI:Hidebound
+DI:Honesty
+DI:Impulsiveness
+DI:Incurious
+DI:Indecisive
+DI:Intolerance
+DI:Jelousy
+DI:Laziness
+DI:Lecherousness
+DI:Loner
+DI:Low Self-Image
+DI:Manic-Depressive
+DI:Miserliness
+DI:No Sense of Humor
+DI:Oblivious
+DI:Overconfidence
+DI:Paranoia
+DI:Phobia (%example%)
+DI:Post-Combat Shakes
+DI:Selfish
+DI:Selfless
+DI:Shyness
+DI:Stubbornness
+DI:Truthfulness
+
+<Commoner Disadvantages - Social>
+DI:Reputation
+DI:Status
+DI:Wealth
+DI:Social Stigma (Criminal Record)
+DI:Social Stigma (Minority Group)
+DI:Social Stigma (Second-Class Citizen)
+
+<Commoner Disadvantage Pack>
+TE:Friendly
+TE:Nerd
+TE:Misanthrope
+TE:Money-Grubber
+TE:Rube
+TE:Unwelcome (Criminal)
+TE:Unwelcome (Minority)
+TE:Goon
+TE:Hero
+TE:Swindler
+TE:Villain
+
+<Commoner Disadvantage Pack Names Only>
+Friendly
+Nerd
+Misanthrope
+Money-Grubber
+Rube
+Unwelcome (Criminal)
+Unwelcome (Minority)
+Goon
+Hero
+Swindler
+Villain
+
+<Commoner Background Skills>
+SK:Accounting
+SK:Acting
+SK:Administration
+SK:Animal Handling (Equines)
+SK:Artist (Pottery)
+SK:Artist (Woodworking)
+SK:Boating (Unpowered)
+SK:Brawling
+SK:Carousing
+SK:Carpentry
+SK:Cooking
+SK:Current Affairs (Popular Culture)
+SK:Current Affairs (Headline News)
+SK:Current Affairs (People)
+SK:Dancing
+SK:Farming
+SK:First Aid
+SK:Fishing
+SK:Forgery
+SK:Gambling
+SK:Housekeeping
+SK:Jeweler
+SK:Knife
+SK:Knot-Tying
+SK:Leatherworking
+SK:Lockpicking
+SK:Masonry
+SK:Merchant
+SK:Panhandling
+SK:Poetry
+SK:Poisons
+SK:Public Speaking
+SK:Running
+SK:Scrounging
+SK:Sewing
+SK:Seamanship
+SK:Singing
+SK:Sleight of Hand
+SK:Staff
+SK:Stealth
+SK:Streetwise
+SK:Swimming
+SK:Teaching
+SK:Tracking
+SK:Traps
+SK:Wrestling
+
+<Courtier Primary Skills>
+SK:Carousing
+SK:Savoir-Faire (High Society)
+SK:Dancing
+SK:Riding (Equines)
+
+<Courtier Secondary Skills>
+SK:Fast-Talk
+SK:Games (Saber Fencing)
+#newitem(SK:Games (Longsword Fighting), type(IQ/E), page(B197))
+SK:Games (Sport Rapier)
+SK:Diplomacy
+SK:Singing
+SK:Sewing
+
+//Names
+<Nations List>
+Argomu
+Bomania
+Teutoni
+Erilö
+Kaitoa
+Caldonia
+Theraos
+Vagröm
+Verdina
+
+<Argomu Male Names>
+Adam
+Adolf
+Adriaen
+Aelbert
+Aellaert
+Aerge
+Aernt
+Ambrosius
+Amelonc
+Andries
+Ane
+Ansen
+Anthonis
+Aucker
+Barcke
+Bastyaen
+Beeck
+Berijs
+Bernt
+Bertelmeeus
+Bertout
+Block
+Boomkin
+Botghert
+Bouden
+Brantgen
+Brouwer
+Bruyn
+Bruynplas
+Bruys
+Bryn
+Calfgen
+Calis
+Kasijn
+Kerstiaen
+Charles
+Christoferus
+Kiggher
+Claes
+Clement
+Cnoep
+Coen
+Coenraet
+Colaert
+Coman
+Corijn
+Cornelis
+Craen
+Cryn
+Daem
+Dammas
+Danckaert
+Danel
+Delis
+Denijs
+Dirc
+Dixus
+Doede
+Doen
+Egbert
+Elaut
+Elias
+Elrick
+Elsken
+Emont
+Engbrecht
+Engel
+Ernst
+Evert
+Ewout
+Eymbert
+Garbrant
+Geen
+Geerbrant
+Geerlof
+Gelefas
+Gillis
+Genefaes
+Gheerlich
+Gherijt
+Ghijs
+Ghijsbrecht
+Giele
+Gijpken
+Gobel
+Gocken
+Godevaert
+Goedelt
+Goedert
+Goedkin
+Goedscalc
+Goerijs
+Goessel
+Goessen
+Goeswijn
+Goetgen
+Griffoen
+Gruter
+Hack
+Hairrijck
+Hamelt
+Hanssem
+Harbert
+Hartgeer
+Hase
+Hasman
+Hector
+Heynrick
+Hellinc
+Helmich
+Hemken
+Hemtgen
+Herman
+Hert
+Hertman
+Heyman
+Heynbrecht
+Hillebrant
+Hoven
+Hubert
+Huge
+Jacob
+Jacos
+Jan
+Jennin
+Joest
+Jonckhan
+Jorden
+Jortgen
+Yde
+Yewen
+Ysbrant
+Ysgerman
+Lambert
+Lambrecht
+Lanx
+Laurens
+Laussem
+Leenaert
+Lemmelroy
+Lens
+Lievin
+Lijbrecht
+Lijn
+Lob
+Lodewijck
+Lonijs
+Loy
+Louys
+Lubbert
+Lubbrecht
+Lucas
+Luytgen
+Manuel
+Maer
+Maes
+Marcelis
+Marcus
+Marten
+Matheeus
+Medaert
+Melcior
+Melis
+Messel
+Mette
+Meyner
+Michiel
+Moer
+Moes
+Mol
+Monic
+Nanne
+Nijs
+Noyken
+Noys
+Ogier
+Olivier
+Oste
+Ot
+Ouwels
+Paess
+Philip
+Pieter
+Pilgrim
+Pleskin
+Pouwels
+Querijn
+Reiner
+Reyer
+Reymbout
+Reymhout
+Reyns
+Rijc
+Rijckaert
+Rijckouts
+Robbert
+Roelof
+Roess
+Rover
+Rutger
+Sander
+Sarijs
+Scoutijn
+Seyn
+Silveren
+Solin
+Spierinck
+Splinter
+Stans
+Steesken
+Steven
+Stoffel
+Stroys
+Stul
+Symon
+Tevin
+Thomas
+Thielman
+Thilmar
+Tybes
+Tyman
+Tygerman
+Tymer
+Faen
+Faes
+Valc
+Vastaert
+Veltgen
+Verbanus
+Vijncken
+Floer
+Florens
+Florijs
+Volkert
+Volpert
+Volquijn
+Vop
+Fock
+Forys
+Fraen
+Vrachtelt
+Vranck
+Vrederic
+Froyt
+Walraven
+Wemer
+Wensselijn
+Werbout
+Werner
+Wessel
+Wesser
+Weyncken
+Weyt
+Wiggert
+Wijck
+Wijnckel
+Wijnken
+Wijnrick
+Willeboort
+Willem
+Windermit
+Witte
+Wolf
+Wolfaert
+Wollebrant
+Wouter
+Zebert
+Zeel
+Zegher
+Zijbert
+Zijbout
+Zweer
+	
+<Argomu Female Names>
+Aechte
+Agnes
+Alijt
+Baertge
+Baet
+Beatrijs
+Belye
+Beverielle
+Claerkin
+Eva
+Geertruyt
+Heyl
+Heiltgen
+Hilleken
+Jutte
+Katheline
+Kathrijn
+Lijsbet
+Machtelt
+Marij
+Margriete
+Stincken
+Wendelmoet
+Yolente
+
+
+<Bomani Male Names>
+Adam
+Adenet
+Adenin
+Alain
+Alardin
+Albert
+Aleamme
+Aleaume
+Alixandre
+Almaurry
+Amaury
+Ambroisin
+Ancelet
+Andry
+Anthoine
+Arnoul
+Arnould
+Arnoulet
+Arnoullet
+Arnoult
+Aubelet
+Aubert
+Aubertin
+Aubin
+Audebert
+Audenin
+Audouin
+Auffroy
+Aufondet
+Augustin
+Augé
+Balthazar
+Bastien
+Baudet
+Baudoin
+Baudrain
+Benard
+Benoit
+Bernard
+Berthelemy
+Berthelmi
+Berthelot
+Bertin
+Bertran
+Binet
+Blanchet
+Blavot
+Boniface
+Bossu
+Brion
+Brodier
+Bureau
+Caisin
+Cardin
+Casin
+Cassin
+Cauchois
+Charles
+Charlot
+Chiquart
+Christofle
+Clamens
+Clement
+Climent
+Colart
+Colet
+Colin
+Colinet
+Conrrard
+Conrrart
+Conrrat
+Crespin
+Daniel
+Denis
+Denisot
+Denixost
+Dimenche
+Domin
+Dreue
+Drouet
+Elyot
+Emery
+Enguerran
+Erard
+Erart
+Estiene
+Estienne
+Eustace
+Evrard
+Evrart
+Ferrant
+Fleurent
+Fleury
+Florent
+Fouet
+François
+Françoys
+Fremin
+Gabriel
+Gadiffer
+Galois
+Galoys
+Gamelet
+Gamet
+Garnier
+Garnot
+Gassot
+Gauchier
+Gaultier
+Gautier
+George
+Gerard
+Gerart
+Germain
+Gervaisot
+Gieffrin
+Gieffroy
+Gilbert
+Giles
+Gilet
+Gillebert
+Gilles
+Gillet
+Gillot
+Gilot
+Girard
+Girart
+Gobin
+Godeffroy
+Godefroy
+Gracien
+Guerin
+Guerinet
+Guibert
+Guillaume
+Guillemin
+Guillemot
+Guillot
+Guimart
+Guion
+Guiot
+Guy
+Guymart
+Gyeffroy
+Hangest
+Hannequin
+Hebert
+Helie
+Heliot
+Helyot
+Hemonnet
+Hennequin
+Henrriet
+Henrry
+Henrryet
+Henry
+Henryet
+Herbin
+Herle
+Herman
+Hermant
+Hervé
+Honnoré
+Huchon
+Hue
+Huet
+Huget
+Huguelin
+Huguenin
+Hugues
+Huguet
+Husson
+Innocent
+Jacob
+Jacotin
+Jacquet
+Jamet
+Jaquemin
+Jaques
+Jaquet
+Jaquin
+Jaquinot
+Jaquob
+Jaquot
+Jaspar
+Jean
+Jehan
+Jehanin
+Jehannin
+Josset
+Jourdain
+Julien
+Junien
+Lambert
+Lancelet
+Lancelot
+Laurens
+Laurentin
+Lorence
+Lorens
+Lorin
+Louys
+Loys
+Loyset
+Lucas
+Luquin
+Lyebault
+Macé
+Mahiet
+Mahieu
+Marc
+Marcel
+Marcelet
+Marinet
+Marquet
+Martin
+Mathelin
+Mathieu
+Mathé
+Menet
+Michault
+Michelet
+Michellet
+Michiel
+Mile
+Milet
+Mille
+Moriset
+Naudin
+Nicaise
+Nicolas
+Nicole
+Noel
+Olivier
+Oudart
+Oudin
+Oudinet
+Paquier
+Pasquier
+Perrenet
+Perresson
+Perrin
+Perrot
+Phelippon
+Phelippot
+Philippe
+Philippin
+Philippot
+Phillippot
+Pierre
+Pierrey
+Poncelet
+Poncellet
+Poncet
+Porret
+Quentin
+Raoul
+Raoulet
+Raoulin
+Rasse
+Raymon
+Raymondin
+Regnault
+Regnier
+Remon
+Remy
+Richard
+Richart
+Robert
+Robin
+Robinet
+Rogerin
+Rogier
+Rolet
+Rolin
+Senestre
+Sicart
+Simmonet
+Simon
+Simonnet
+Symmonet
+Symon
+Symonnet
+Tassin
+Thevenin
+Thevot
+Thibault
+Thierry
+Thomas
+Thomassin
+Thomin
+Thommas
+Toussains
+Verain
+Vincent
+Vivien
+Volo
+Voulo
+Ymbelet
+Ymbelot
+Ymbert
+Ymbolet
+Ysambart
+Yvon
+Yvonnet
+
+<Bomani Female Names>
+Agnés
+Agnesot
+Alips
+Alipson
+Amelot
+Chrestienne
+Collette
+Denise
+Denisete
+Denisette
+Dorian
+Emmelot
+Genevote
+Gervaise
+Gillette
+Guillemette
+Guiote
+Guiotte
+Honnorée
+Isabel
+Jaquette
+Jehanne
+Jehannette
+Juliote
+Katherine
+Loyse
+Mahault
+Margot
+Marguerite
+Marie
+Marion
+Martine
+Nicole
+Oudine
+Perrette
+Phlipote
+Plantée
+Poubelle
+Symonne
+Thomasse
+Ysabeau
+Ysabel
+Ysabelet
+
+<Erilö Male Names>
+Agmund
+Agneli
+Albrekt
+Amleth
+Anund
+Asward
+Beregolf
+Berguluer
+Eilif
+Eymundr
+Farulf
+Gamalbarn
+Gamalkarl
+Gereke
+Glúniairn
+Godfraid
+Gofraid
+Heri
+Kartoka
+Lefsi
+Lydik
+Mikjáll
+Myskia
+Næskunungr
+Olai
+Olaus
+Osbern
+Otgisl
+Quant
+Salmundr
+Simian
+Thorfinn
+Thorkill
+Ulfhard
+
+<Erilö Female Names>
+Bjaðǫk
+Blotstulka
+Brettiva
+Brynhilda
+Brynildir
+Brytteva
+Byrghita
+Domhilda
+Ellisif
+Elsebe
+Eyvǫr
+Frögärd
+Geirþrúðr
+Gilla
+Gudve
+Gunna
+Hervor
+Kristrún
+Magnhilda
+Malmfred
+Ragnhilda
+Ragnilda
+Sprota
+Svanlaug
+Ulvhild
+Wulfhild
+	
+<Kaitoa Male Names>
+Aed
+Algune
+Arcill
+Baíthín
+Brian
+Bróccín
+Caerell
+Cainnech
+Cathal
+Cennédig
+Cinaed
+Colbán
+Comgell
+Constantin
+Cormac
+Cuilén
+Cú
+Domnall
+Domongart
+Donnachac
+Donnchad
+Dubgall
+Dubne
+Eochaid
+Feradach
+Ferdomnach
+Fergus
+Finguine
+Gartnait
+Gille
+Giric
+Ided
+Lochloinn
+Lulach
+Léod
+Mac
+Matadín
+Matain
+Matne
+Morgann
+Muiredach
+Máel
+Nechtan
+Ruadrí
+Somairle
+Síthech
+Trálín
+Áengus
+	
+<Kaitoa Female Names>
+Abigall
+Ailios
+Alesonne
+Allissaid
+Angnes
+Annabill
+Annas
+Beatie
+Beigis
+Besseta
+Burunild
+Caitrina
+Cannie
+Canny
+Christan
+Christane
+Claray
+Deredere
+Dervorgilla
+Dervorguilla
+Ealusaid
+Eby
+Elesbeth
+Elspaith
+Eschina
+Eufemie
+Fernelith
+Finnola
+Finvola
+Forbflaith
+Forflissa
+Forsy
+Gelis
+Godith
+Grisell
+Gruoch
+Hextilda
+Isbell
+Isobell
+Isobella
+Jennet
+Jonet
+Karistina
+Katherin
+Katreine
+Kennocha
+Made
+Maidlin
+Margret
+Mariory
+Mariot
+Mariota
+Marioziota
+Marsle
+Merraid
+Murreall
+Rinalde
+Sidheag
+Thebe
+Theebet
+Triduana
+Wyolet
+Ysenda
+
+<Caldonia Male Names>
+Albano
+Alessandro
+Almoro
+Alvise
+Alvisio
+Andrea
+Antoni
+Antonio
+Anzolo
+Augustin
+Bartholomeo
+Benetto
+Bernardo
+Bertaccio
+Bertuccio
+Bianco
+Bitino
+Carlo
+Christofalo
+Cosmo
+Daniele
+Dolfin
+Domenico
+Domenigo
+Donà
+Fantin
+Flaminio
+Francesco
+Gabriel
+Giacomo
+Hieronimo
+Homobon
+Jaco
+Juan
+Justo
+Leonardo
+Lion
+Lonardo
+Lorenzo
+Luca
+Lucca
+Maffeo
+Marco
+Marin
+Matio
+Michele
+Moise
+Nadal
+Nicholò
+Nicolo
+Pascol
+Paulo
+Pero
+Peter
+Piero
+Pietro
+Polo
+Priamo
+Silvestro
+Simon
+Steffano
+Tadio
+Tomà
+Vettor
+Vicenzo
+Zanandrea
+Zane
+Zorzi
+Zuane
+Zulian
+
+<Caldonia Female Names>
+Adriana
+Agnese
+Agnesina
+Andriana
+Angela
+Arcanzola
+Aurelia
+Bartolomea
+Battista
+Benedicta
+Bianca
+Brisca
+Caterina
+Cecilia
+Chataruza
+Chiara
+Clara
+Cristina
+Diana
+Dianora
+Elena
+Elisabetta
+Euphemia
+Faustina
+Foscarina
+Francesca
+Franceschina
+Franchetta
+Gradeniga
+Isabella*
+Isabetta
+Jacobella
+Laura
+Lauretta
+Liona
+Loredana
+Lucia
+Lucretia
+Maddalena
+Madaluza
+Margarita
+Maria
+Marieta
+Marina
+Moresina
+Olimpia
+Orsa
+Pantasilea
+Paola
+Pellegrina
+Pisana
+Quirina
+Santa
+Sofia
+Sordamor
+Ursa
+Zaneta
+Zuana
+
+<Theraos Male Names>
+Abdaliqua
+Abdalla
+Abdalli
+Abdomelich
+Abdorramen
+Abrahim
+Adria
+Agosti
+Albaro
+Albert
+Alfaqui
+Alfonso
+Ali
+Alonso
+Aloy
+Alvaro
+Amador
+Andres
+Andreu
+Angelo
+Anthoni
+Antoni
+Aparici
+Aquem
+Arcis
+Arnau
+Assensi
+Ausias
+Aymerich
+Azen
+Azmet
+Balaguer
+Baltasar
+Balthasar
+Batista
+Benet
+Beneyto
+Benito
+Berenguer
+Berich
+Bernabeu
+Bernardo
+Bernat
+Berthomeu
+Bertran
+Blascho
+Bonanat
+Caldes
+Cale
+Carles
+Christofol
+Cilim
+Climent
+Conrat
+Cosme
+Cristobal
+Cristofol
+Dalmau
+Damia
+Damià
+Davis
+Desideri
+Diego
+Dimas
+Dionis
+Domingo
+Enrich
+Erasme
+Estevan
+Esteve
+Eça
+Federich
+Felip
+Felipe
+Fernando
+Ferran
+Ferrando
+Ferrer
+Francesc
+Francesch
+Francisco
+Fraua
+Gabriel
+Gabriell
+Galceran
+Gallach
+Galvany
+Garcia
+Garçia
+Gaspar
+Genis
+Genís
+Geroni
+Gil
+Gilabert
+Girart
+Gisbert
+Gonçalo
+Gostanço
+Goçalbo
+Gregori
+Gregorio
+Guillelmo
+Guillem
+Guillen
+Guinot
+Guitard
+Guixot
+Gutierre
+Holiver
+Huguet
+Jacen
+Jaume
+Jeroni
+Joan
+Jofre
+Johan
+Jolia
+Jordi
+Joseph
+Josue
+Juan
+Juça
+Leonart
+Lope
+Lopez
+Lorens
+Lorenç
+Luch
+Luis
+Macia
+Magui
+Mahomat
+Manuel
+March
+Marq
+Marti
+Martin
+Martí
+Matheu
+Melchior
+Melchor
+Miguel
+Miquel
+Miquell
+Monserrat
+Muça
+Nadal
+Nicasi
+Nicholau
+Nicolau
+Noffre
+Nofre
+Onorat
+Pardo
+Pasqual
+Pau
+Pelegri
+Perdiguer
+Pere
+Pero
+Ponç
+Ramon
+Raphel
+Raphell
+Rodrigo
+Sabastia
+Salbador
+Salvador
+Sancho
+Sarafi
+Sebastià
+Simo
+Steve
+Thomas
+Thomàs
+Tomàs
+Valero
+Velasco
+Vevian
+Vicent
+Yael
+Yucef
+Zezaro
+Çaat
+Çahat
+Çalama
+Çat
+Çuleymen
+	
+<Theraos Female Names>
+Abdona
+Agnes
+Agueda
+Aguilona
+Alatara
+Alba
+Alberta
+Aldomara
+Aldonça
+Aldorisa
+Alfonsa
+Alfresina
+Almenara
+Alvira
+Ana
+Anastasia
+Andarina
+Andolça
+Andrea
+Angela
+Anguera
+Anna
+Anthona
+Antona
+Antonia
+Aragonesa
+Aularia
+Baltasara
+Barbera
+Barbola
+Beatriu
+Beatriz
+Berarda
+Berthomeua
+Blanquina
+Brianda
+Brigida
+Burguera
+Bàrbara
+Calamoya
+Castellana
+Castelleta
+Catalana
+Catalina
+Caterina
+Catherina
+Cetina
+Chaterina
+Chiteria
+Clara
+Constanza
+Costanza
+Crespa
+Cristina
+Dalfina
+Damiana
+Damiata
+Diomar
+Dionisa
+Egipciana
+Eguala
+Elena
+Elionor
+Elvira
+Esperansa
+Fatima
+Floriana
+Foresa
+Francina
+Francisca
+Fransina
+Gaceta
+Genisa
+Gentil
+Gila
+Ginovisa
+Gostansa
+Gostança
+Gracia
+Guinella
+Iheronima
+Inés
+Isabel
+Isabet
+Jerònima
+Jerónima
+Joana
+Juana
+Julia
+Juliana
+Leal
+Leonor
+Lopisa
+Loreta
+Loysa
+Lucia
+Lucrecia
+Luisa
+Luïsa
+Magdalena
+Mancia
+Margalida
+Margarita
+Maria
+Mariana
+Marina
+Marquesa
+Martina
+María
+Mayor
+Maçana
+Melchora
+Mencia
+Mencía
+Merina
+Miata
+Miquela
+Monserrada
+Nofra
+Ofrecina
+Olall
+Olivera
+Orastriosa
+Palacesa
+Patronilla
+Pelejana
+Philipa
+Quiteria
+Raedora
+Raphella
+Ricla
+Salvadora
+Sancha
+Scolana
+Sebastiana
+Sentiu
+Sibilia
+Sicilia
+Sperança
+Stefania
+Susana
+Tareza
+Teresa
+Thomasa
+Tonixqua
+Urgellesa
+Ursola
+Ursula
+Valentina
+Viana
+Vicenta
+Violant
+Violante
+Yolant
+Ypola
+Ysabel
+Ysabet
+Àngela
+Úrsola
+
+<Teutoni Male Names>
+Achatius
+Adam
+Adelman
+Adolfus
+Agilwardus
+Alardus
+Albrecht
+Alexander
+Alexius
+Ambrosius
+Andreas
+Anselm
+Antonius
+Arnold
+Arnulf
+Augustin
+Baldewin
+Balthasar
+Bartilmebis
+Bechtold
+Benedictus
+Berchtold
+Bernhard
+Berold
+Bertolf
+Bertram
+Berwicus
+Blasius
+Bogusch
+Bonifacius
+Bruno
+Burghard
+Burgold
+Burgolt
+Caspar
+Christoff
+Clemens
+Conrad
+Craft
+Cristanus
+Daniel
+David
+Dietmar
+Dippelt
+Dirske
+Diterich
+Ditwin
+Dominicus
+Donat
+Eberhard
+Eckehard
+Egidius
+Elgast
+Elger
+Enewalt
+Engelbrecht
+Engelgerus
+Engelusch
+Erasmus
+Erlemannus
+Ermelaus
+Ermenrich
+Ernestus
+Eustacius
+Fabian
+Francze
+Friderich
+Gabriel
+Gawin
+Gebhard
+Gelfrat
+Georg
+Gerhard
+Gerlach
+Gernot
+Gerold
+Gerung
+Giselbrecht
+Gislerus
+Glogryan
+Goswin
+Gotboldus
+Gotfrid
+Gothardus
+Gotschalg
+Gregor
+Greimolt
+Gumprecht
+Gundram
+Gunther
+Gutwin
+Gündel
+Hartlib
+Hartman
+Hartmudus
+Hartnid
+Hartrad
+Hartung
+Heidenrich
+Heinrich
+Hellenboldus
+Hellenbrecht
+Helwig
+Hempel
+Herbord
+Herdegen
+Herman
+Herterich
+Hertwig
+Herwyg
+Hieronymus
+Hildebrand
+Hildiger
+Hugo
+Hunold
+Iwan
+Jacob
+Jodocus
+Johannes
+Jordan
+Lamprecht
+Lauryn
+Lazarus
+Leonardus
+Leupold
+Leuthold
+Libing
+Liphardus
+Lorencz
+Ludolf
+Ludwig
+Lukas
+Luther
+Lütolf
+Manegold
+Marcus
+Markward
+Martin
+Matern
+Mathias
+Meffrid
+Meinhard
+Melchior
+Merbot
+Michael
+Nanker
+Neidhart
+Nicolaus
+Nymandus
+Ortlieb
+Ortolf
+Osprant
+Oswald
+Otmar
+Otnand
+Otto
+Pankratz
+Paris
+Partschfall
+Paschalis
+Patrice
+Paul
+Peregrinus
+Peter
+Philipp
+Poppe
+Procop
+Ramung
+Ramwold
+Raphael
+Reinhard
+Reinolt
+Reiprecht
+Reynfrid
+Richart
+Richel
+Richolf
+Ropot
+Rudolf
+Ruland
+Rumpolt
+Ruprecht
+Rüdeger
+Salomon
+Samuel
+Seybke
+Sibot
+Sigfrid
+Sighard
+Sigmund
+Stanislaus
+Steffan
+Swydeger
+Symon
+Thadeus
+Thamme
+Thomas
+Tristram
+Truchtlip
+Trutwin
+Ulrich
+Urban
+Valten
+Vasold
+Veit
+Vinczencz
+Volkmar
+Volkwin
+Walther
+Warmund
+Wenczel
+Wernher
+Wicher
+Wigand
+Wigelois
+Wikman
+Wiland
+Wilhelm
+Wilher
+Wilrich
+Winand
+Winrich
+Wiprecht
+Witche
+Wolf
+Wolferam
+Wolfgang
+Wolfhart
+Wolfker
+Wortwin
+Wölfel
+Ytel
+Zacharias
+Zobeslaus
+Örtel
+
+<Teutoni Female Names>
+Agathe
+Agnise
+Aleyd
+Amalie
+Anna
+Apollonia
+Barbara
+Beate
+Benedicta
+Berchte
+Bertrâdis
+Cecilia
+Christine
+Clare
+Cäsarea
+Demut
+Dorothye
+Elisabeth
+Enede
+Engel
+Eufemia
+Gerdrut
+Gudradis
+Gütel
+Hedwig
+Heile
+Helena
+Herburg
+Herlinde
+Hildegund
+Hilusch
+Irmeltrud
+Isentrud
+Jutte
+Katherine
+Kunegunde
+Liphilt
+Lucie
+Magdalena
+Margarethe
+Marie
+Mechthild
+Osanna
+Osterhild
+Ottilie
+Salomea
+Sophie
+Ursula
+Ute
+Veronica
+Yrmegard
+
+<Verdina Male Names>
+Abraham
+Adam
+Adan
+Alexander
+All
+Allen
+Ambrose
+Andrew
+Anias
+Anthony
+Archibald
+Arcye
+Aristoteles
+Arthur
+Atkinson
+Bainbridge
+Barnabye
+Barnard
+Bartholemew
+Bartram
+Beniamin
+Bryan
+Charles
+Christopher
+Clement
+Conand
+Cuthbert
+Daniell
+Dary
+David
+Demes
+Denys
+Dtendl
+Edmund
+Edward
+Edwin
+Egedius
+Ellis
+Emanuell
+Emericke
+Evans
+Francis
+Gabraell
+Garmayne
+Gawyne
+George
+Gerard
+Gerlick
+Gilbert
+Godfrey
+Gregory
+Griffin
+Guy
+Gyrge
+Hector
+Henry
+Hercules
+Hierimas
+Hugh
+Humfray
+Ingram
+Isaac
+Jacob
+James
+Jannem
+Jasper
+Jeffrey
+John
+Joiem
+Jonathan
+Joseph
+Juliel
+Lambwell
+Lamerick
+Lancelot
+Lawrence
+Leonard
+Lewes
+Luke
+Lyonell
+Marine
+Marke
+Marmaduke
+Martin
+Matthew
+Michael
+Miles
+Moungeye
+Musgrave
+Nathaniell
+Nicholas
+Ninivinus
+Odnell
+Oliver
+Oswen
+Oswold
+Owin
+Patreas
+Patrick
+Pawll
+Percivell
+Peter
+Phillip
+Quinton
+Raphe
+Raynard
+Reginald
+Reyvell
+Richard
+Richardson
+Rinion
+Ro
+Robert
+Roger
+Rowland
+Rymon
+Samson
+Samuel
+Silvester
+Simond
+Steven
+Tedde
+Thomas
+Timothy
+Tobie
+Trestram
+Trinian
+Tunstall
+Valentine
+Vaughan
+Vyctoe
+Walter
+Wiggett
+Wilfred
+Willer
+William
+Wine
+
+<Verdina Female Names>
+Abram
+Addilay
+Addinel
+Adilene
+Adrian
+Agnes
+Alice
+Ames
+Anerilla
+Anne
+Avarall
+Awdria
+Barbara
+Beale
+Beatrix
+Blanch
+Bridget
+Cassandra
+Charitye
+Chonstans
+Christabell
+Christian
+Cicely
+Clary
+Collet
+Cordell
+Debora
+Diana
+Didnes
+Dorothy
+Druscilla
+Dye
+Dyna
+Easter
+Eather
+Ebbaline
+Ede
+Eden
+Edith
+Edmund
+Edom
+Egress
+Elces
+Elie
+Elizabeth
+Ellen
+Ellinor
+Ellme
+Ellons
+Elnet
+Em
+Eppie
+Esotte
+Flanders
+Florence
+Fortune
+Frances
+Frilome
+Fron
+Grace
+Grysell
+Hanndro
+Hester
+Isabell
+Issell
+Jane
+Janstam
+Jellian
+Jennet
+Jess
+Johanna
+Judeth
+Katherine
+Kirchine
+Lawry
+Lillias
+Luce
+Mabell
+Magdalen
+Margaret
+Margery
+Marthay
+Mary
+Mase
+Matean
+Mattie
+Maude
+Maya
+Mercall
+Meriall
+Milisat
+Miriam
+Odnell
+Petronnella
+Phatch
+Phillis
+Prudens
+Rachel
+Rebecca
+Rosamond
+Rose
+Ruthe
+Sara
+Sence
+Sibil
+Sitha
+Susan
+Thomasin
+Ursula
+Winifred
+
+<Vagröm Male Names>
+Aleksandr
+Aleksei
+Andrei
+An’drei
+Boris
+Dmitrei
+Dmitrii
+Esif
+Fedor
+Feodor
+Foma
+Georgii
+Grigorei
+Grigori
+Grigorii
+Iakov
+Ignatei
+Ignatii
+Ijakov
+Ioan
+Iosif
+Ivan
+Jakov
+Jurii
+Kozma
+Kuzma
+Kuz’ma
+Maksim
+Matfei
+Matthei
+Michailo
+Mikita
+Mixail
+Nikita
+Oleksandr
+Oleksei
+Ondrei
+Pavel
+Semen
+Semion
+Sidor
+Stefan
+Stepan
+Vasilei
+Vasilii
+Vasilij
+Zaxarii
+
+<Vagröm Female Names>
+Agrafena
+Aksin’ia
+Akulina
+Amelfa
+Anastaija
+Anastasiia
+Anna
+Antonija
+Antonina
+Anton’ja
+Bezubaia
+Chiudka
+Chovra
+Chrs’tna
+Dedenia
+Deretka
+Dominika
+Domna
+Efimija
+Efrosinija
+Ekaterina
+Elena
+Elisava
+Elizaveta
+Epistim’ja
+Evdokeja
+Evdokija
+Evfimiia
+Evfrosiniia
+Evfrosin’ja
+Evgeniia
+Fedosiia
+Fegnija
+Fekla
+Fenja
+Feodora
+Feodosiia
+Fetiniia
+Fevron’ja
+From
+Gostiata
+Gravriia
+Iana
+Iriniia
+Iulianiia
+Julita
+Jul’jana
+Justinja
+Katerina
+Khariton’a
+Khristina
+Kilikeja
+Kosenila
+Ksenija
+Luker’ja
+Marem’iana
+Marfa
+Marija
+Marina
+Mar’ja
+Mar’m’jana
+Matrona
+Melaniia
+Milka
+Mirofa
+Miropiia
+Natalija
+Nedel’ka
+Negoshka
+Nezhka
+Olisava
+Pelageia
+Pelageja
+Peredeslava
+Pokinar’ja
+Sofiia
+Sofija
+Tatiana
+Tatijana
+Ulita
+Ul’iana
+Varvara
+Vasalisa
+	
+<Dynasty Names - Argomu>
+D'Auxy
+Bentinck van Aldenburg
+Van den Bosch
+Van Bylandt
+Dumonceau
+Van der Duyn
+Festetics de Tolna
+De Ficquelmont
+De Geloes
+Van der Goltz
+Van Heerdt
+Van Heiden
+De Hochepied
+Van Hoensbroeck
+Van Hogendorp 
+Van Limburg Stirum
+Van Lynden
+De Marchant et d'Ansembourg
+De Norman et d'Audenhove
+Von Oberndorff
+Van Oijen
+Van Oranje-Nassau van Amsberg
+De Perponcher Sedlnitsky
+Von Quadt
+Van Randwijck
+Von Ranzow
+Van Rechteren
+van Renesse
+De Riquet de Caraman
+Schimmelpenninck
+Zu Stolberg-Stolberg
+Van Wassenaer
+Wolff Metternich
+Van Zuylen van Nijevelt
+
+<Dynasty Names - Bomania>
+Briçonnet‎
+de Boufflers
+de Brimeu‎
+de Broglie‎
+de Brécourt‎
+de Buquoy‎
+de Buyer‎
+de Clare‎
+De Foresta‎
+de Gadagne‎
+de Genlis‎
+de Joinville‎
+de Longueval‎
+de Montfort‎
+de Saragosse‎
+de Sartoux
+de Sillery‎
+de Talou
+de Yolande
+La Fayette
+La Rochefoucauld
+Lannes de Montebello‎
+Le Bret
+Le Clerc
+Le Gonidec
+Lorraine
+Polignac
+
+<Dynasty Names - Erilö>
+Adelswärd
+Adlercreutz
+Adlersparre
+af Ugglas
+af Wasaborg
+af Wetterstedt
+Anckarsvärd
+Banér
+Barck
+Barnekow
+Beck-Friis
+Bielke
+Björnstjerna
+Bonde af Björnö
+Bonde af Säfstaholm
+Brahe
+Bunge
+Carlsson
+Cederström
+Creutz
+Cronhielm af Flosta
+Cronhielm af Hakunge
+Cronstedt
+Dahlbergh
+de Geer af Leufsta
+De la Gardie
+Dohna
+Douglas
+Dücker
+Ehrensvärd
+Ekeblad
+Falkenberg af Bålby
+Falkenberg af Sandemar
+Fleming
+Frölich
+Gyldenstolpe
+Gyllenborg
+Gyllenstierna af Björksund och Helgö
+Gyllenstierna af Ericsberg
+Gyllenstierna af Fogelvik
+Gyllenstierna af Steninge
+Hamilton
+Hastfer
+Horn af Björneborg
+Horn af Ekebyholm
+Horn af Rantzien
+Horn af Åminne
+Hård
+Kagg
+Kalling
+Klingspor
+Lagerberg
+Lagerbjelke
+Lagerbring
+Leijonstedt
+Lewenhaupt
+Liljencrantz
+Lillie
+Lillienberg
+Lillienstedt
+Lindschöld
+Löwen
+Löwenhielm
+Meijerfeldt
+Mellin
+Meryn
+Munck
+Mörner af Morlanda
+Mörner af Tuna
+Nieroth
+Oxenstierna af Croneborg
+Oxenstierna af Korsholm och Wasa
+Oxenstierna af Södermöre
+Polus
+Posse
+Puke
+Putbus
+Reenstierna
+Rehnskiöld
+Ribbing
+Ridderstolpe
+Rosenblad
+Ruuth
+Sandels
+Skjöldebrand
+Snoilsky
+Sparre
+Sparre af Sundby
+Sparre af Söfdeborg
+Spens
+Sperling
+Stackelberg
+Stenbock
+Stromberg
+Strömfelt
+Stålarm
+Taube
+Tawast
+Tessin
+Thott
+Toll
+Torstenson
+Tott
+Törnflycht
+Wallenstedt
+Wirsén
+Wittenberg
+Wrangel
+Wrangel af Adinal
+Wrangel af Salmis
+Wrangel af Sauss
+Wrede
+
+<Dynasty Names - Kaitoa>
+Abercromby
+Abernethy
+Adair
+Adam
+Agnew
+Aikenhead
+Ainslie
+Aiton
+Allardice
+Anderson
+Anstruther
+Arbuthnott
+Armstrong
+Arthur
+Auchinleck
+Baillie
+Baird
+Balfour
+Bannatyne
+Bannerman
+Barclay
+Baxter
+Bell
+Belshes
+Bethune
+Beveridge
+Bissett
+Blair
+Blane
+Borthwick
+Boswell
+Boyd
+Boyle
+Brisbane
+Brodie
+Broun
+Bruce
+Buchan
+Buchanan
+Butter
+Byses
+Cameron
+Campbell
+Campbell of Breadalbane
+Campbell of Cawdor
+Campbell of Possil
+Carmichael
+Carnegie
+Carruthers
+Cathcart
+Chalmers
+Charteris
+Chattan
+Cheyne
+Chisholm
+Clelland
+Clephane
+Cochrane
+Cockburn
+Colquhoun
+Colville
+Congilton
+Craig
+Cranstoun
+Crawford
+Crichton
+Crosbie
+Cumming
+Cunningham
+Dalmahoy
+Dalrymple
+Dalziel
+Darroch
+Davidson
+Dennistoun
+Dewar
+Donnachaidh
+Douglas
+Drummond
+Dunbar
+Dundas
+Dunlop
+Durie
+Edmonstone
+Eliott
+Elphinstone
+Erskine
+Ewing
+Fairlie
+Falconer
+Farquharson
+Fergusson
+Fleming
+Fletcher
+Forbes
+Forrester
+Forsyth
+Fotheringham
+Fraser
+Fraser of Lovat
+Fullarton
+Galbraith
+Galloway
+Gardyne
+Gartshore
+Ged
+Gordon
+Graham
+Grant
+Gray
+Gregor
+Grierson
+Gunn
+Guthrie
+Haig
+Haldane
+Haliburton
+Halkerston
+Halket
+Hall
+Hamilton
+Hannay
+Hay
+Henderson
+Hepburn
+Heron
+Herries
+Hogarth
+Hogg
+Home
+Hope
+Houston
+Hunter
+Innes
+Irvine
+Irving
+Jardine
+Johnstone
+Keith
+Kennedy
+Kerr
+Kincaid
+Kinloch
+Kinnaird
+Kinnear
+Kinninmont
+Kirkcaldy
+Kirkpatrick
+Laing
+Lammie
+Lamont
+Leask
+Lennox
+Leslie
+Lindsay
+Little
+Lockhart
+Logan
+Lumsden
+Lundin
+Lyle
+Lyon
+Nairn
+Napier
+Nesbitt
+Nicolson
+Paisley
+Paterson
+Pollock
+Preston
+Primrose
+Pringle
+Ralston
+Ramsay
+Rattray
+Riddell
+Rollo
+Rose
+Ross
+Russell
+Rutherford
+Ruthven
+Sandilands
+Scott
+Scrymgeour
+Sempill
+Seton
+Shaw of Tordarroch
+Sinclair
+Skene
+Somerville
+Spens
+Spottiswood
+Stewart
+Stirling
+Strachan
+Stuart of Bute
+Sutherland
+Swinton
+Sydserf
+Udny
+Urquhart
+Vans
+Walkinshaw
+Wallace
+Wardlaw
+Watson
+Wauchope
+Wedderburn
+Weir
+Wemyss
+Whitefoord
+Whitelaw
+Wishart
+Wood
+Young
+
+<Dynasty Names - Caldonia>
+Antinori
+Capponi
+Tasca D’Almerita
+Guarini
+Mazzei
+Frescobaldi
+Folonari
+Ricasoli
+di Lampedusa
+di Bagnoli
+di Calabria
+di Trabia
+degli Albizi
+della Gherardesca
+Alberici
+Aliprandi
+Archinto
+Arezzo
+Balbo
+Barbiano of Belgioioso
+Bianchi di Genova
+Biandrate
+Chacherano
+Carafa
+Casanova
+Castelli
+Coda
+Cogorno
+Colonna
+Crespini
+Della Chiesa
+Della Gherardesca
+Della Torre di Lavagna
+Della Torre di Valsassina
+Doria
+Gaetani
+Garretti
+Giffone
+Govone
+Grisaghi
+Lancellotti
+Lante Montefeltro della Rovere
+Lavagnino
+Malabarba
+Marsciano
+Montevecchio
+Orsini Rivalta
+Pallavicino
+Penelli
+Pio di Savoia
+Prossasco
+Radicati
+Ravaschieri
+Riario-Sforza
+Riccio
+Sammartino
+Scorza
+Sforza-Cesarini
+Transo
+Trotti-Bentivoglio
+Ugoni
+Valperga
+Ventimiglia
+Visconti
+
+<Dynasty Names - Theraos>
+del Pilar
+de las Morenas
+de Herrasti
+de Narváez
+de Lastra
+de Rubio
+de Floridablanca
+de Vicuña y Melgarejo
+Osorio
+Prieto
+de Quirós
+de Muñoz
+Spínola
+de la Cueva
+de Piña
+de Mendoza
+de Haro y Sotomayor
+de Moura
+de Sentmenat-Oms
+de Santa Pau
+de Lanuza
+de Hoyos y Rubín 
+de Celis
+de Bette
+de Guzman
+de Cortés
+Fajardodel Castillo y Maldonado
+de Cordova
+de Montemayor
+de Rebolledo
+de Cabrera
+de Bobadilla
+de Zúñiga
+Manrique
+Portocarrero
+de Sigas
+Muñoz
+de Almansa y Uriarte
+del Carmen Polo
+
+<Dynasty Names - Teutoni>
+Abercron
+Absberg
+Agilolfings‎
+Alvensleben
+Amsberg
+Aribonid
+Bassewitz
+Berchtold
+Bibra
+Bismarck
+Bleichröder
+Brunoids
+Brunswick-Bevern‎
+Clary und Aldringen
+Decken
+Eggenberg
+Fugger
+Hildebrand
+Hohenzollern
+In der Maur
+Leiningen
+Luitpoldings‎
+Lüneburg
+Morzin
+Münsterberg
+Nostitz
+Oettingen
+Oldenberg
+Schwarzenberg
+Schönburg
+Stauffenberg
+Thun
+Thurn
+Von Mohl
+Weizsäcker
+Welf
+Wilhelminer
+Wimpffen
+Wittelsbach‎
+Zedlitz
+Zähringen
+
+<Dynasty Names - Verdina>
+Abercromby
+Acton
+Aitken
+Annesley
+Anson
+Arbuthnot
+Arundell
+Asquith
+Astor
+Austen
+Backhouse
+Baden
+Banks
+Bathurst
+Battenburg
+Beresford
+Bodley
+Boleyn
+Bonham Carter
+Bowes
+Boyd
+Boyle
+Brassey
+Brownlow
+Buxton
+Byron
+Cavendish
+Cochrane
+Coke
+Compton
+Coneyngham
+Coote
+Craven
+Cubitt
+Cudworth
+Cuninghame
+Dawin
+Dawnay
+De Chair
+Denys
+Digby
+Drummond
+Dudley
+Duncombe
+Eden
+Edmonstone
+Egerton
+Every
+Fairfax
+Fane
+Feilding
+Festing
+Finch-Hatton
+FitzAlan
+FitzClarence
+FitzGeorge
+FitzRoy
+Forbes
+Fox
+Fulford
+Gage
+Garman
+Gaveston
+Gest
+Gladstone
+Glyn
+Gore
+Gorges
+Grandison
+Greenwood
+Greville
+Grosvenor
+Guinness
+Haden
+Harington
+Harley
+Hervey
+Hobart
+Holmes
+Hood
+Hungerford
+Hyde
+Ingilby
+Jermyn
+Keppel
+Lambton
+Lanigan
+Layland
+Legge
+Lindsay
+Livingston
+Loftus
+Long
+Lowry
+Lowther
+Lyall
+Lygon
+Lyttleton
+Manners
+Maugham
+Middleton
+Milton
+Mitford
+Montgomery
+Mortimer
+Myddleton
+Naylor
+Nightingale
+Norman
+North
+O'Keefe
+of Newcastle-upon-Tyne
+Osborne
+Paget
+Pakenham
+Palmer
+Paston
+Pease
+Percy
+Pitt
+Ponsonby
+Portman
+Primrose
+Raleigh
+Rashleigh
+Rich
+Ridley
+Rolle
+Rothschild
+Sandys
+Selby
+Shand
+Southcott
+Streatfeild
+Trafford
+Van Cutsem
+Vernon
+Vestey
+Waller-Bridge
+Wintour
+Wodeshouse
+Worsley
+
+<Dynasty Names - Vagröm>
+Abamelik
+Aminoff
+Andronikashvili
+Buxhoeveden
+Chelichev
+Demidov
+Dulgorukov
+Dostroyevsky
+Durnovo
+Gagarin
+Gantimurov
+Golitsyn
+Gorchakov
+Gruszecki
+Hendrikov
+Guireli
+Karachay
+Khanenko
+Khilkov
+Khvostov
+Lieven
+Lobanov
+Lopukhin
+Lyapunov
+Massalski
+Mengden
+Menishkov
+Naryshkin
+Obolensky
+Pahlen
+Poltoratsky
+Potemkin
+Razumovsky
+Romodanovsky
+Rurikid
+Sheremetev
+Shervashidze
+Shuvalov
+Shuysky
+Stroganov
+Suvorov
+Teglev
+Tereshchenko
+Tolstoy
+Ulyanov
+Volkonsky
+Vorontsov
+Yusupov
+
+*******************************************************************************************************\[STOP]
+[TEMPLATES]
+*******************************************************************************************************\[START]
+<Minor NPC Templates - Age>
+Commoner - Age,displaycost(varies),cost(0),
+	description(),
+	hide(yes),
+	replacetags(in char with "age(%age%),bgSkillPts(%agealias%),bgSkillUpto(%agealt1list%)" #preserve),
+	x(_
+		#ChoiceList(_
+			name(age),
+			title(Age),
+			text(Choose your approximate age),
+			picksallowed(1),
+			method(bynumber),
+			list(_
+				"Teen",
+				"Young",
+				"Middle Age",
+				"Elderly"_
+			),
+			aliaslist(_
+				"2",
+				"8",
+				"12",
+				"18"_
+			),
+			alt1list(_
+				"1",
+				"2",
+				"4",
+				"8"_
+			)_
+		)_
+	),y(#deleteme)
+	
+Age - Teen,displaycost(),cost(0),
+	description(),
+	hide(yes),
+	triggers(_
+		sets(_
+			"ST:ST"=$if(@roll(3) < 5 then 12 elseif @lastroll() < 7 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		),
+		sets(_
+			"ST:DX"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 15 then 9 else 8)_
+		),
+		sets(_
+			"ST:IQ"=$if(@roll(3) < 5 then 12 elseif @lastroll() < 8 then 11 elseif @lastroll() < 12 then 10 elseif @lastroll() < 15 then 9 else 8)_
+		),
+		sets(_
+			"ST:HT"=$if(@roll(3) < 5 then 12 elseif @lastroll() < 8 then 11 elseif @lastroll() < 12 then 10 elseif @lastroll() < 15 then 9 else 8)_
+		)_
+	),
+	x(#deleteme)
+
+Age - Young,displaycost(),cost(0),
+	description(),
+	hide(yes),
+	triggers(_
+		sets(_
+			"ST:ST"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 12 then 10 elseif @lastroll() < 17 then 9 else 8)_
+		),
+		sets(_
+			"ST:DX"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 14 then 10 elseif @lastroll() < 17 then 9 else 8)_
+		),
+		sets(_
+			"ST:IQ"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		),
+		sets(_
+			"ST:HT"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		)_
+	),
+	x(#deleteme)
+	
+Age - Middle Age,displaycost(),cost(0),
+	description(),
+	hide(yes),
+	triggers(_
+		sets(_
+			"ST:ST"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		),
+		sets(_
+			"ST:DX"=$if(@roll(3) < 6 then 12 elseif @lastroll() < 8 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		),
+		sets(_
+			"ST:IQ"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		),
+		sets(_
+			"ST:HT"=$if(@roll(3) < 5 then 13 elseif @lastroll() < 7 then 12 elseif @lastroll() < 9 then 11 elseif @lastroll() < 13 then 10 elseif @lastroll() < 16 then 9 else 8)_
+		)_
+	),
+	x(#deleteme)
+	
+Age - Elderly,displaycost(),cost(0),
+	description(),
+	hide(yes),
+	triggers(_
+		sets(_
+			"ST:ST"=$if(@roll(3) < 5 then 12 elseif @lastroll() < 8 then 11 elseif @lastroll() < 11 then 10 elseif @lastroll() < 14 then 9 else 8)_
+		),
+		sets(_
+			"ST:DX"=$if(@roll(3) < 5 then 12 elseif @lastroll() < 7 then 11 elseif @lastroll() < 12 then 10 elseif @lastroll() < 15 then 9 else 8)_
+		),
+		sets(_
+			"ST:IQ"=$if(@roll(3) < 5 then 14 elseif @lastroll() < 7 then 13 elseif @lastroll() < 9 then 12 elseif @lastroll() < 11 then 11 elseif @lastroll() < 15 then 10 else 9)_
+		),
+		sets(_
+			"ST:HT"=$if(@roll(3) < 5 then 12 elseif @lastroll() < 7 then 11 elseif @lastroll() < 11 then 10 elseif @lastroll() < 15 then 9 else 8)_
+		)_		
+	),
+	x(#deleteme)
+
+
+	
+<Minor NPC Templates - Experience>
+Experience - Novice, displaycost(),cost(0),
+	description(),
+	hide(yes),
+	replacetags(in char with "Experience(Novice),ExpAdvPts(10),ExpPrimPts(4),ExpPrimPts2(2),ExpSecPts(2),ExpSecUpto(1)" #preserve)
+	
+Experience - Apprentice, displaycost(),cost(0),
+	description(),
+	hide(yes),
+	replacetags(in char with "Experience(Apprentice),ExpAdvPts(15),ExpPrimPts(8),ExpPrimPts2(4),ExpSecPts(4),ExpSecUpto(2)" #preserve)
+	
+Experience - Journeyman, displaycost(),cost(0),
+	description(),
+	hide(yes),
+	replacetags(in char with "Experience(Journeyman),ExpAdvPts(20),ExpPrimPts(12),ExpPrimPts2(8),ExpSecPts(8),ExpSecUpto(4)" #preserve)
+	
+Experience - Master, displaycost(),cost(0),
+	description(),
+	hide(yes),
+	replacetags(in char with "Experience(Master),ExpAdvPts(25),ExpPrimPts(16),ExpPrimPts2(12),ExpSecPts(16),ExpSecUpto(12)" #preserve)
+
+<Minor NPC Templates - Names>
+Pick a name - Argomu,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Argomu Male Names))), #list(Argomu Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Argomu Female Names))), #list(Argomu Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Argomu Male Names), #list(Argomu Female Names)), template(%listitem%)))), #BuildList(list(#list(Argomu Male Names), #list(Argomu Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Bomania,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Bomani Male Names))), #list(Bomani Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Bomani Female Names))), #list(Bomani Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Bomani Male Names), #list(Bomani Female Names)), template(%listitem%)))), #BuildList(list(#list(Bomani Male Names), #list(Bomani Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Teutoni,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Teutoni Male Names))), #list(Teutoni Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Teutoni Female Names))), #list(Teutoni Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Teutoni Male Names), #list(Teutoni Female Names)), template(%listitem%)))), #BuildList(list(#list(Teutoni Male Names), #list(Teutoni Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Erilö,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Erilö Male Names))), #list(Erilö Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Erilö Female Names))), #list(Erilö Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Erilö Male Names), #list(Erilö Female Names)), template(%listitem%)))), #BuildList(list(#list(Erilö Male Names), #list(Erilö Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Kaitoa,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Kaitoa Male Names))), #list(Kaitoa Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Kaitoa Female Names))), #list(Kaitoa Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Kaitoa Male Names), #list(Kaitoa Female Names)), template(%listitem%)))), #BuildList(list(#list(Kaitoa Male Names), #list(Kaitoa Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Caldonia,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Caldonia Male Names))), #list(Caldonia Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Caldonia Female Names))), #list(Caldonia Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Caldonia Male Names), #list(Caldonia Female Names)), template(%listitem%)))), #BuildList(list(#list(Caldonia Male Names), #list(Caldonia Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Theraos,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Theraos Male Names))), #list(Theraos Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Theraos Female Names))), #list(Theraos Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Theraos Male Names), #list(Theraos Female Names)), template(%listitem%)))), #BuildList(list(#list(Theraos Male Names), #list(Theraos Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Vagröm,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Vagröm Male Names))), #list(Vagröm Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Vagröm Female Names))), #list(Vagröm Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Vagröm Male Names), #list(Vagröm Female Names)), template(%listitem%)))), #BuildList(list(#list(Vagröm Male Names), #list(Vagröm Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+
+Pick a name - Verdina,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with $if(@sametext($val(char::gender), "man") then "name($indexedvalue(@random(@ItemsInList(#list(Verdina Male Names))), #list(Verdina Male Names)))" else _
+			$if(@sametext($val(char::gender),"woman") then "name($indexedvalue(@random(@ItemsInList(#list(Verdina Female Names))), #list(Verdina Female Names)))" else _
+				"name($indexedvalue(@random(@ItemsInList(#BuildList(list(#list(Verdina Male Names), #list(Verdina Female Names)), template(%listitem%)))), #BuildList(list(#list(Verdina Male Names), #list(Verdina Female Names)), template(%listitem%))))" ))#preserve)_
+	),x(#deleteme)
+	
+Pick a name - Other Nationality,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with "name($val(char::nationality) name)" #preserve)_
+	),
+	x( #deleteme )
+	
+Pick a name - Any Nation,displaycost(),cost(0),
+	description(),
+	vars(_
+		%nation% = $indexedvalue(@random(@ItemsInList(#list(Nations List))), #list(Nations List))_
+	),
+	triggers(_
+		adds(_
+			{TE: Pick a name - $indexedvalue(@random(@ItemsInList(#list(Nations List))), #list(Nations List))} #DoNotOwn_
+		)_
+	),
+	x(#deleteme)
+	
+//Pick a name - Any Gender,displaycost(),cost(0),
+	// description(),
+	// triggers(_
+		// replacetags(in char with "gender()" #preserve),
+		// adds( {TE:Pick a name - $val(char::nationality)} )_
+	// ),x(#deleteme)
+
+// Pick a name - Man,displaycost(),cost(0),
+	// description(),
+	// triggers(_
+		// replacetags(in char with "gender(man)" #preserve),
+		// adds( {TE:Pick a name - $val(char::nationality)} )_
+	// ),x(#deleteme)
+
+// Pick a name - Woman,displaycost(),cost(0),
+	// description(),
+	// triggers(_
+		// replacetags(in char with "gender(woman)" #preserve),
+		// adds( {TE:Pick a name - $val(char::nationality)} )_
+	// ),x(#deleteme)
+	
+Pick a Dynasty Name - Argomu,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Argomu))), #BuildList(list(#list(Dynasty Names - Argomu)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Bomania,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Bomania))), #BuildList(list(#list(Dynasty Names - Bomania)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Teutoni,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Teutoni))), #BuildList(list(#list(Dynasty Names - Teutoni)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Erilö,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Erilö))), #BuildList(list(#list(Dynasty Names - Erilö)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Kaitoa,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Kaitoa))), #BuildList(list(#list(Dynasty Names - Kaitoa)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Caldonia,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Caldonia))), #BuildList(list(#list(Dynasty Names - Caldonia)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Theraos,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Theraos))), #BuildList(list(#list(Dynasty Names - Theraos)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Vagröm,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Vagröm))), #BuildList(list(#list(Dynasty Names - Vagröm)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+Pick a Dynasty Name - Verdina,displaycost(),cost(0),
+	description(),
+	triggers(_
+		replacetags(in char with {name($val(char::name) $indexedvalue(@random(@ItemsInList(#list(Dynasty Names - Verdina))), #BuildList(list(#list(Dynasty Names - Verdina)), template(%listitem%))))} #preserve) _
+	),x(#DeleteMe)
+
+
+<Minor NPC Templates - Courtiers>
+Courtier - Argomu,displaycost(varies),cost(),
+	description(An Argomu courtier),
+	triggers(_
+		replacetags(in char with "nationality(Argomu)" #preserve),
+		adds(_
+			{LA:Argomu}==3 #DoNotOwn with "Native Language, -6, gives(=+1 to ST:Native Languages, =-"AD:Language Talent::level" to owner::level), group(Native Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+			
+Courtier - Teutoni,displaycost(varies),cost(0),
+	description(A Teutoni courtier),
+	triggers(_
+		replacetags(in char with "nationality(Teutoni)" #preserve),
+		adds(_
+			{LA:Teutoni}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Bomania,displaycost(varies),cost(0),
+	description(A South Bomani courtier),
+	triggers(_
+		replacetags(in char with "nationality(Bomania)"),
+		adds(_
+			{LA:Bomani}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)"_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Theraos,displaycost(varies),cost(0),
+	description(A Theraonian courtier),
+	triggers(_
+		replacetags(in char with "nationality(Theraos)" #preserve),
+		adds(_
+			{LA:Theraonian}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Caldonia,displaycost(varies),cost(0),
+	description(A Caldonian courtier),
+	triggers(_
+		replacetags(in char with "nationality(Caldonia)" #preserve),
+		adds(_
+			{LA:Caldonian}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Verdina,displaycost(varies),cost(0),
+	description(A Verdinian courtier),
+	triggers(_
+		replacetags(in char with "nationality(Verdina)" #preserve),
+		adds(_
+			{LA:Verdinian}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Kaitoa,displaycost(varies),cost(0),
+	description(A Kaitoan courtier),
+	triggers(_
+		replacetags(in char with "nationality(Kaitoa)" #preserve),
+		adds(_
+			{LA:Kaitoan}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Verdinian}#DoNotOwn=@if(@roll(3) < 13 then 3 else 2)_
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Vagröm,displaycost(varies),cost(0),
+	description(A Vagröm courtier),
+	triggers(_
+		replacetags(in char with "nationality(Vagröm)" #preserve),
+		adds(_
+			{LA:Vagröm}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			TE:Courtier #DoNotOwn_
+		)_
+	)
+	
+Courtier - Erilö,displaycost(varies),cost(0),
+	description(A Drigian courtier),
+	triggers(_
+		replacetags(in char with "nationality(Erilö)" #preserve),
+		adds(_
+			{LA:Drigian}==3 #DoNotOwn WITH "Native Language, -6, gives(=+1 to ST:Native Languages), formula(-@if(AD:Language Talent > 0 then 4 else 6)), forceformula(yes), group(Language), page(B23)",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			{TE:Courtier} #DoNotOwn_
+		)_
+	)
+	
+Courtier - Other,displaycost(varies),cost(0),
+	description(A Drigian courtier),
+	triggers(_
+		replacetags(in char with "nationality(Other)" #preserve),
+		adds(_
+			{LA:Language - Native}==3 #NoNeeds respond "Native Language",
+			{LA:Bomani}#DoNotOwn=@if(@roll(3) < 7 then 3 elseif @lastroll() < 16 then 2 else 1)_
+		),
+		adds(_
+			{TE:Courtier} #DoNotOwn_
+		)_
+	)
+
+Courtier - Any Nation, displaycost(varies),cost(0),
+	description(A courtier from somewhere.),
+	triggers(_
+		adds(_
+			{TE:Courtier - $indexedvalue(@random(@ItemsInList(#list(Nations List))), #list(Nations List))} #DoNotOwn_
+		)_
+	),x(#DeleteMe)
+	
+Courtier,displaycost(varies),cost(0),
+	description(\viewkind4\uc1\pard\sa50\qj\expndtw13\f0\fs15 Where there’s wealth and power, there’s inevitably hangers-on. Such courtiers may be nobility who don’t stand to inherit, poor nobles with no power or position, career functionaries, socialites, mistresses, wealthy merchants who can afford to hobnob with aristocrats or anybody who manages to engage the interest of the powerful. They act as a sort of “celebrity entourage,” providing support and companionship in return for reflected glory and access to powerful friends. They may deliver sensitive letters, back their patron up in a fight, make arrangements for parties or make sure rooms and carriages are ready by ordering the servants around. They do the work of flunkies, but they do it with grace and style.),
+	#get(rollvar),
+	hide(yes),
+	vars(_
+		%RandomSkillAgeLevel% = @indexedvalue(@random(3), @if($val(char::age) = "Teen" then 1,2,4 elseif $val(char::age) = "Young" then 2,4,8 elseif $val(char::age) = "Middle Age" then 4,8,12 elseif $val(char::age) = "Elderly" then 4,8,16 else 2,4,8))_
+	),
+	triggers(_
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		adds(_
+			{TE:Pick a name - $val(char::nationality)}#NoNeeds_
+		),
+		adds(_
+			{TE:Pick a Dynasty Name - $val(char::nationality)}#NoNeeds_
+		),
+		select(_
+			text(Choose disadvantages),
+			itemswanted(atleast 1),
+			pointswanted(atleast -30, upto -20),
+			list(_
+				#newitem(_
+					DI:Reputation, -5/-10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Disadvantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Pompous Poser),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				),
+				#newitem(DI:Intolerance (Plebians), cost(-5), page(B140)),
+				#newitem(DI:Sense of Duty (Friends), -5),
+				#newitem(DI:Sense of Duty (Nation), -10),
+				DI:Appearance,
+				DI:Bad Temper,
+				DI:Bully,
+				DI:Callous,
+				DI:Charitable,
+				DI:Chummy,
+				DI:Code of Honor (Chivalry),
+				DI:Compulsive Carousing,
+				DI:Compulsive Gambling,
+				DI:Compulsive Generosity,
+				DI:Compulsive Spending,
+				DI:Cowardice,
+				DI:Fearfulness #codes(upto 3),
+				DI:Gluttony,
+				DI:Greed,
+				DI:Guilt Complex,
+				DI:Honesty,
+				DI:Impulsiveness,
+				DI:Lecherousness,
+				DI:Loner,
+				DI:Miserliness,
+				DI:No Sense of Humor,
+				DI:Oblivious,
+				DI:Overconfidence,
+				$if("AD:Combat Reflexes" < 1 | "AD:Military Rank" < 1 then DI:Pacifism (Reluctant Killer)),
+				DI:Selfish,
+				DI:Selfless,
+				DI:Stubbornness_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			pointswanted(atleast 0),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		addsorincreases(_
+			{AD:Status}#DoNotOwn==@random(4),
+			{AD:Wealth}#DoNotOwn==@random(4)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted($eval(char::ExpAdvPts)),
+			itemswanted(atleast 1),
+			multitype(yes),
+			list(_
+				$if(DI:Appearance = 0 then "AD:Appearance" else ""),
+				#newitem(AD:Contact Group (Courtiers and Nobles), 10),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Influential),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				),
+				#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Patron),
+				initmods(_
+					Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+					)_
+				),
+				{AD:Combat Reflexes},
+				{AD:Administrative Rank},
+				{AD:Military Rank},
+				{AD:Language Talent} _
+			)_
+		),
+		addsorincreases(_
+			$if("AD:Military Rank" > 0 then _
+				"SK:Soldier" = %RandomSkillAgeLevel%pts #NoNeeds,
+				"SK:Tactics" = %RandomSkillAgeLevel%pts #NoNeeds,
+				"SK:Guns (Pistol)" = %RandomSkillAgeLevel%pts #NoNeeds _
+			),
+			$if("AD:Administrative Rank" > 0 then _
+				"SK:Administration" = %RandomSkillAgeLevel%pts #NoNeeds,
+				"SK:Finance" = %RandomSkillAgeLevel%pts #NoNeeds_
+			),
+			$if("AD:Appearance" > 0 then "SK:Sex Appeal" = %RandomSkillAgeLevel%pts #NoNeeds)_
+		),
+		select(_
+			text(Optionally add additional languages),
+			pointswanted(upto 8),
+			conditional(@if("AD:Language Talent" > 0 then 1 elseif @roll(3) < 9 then 1 else 0)),
+			itemswanted(@if("AD:Language Talent" > 0 then $eval(@random(3)) else $eval(@random(2)))),
+			list(_
+				#BuildList(list(Argomu, Bomani, Caldonian, Drigian, Kaitoan, Teutoni, Theraonian, Verdinian, Vagröm), template({LA:%listitem%} #codes(upto 3)))_
+			)_
+		),
+		adds(_
+			{TE:Western Fighting Styles} #DoNotOwn_
+		),
+		addsorincreases(_
+			#list(Courtier Primary Skills, append(=1pts #NoNeeds))_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted(upto 1000),
+			itemswanted(atleast @random(4)),
+			list(_
+				#BuildList(list(#list(Courtier Primary Skills)), template(%listitem% #codes(upto $val(char::ExpPrimPts), downto $val(char::ExpPrimPts))))_
+			)_
+		),
+		select(_
+			text(Spend $eval($val(char::ExpPrimPts2) - 1) more points in your primary skills),
+			pointswanted(upto 1000),
+			itemswanted(@random(@ItemsInList(#list(Courtier Primary Skills)))),
+			list(_
+				#BuildList(list(#list(Courtier Primary Skills)), template(%listitem% #codes(upto $val(char::ExpPrimPts2), downto $val(char::ExpPrimPts2)))),
+				#BuildCharItemList(Skills where charFightingStyle is "yes", template(%listitem% #codes(upto $val(char::ExpPrimPts2), downto $val(char::ExpPrimPts2))))_
+			)_
+		),
+		select(_
+			text(Choose one instrument),
+			conditional(@if(@roll(3) < 15 then 1 else 0)),
+			pointswanted(atleast 1),
+			itemswanted(1),
+			tagwith(courtierInstrument(yes)),
+			list(_
+				#newitem(SK:Musical Instrument (Lute), type(IQ/H)),
+				#newitem(SK:Musical Instrument (Harp), type(IQ/H)),
+				#newitem(SK:Musical Instrument (Organ), type(IQ/H)),
+				#newitem(SK:Musical Instrument (Harpsichord), type(IQ/H))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted(atleast $eval(char::ExpSecPts), upto $eval($val(char::ExpSecPts)*2)),
+			itemswanted(atleast 2, upto @ItemsInList(#list(Courtier Secondary Skills))),
+			list(_
+				$if(SK:Musical Instrument (Lute) > 0 then "SK:Musical Instrument (Lute)" elseif SK:Musical Instrument (Harp) > 0 then "SK:Musical Instrument (Harp)" elseif SK:Musical Instrument (Organ) > 0 then "SK:Musical Instrument (Organ)" elseif SK:Musical Instrument (Harpsichord) > 0 then "SK:Musical Instrument (Harpsichord)"),
+				#list(Courtier Secondary Skills)_
+			)_
+		),
+		addsorincreases(_
+			$indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)),
+			$indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)),
+			$indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)),
+			$if($sametext($val(char::age), "Young") then $indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List))),
+			$if($sametext($val(char::age), "Middle Age") then $indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)), $indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List))),
+			$if($sametext($val(char::age), "Elderly") then $indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)), $indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)), $indexedvalue(@random(@ItemsInLibraryList(Commoner Background Skills)), #list(Commoner Background List)))_
+		),
+		adds(_
+			$if("SK:Guns (Pistol)" > 0 then $if(@roll(3) < 6 then {"EQ:Military Pistol" #loadout(Regular)} elseif @lastroll() < 13 then {"EQ:Pocket Pistol" #loadout(Regular)} else {"EQ:Puffer Pistol" #loadout(Regular)}) else "")_
+		)_
+	)
+	
+<Fighting Styles - Choose>
+Western Fighting Styles, displaycost(), cost(0),
+	description(),
+	triggers(_
+		adds(_
+			$if(@sametext($val(char::nationality),"Vagröm") then _
+				$if(@roll(3) < 13 then {"TE:Fencing - Vagröm Saber (NPC Templates)" #DoNotOwn} else {%stylealias% #DoNotOwn}) else _
+				$if(@sametext($val(char::nationality),"Theraos") then _
+					$if(@roll(3) < 15 then {"TE:Fencing - La Verdadera Destreza (NPC Templates)" #DoNotOwn} else {%stylealias% #DoNotOwn}) else _
+					$if( @sametext($val(char::nationality),"Bomania") then _
+						$if(@roll(3) < 5 then {"TE:Fencing - Vagröm Saber (NPC Templates)" #DoNotOwn} elseif @lastroll() < 14 then {"TE:Fencing - South Bomani School (NPC Templates)" #DoNotOwn} elseif @lastroll() < 16 then {"TE:Fencing - North Bomani School (NPC Templates)" #DoNotOwn} else {%stylealias% #DoNotOwn}) else _
+						$if(@sametext($val(char::nationality),"Teutoni") | @sametext($val(char::nationality),"Argomu") then _
+							$if(@roll(3) < 7 then {"TE:Longsword Fighting (NPC Templates)" #DoNotOwn} else {%stylealias% #DoNotOwn}) else _
+							$if(@sametext($val(char::nationality),"Verdina") then _
+								$if(@roll(3) < 9 then {"TE:Fencing - North Bomani School (NPC Templates)" #DoNotOwn} else {%stylealias% #DoNotOwn}) else _
+								$if(@sametext($val(char::nationality),"Caldonia") then _
+									$if(@roll(3) < 12 then {"TE:Fencing - Caldonian School (NPC Templates)" #DoNotOwn} else {%stylealias% #DoNotOwn}) else _
+									{%stylealias% #DoNotOwn}_
+								)_
+							)_
+						)_
+					)_
+				)_
+			)_
+		)_
+	),
+	x(_
+		#ChoiceList(_
+			name(style),
+			title(Fighting Style),
+			text(Choose your fighting style),
+			list(_
+				"Longsword Fighting",
+				"Fencing - Caldonian School",
+				"Fencing - La Verdadera Destreza",
+				"Fencing - South Bomani School",
+				"Fencing - North Bomani School"_
+			),
+			aliaslist(_
+				"TE:Longsword Fighting (NPC Templates)",
+				"TE:Fencing - Caldonian School (NPC Templates)",
+				"TE:Fencing - La Verdadera Destreza (NPC Templates)",
+				"TE:Fencing - South Bomani School (NPC Templates)",
+				"TE:Fencing - North Bomani School (NPC Templates)"_
+			)_
+		),
+		#DeleteMe_
+	)
+
+<Etian Fighting Styles>
+Longsword Fighting (NPC Templates), displaycost(5),
+	description(Teutoni Longsword Fighting is the traditional style of Teutoni, now going out of fashion with the rise of the rapier. However, it is still popular among the more conservative nobility and as sport for commoners.),
+	page(MA180),
+	cat(NPC Styles, Styles, Styles - Realistic Styles, Styles - Realistic Styles - Martial Arts),
+	triggers(_
+		addsorincreases(_
+			{PE:Style Familiarity (Teutoni Longsword Fighting)},
+			#buildlist(list(#list(Style Primary Skills Longsword Fighting)), template({SK:%ListItem%}=1pts))#NoNeeds_
+		),
+		mergetags(in "SK:Brawling" with "charFightingStyle(yes)", in "SK:Judo" with "charFightingStyle(yes)", in "SK:Knife" with "charFightingStyle(yes)", in "SK:Two-Handed Sword" with "charFightingStyle(yes)"),
+		select(_
+			text(Primary Skills: Select from the following skills.),
+			multitype(yes),
+			pointswanted(atleast 1, upto 11),
+			itemswanted(atleast 1),
+			list(_
+				#buildlist(list(#list(Style Primary Skills Longsword Fighting)), template(SK:%ListItem%))_
+			)_
+		),
+		select(_
+			text(You may select from among the following Techniques:),
+			pointswanted(atleast 2, upto 1000),
+			itemswanted(atleast 1, upto 5),
+			list(_
+				#list(Techniques Longsword Fighting)_
+			)_
+		),
+		select(_
+			text(You may select from among the following Perks:),
+			multitype(yes),
+			pointswanted(upto 1000),
+			itemswanted(atleast 1),
+			list(_
+				PE:Sure-Footed (Uneven),
+				#newitem(PE:Armor Familiarity (Judo), 1, cat(Style Perks - Realistic), page(MA49)),
+				#newitem(PE:Grip Mastery (Longsword), 1, cat(Style Perks - Realistic), page(MA50))_
+			)_
+		),
+		select(_
+			text(You may select from among the following Optional Traits:),
+			multitype(yes),
+			pointswanted(atleast @random(0, 8), upto @random(8,16)),
+			itemswanted(upto 1000), multitype(yes),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				{SK:Broadsword},
+				{SK:Fast-Draw (Knife)},
+				{SK:Two-Handed Axe/Mace},
+				{SK:Wrestling}_
+			)_
+		),
+		adds(_
+			{EQ:Longsword} #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment"_
+		)_
+	)
+
+	
+Fencing - Caldonian School (NPC Templates), displaycost(5),
+	description(An overall aggressive style with a focus on attacking in "tempo", following and exploiting the rhythm of battle, and controlling your opponent's weapons. It has clear rules for various stances and maneuvers based on theories of physics and geometry, however the student is expected to learn them well enough to naturally adapt them to the situation. The geometry behind it is more of an explanation than a mantra; there is not a culture of "pure doctrine" as in the Theraonian style. Ultimately, it is a pragmatic style with the aim of killing your opponent quickly before they kill you.),
+	page(MA156),
+	cat(NPC Styles, Styles, Styles - Realistic Styles, Styles - Realistic Styles - Martial Arts),
+	triggers(_
+		addsorincreases(_
+			{PE:Style Familiarity (Fencing - Caldonian School)},
+			#buildlist(list(#list(Style Primary Skills Fencing - Italian School)), template({SK:%ListItem%}=1pts))#NoNeeds_
+		),
+		mergetags(in "SK:Main-Gauche" with "charFightingStyle(yes)", in "SK:Rapier" with "charFightingStyle(yes)", in "SK:Shield (Buckler)" with "charFightingStyle(yes)", in "SK:Wrestling" with "charFightingStyle(yes)"),
+		select(_
+			text(Increase your primary skills),
+			multitype(yes),
+			pointswanted(atleast 1, upto 11),
+			itemswanted(atleast 1),
+			list(_
+				#buildlist(list(#list(Style Primary Skills Fencing - Italian School)), template(SK:%ListItem%))_
+			)_
+		),
+		select(_
+			text(You may select from among the following Techniques:),
+			multitype(yes),
+			pointswanted(atleast @random(2,4)),
+			itemswanted(atleast 1),
+			list(_
+				#list(Techniques Fencing - Italian School)_
+			)_
+		),
+		select(_
+			text(You may select from among the following optional Skills:),
+			pointswanted(upto 1000),
+			itemswanted(atleast @random(6)),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				{SK:Broadsword},
+				{SK:Cloak},
+				{SK:Jumping},
+				#newitem(SK:Rapier Art, type(DX/A), default(DX-5, SK:Rapier - 3), page(B208), parryat(@int(%level/2)+3)),
+				{SK:Spear},
+				{SK:Two-Handed Sword}_
+			)_
+		),
+		adds(_
+			"EQ:Edged Rapier" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment",
+			$if(SK:Main-Gauche > "SK:Shield (Buckler)" then "EQ:Main-Gauche" #loadout(Regular)#DoNotOwn with "#ref Equipment: Styling=1 from Equipment"),
+			$if("SK:Shield (Buckler)" > SK:Main-Gauche then "EQ:Dueling Buckler" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment"),
+			$if(SK:Cloak > 0 then "EQ:Light Cloak" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment")_
+		)_
+	)
+
+Fencing - La Verdadera Destreza (NPC Templates), displaycost(4),
+	description(Theraos has developed a distinctive style they call La Verdadera Destreza, "The True Skill", with a greater focus on geometry, but also on honour, dignity and elegance. They have taken the idea of turning battle and the human body into circles and angles to its extreme. The Theraonian swordsperson, the diestro, stands with straight back, their feet close to their arm and their sword at a straight angle out from the body, always aiming at their opponent. The philosophy is that with a straight angle, the practitioner can, with the slightest movement, fend off his opponent and his weapon from any angle of attack; a slight movement of the wrist, a step to the side, that sort of thing.),
+	page(MA158),
+	cat(NPC Styles, Styles, Styles - Realistic Styles, Styles - Realistic Styles - Martial Arts),
+	triggers(_
+		addsorincreases(_
+			{PE:Style Familiarity (Fencing - La Verdadera Destreza)},
+			#buildlist(list(#list(Style Primary Skills Fencing - La Verdadera Destreza)), template({SK:%ListItem%}=1pts))#NoNeeds_
+		),
+		mergetags(in "SK:Expert Skill (Natural Philosophy)" with "charFightingStyle(yes)", in "SK:Mathematics (Pure)" with "charFightingStyle(yes)", in "SK:Rapier" with "charFightingStyle(yes)"),
+		select(_
+			text(Primary Skills: Select from the following skills and Style Familiarity Perk. In order to take the Style Familiarity Perk you must take at least 1 point in each of the skills.),
+			multitype(yes),
+			pointswanted(atleast 1, upto 11),
+			itemswanted(atleast 1),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				#buildlist(list(#list(Style Primary Skills Fencing - La Verdadera Destreza)), template(SK:%ListItem%))_
+			)_
+		),
+		select(_
+			text(You may select from among the following Techniques:),
+			multitype(yes),
+			pointswanted(upto 1000),
+			itemswanted(atleast 1),
+			list(_
+				#list(Techniques Fencing - La Verdadera Destreza)_
+			)_
+		),
+		select(_
+			text(You may select from the following optional Skills:),
+			pointswanted(upto 1000),
+			itemswanted(atleast @random(1,4)),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				SK:Body Language,
+				#newitem(SK:Philosophy (Hermetic), IQ/H, default(IQ - 6), page(B213), cat(_General, Social Sciences/Humanities)),
+				#newitem(SK:Rapier Art, type(DX/A), default(DX-5, SK:Rapier - 3), page(B208), parryat(@int(%level/2)+3)),
+				#newitem(SK:Rapier Sport, type(DX/A), default(DX-5, SK:Rapier - 3), page(B208), parryat(@int(%level/2)+3))_
+			)_	
+		),
+		adds(_
+			"EQ:Light Edged Rapier" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment"_
+		)_
+	)
+
+Fencing - South Bomani School (NPC Templates), displaycost(4),
+	description(A relatively young style that in many ways is the exact opposite of the Theraonian school. However, there are a few similarities; it concentrates exclusively on the sword and it is in many ways an even more pronounced civilian style than the Theraonian. It has an established sporting element whereas the others are exclusively for duels. The Bomani style generally uses a slightly shorter rapier (Edged Light Rapier) and exploits mobility more than either of the others. They often start defensively with Wait and Evaluate to evaluate their opponent, and after a parry respond with an overwhelming counterattack. A Deceptive Attack combined with a Committed or All-Out Attack is common. With their shorter rapiers it's also not uncommon for them to enter/end up in close combat, so Close Combat (Rapier) is a good fit, especially since they don't train unarmed.),
+	page(MA158),
+	cat(NPC Styles, Styles, Styles - Realistic Styles, Styles - Realistic Styles - Martial Arts),
+	triggers(_
+		creates(_
+			{SK:Rapier Art, type(DX/A), default(DX-5, Rapier - 3), page(B208), parryat(@int(%level/2)+3)}=1pts_
+		),
+		addsorincreases(_
+			{PE:Style Familiarity (Fencing - South Bomani School)},
+			#buildlist(list(#list(Style Primary Skills Fencing - South Bomani School)), template({%ListItem%}=1pts))#NoNeeds_
+		),
+		replacetags(in "SK:Rapier Art" with "charFightingStyle(yes)", in "SK:Rapier" with "charFightingStyle(yes)", in "SK:Games (Sport Rapier)" with "charFightingStyle(yes)"),
+		select(_
+			text(Primary Skills: Select from the following skills),
+			multitype(yes),
+			pointswanted(atleast @random(11)),
+			itemswanted(atleast 1),
+			list(_
+				#buildlist(list(#list(Style Primary Skills Fencing - South Bomani School)), template(%ListItem%))_
+			)_
+		),
+		select(_
+			text(You may select from among the following Techniques:),
+			multitype(yes),
+			pointswanted(atleast 2),
+			itemswanted(atleast @random(@ItemsInList(Techniques Fencing - Bomani School))),
+			list(_
+				#list(Techniques Fencing - Bomani School)_
+			)_
+		),
+		select(_
+			text(You may select from among the following Optional Skills:),
+			multitype(yes),
+			pointswanted(atleast 0, upto 8),
+			itemswanted(atleast @random(0,4), upto 4), multitype(yes),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				SK:Acrobatics,
+				SK:Broadsword,
+				SK:Jumping,
+				SK:Main-Gauche_
+			)_
+		),
+		adds(_
+			"EQ:Light Edged Rapier" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment"_
+		)_
+	)
+	
+Fencing - Vagröm Saber (NPC Templates),displaycost(),cost(0),
+	description(En ny import från norr som spridits till Bomaniet. Sabelfäktning är inte lika fashionabelt som värjor bland adeln, men bland militären har den blivit populär. Den började bland de lätta kavalleristerna i Vagröm för användning till fots, och utvecklades därifrån till en komplett kampstil lämplig för hedersdueller. I Bomaniet är stilen känd som Vagrömsk, men då den främst spridit sig till andra kringliggande länder genom Bomaniet är den där ofta kallad Bomanisk Sabelfäktning. Som ett kavallerivapen främst gjort för att skära otäcka sår från hästrygg så skiljer sig stilen avsevärt från värjan. Attack är vanligt, men på grund av sabelns Cutting damage så är attacker på lemmar är mer värt än i värjfäktning. Därför är Defensive Attack minst lika vanligt för att vara beredd att försvara sig motattacker mot armarna. En sabelfäktare gör också gärna en Committed Attack (Determined) för att jaga en retirerande motståndare med två steps; sabel är en aggressiv stil där utövaren vill hålla konstant tryck på sin motståndare. Deceptive Attack är också typiskt för sabelns förmåga att kunna attackera från väldigt olika håll genom att bara vrida på handleden. En kompetent fäktare kan hugga runt motståndarens gard. Ett vanlig sätt att skapa en öppning är med en Beat, en ST-baserad Feint, där utövaren med råstryka slår undan sin motståndares svärd, vilket inte förekommer i värjfäktning. Det följs vanligen upp med en Committed Attack mot hals eller huvud. Obeväpnad träning ingår inte i stilen, men typen av folk som lär sig sabelfäktning är inte sällan folk som kanske också hamnar i handgemäng då och då och lär sig på annat håll.),
+	cat(NPC Styles, Styles, Styles - Realistic Styles, Styles - Realistic Styles - Martial Arts),
+	triggers(_
+		addsorincreases(_
+			{PE:Style Familiarity (Fencing - Vagröm Saber)},
+			#BuildList(list(#list(Style Primary Skills Fencing - Vagröm Saber)), template({%listitem%}=1pts))#NoNeeds_
+		),
+		mergetags(in "SK:Broadsword" with "charFightingStyle(yes)"),
+		select(_
+			text(Optionally increase your primary skill),
+			pointswanted(atleast 1, upto 11),
+			itemswanted(atleast 1),
+			list(_
+				#list(Style Primary Skills Fencing - Vagröm Saber)_
+			)_
+		),
+		select(_
+			text(Increase your techniques),
+			pointswanted(atleast 2, upto 1000),
+			itemswanted(@ItemsInList(#list(Techniques Fencing - Vagröm Saber))),
+			list(_
+				#list(Techniques Fencing - Vagröm Saber)_
+			)_
+		),
+		select(_
+			text(You may select from among the following Optional Skills:),
+			pointswanted(atleast 2, upto 8),
+			itemswanted(atleast @random(0,4)),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				{SK:Brawling},
+				{SK:Soldier},
+				{SK:Savoir-Faire (Military)},
+				{SK:Guns (Pistol)}_
+			)_
+		),
+		adds(_
+			"EQ:Cavalry Saber" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment",
+		)_
+	)
+
+Fencing - North Bomani School (NPC Templates),displaycost(),cost(0),
+	description(),
+	cat(NPC Styles, Styles, Styles - Realistic Styles, Styles - Realistic Styles - Martial Arts),
+	triggers(_
+		addsorincreases(_
+			{PE:Style Familiarity (Fencing - North Bomani School)},
+			#BuildList(list(#list(Style Primary Skills Fencing - North Bomani School)), template({%listitem%}=1pts))#NoNeeds_
+		),
+		mergetags(in "SK:Broadsword" with "charFightingStyle(yes)"),
+		select(_
+			text(Increase your primary skills),
+			pointswanted(atleast 1, upto 11),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Style Primary Skills Fencing - North Bomani School)), template(%listitem%))_
+			)_
+		),
+		select(_
+			text(Increase your techniques),
+			pointswanted(atleast 2, upto 1000),
+			itemswanted(@ItemsInList(#list(Techniques Fencing - North Bomani School))),
+			list(_
+				#list(Techniques Fencing - North Bomani School)_
+			)_
+		),
+		select(_
+			text(You may select from among the following Optional Skills:),
+			pointswanted(atleast 2, upto 8),
+			itemswanted(atleast @random(0,3)),
+			tagwith(charFightingStyle(yes)),
+			list(_
+				SK:Rapier,
+				SK:Brawling,
+				SK:Cloak_
+			)_
+		),
+		adds(_
+			"EQ:Shiavona" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment",
+			$if(SK:Cloak > 0 then "EQ:Light Cloak" #loadout(Regular) #DoNotOwn with "#ref Equipment: Styling=1 from Equipment")_
+		)_
+	)
+
+
+*******************************************************************************************************\[STOP]
+[PERKS]
+Style Familiarity (Teutoni Longsword Fighting), 1, displaycost(1+4), cat(Style Familiarities), page(MA180), needs(#buildlist(list(#list(Style Primary Skills Longsword Fighting)), template(SK:%ListItem%))), description(Teutoni Longsword Fighting is the traditional style of Teutoni, now going out of fashion with the rise of the rapier. However, it is still popular among the more conservative nobility and as sport for commoners.)
+Style Familiarity (Fencing - South Bomani School), 1, displaycost(1+3), cat(Style Familiarities), page(MA158), needs(#buildlist(list(#list(Style Primary Skills Fencing - South Bomani School)), template(%ListItem%))), description(A relatively young style that in many ways is the exact opposite of the Theraonian school. However, there are a few similarities; it concentrates exclusively on the sword and it is in many ways an even more pronounced civilian style than the Theraonian. It has an established sporting element whereas the others are exclusively for duels. <CRLF><CRLF>The Bomani style generally uses a slightly shorter rapier \b (Edged Light Rapier) \b0 and exploits mobility more than either of the others. They often start defensively with \b Wait \b0 and \b Evaluate \b0 to evaluate their opponent, and after a parry respond with an overwhelming counterattack. A \b Deceptive Attack \b0 combined with a \b Committed \b0 or \b All-Out Attack \b0 is common. With their shorter rapiers it's also not uncommon for them to enter/end up in close combat, so \b Close Combat (Rapier) \b0 is a good fit, especially since they don't train unarmed.)
+Style Familiarity (Fencing - La Verdadera Destreza), 1, displaycost(1+3), cat(Style Familiarities), page(MA158), needs(#buildlist(list(#list(Style Primary Skills Fencing - La Verdadera Destreza)), template(SK:%ListItem%))), description(Theraos has developed a distinctive style they call La Verdadera Destreza, "The True Skill", with a greater focus on geometry, but also on honour, dignity and elegance. They have taken the idea of turning battle and the human body into circles and angles to its extreme. The Theraonian swordsperson, the diestro, stands with straight back, their feet close to their arm and their sword at a straight angle out from the body, always aiming at their opponent. The philosophy is that with a straight angle, the practitioner can, with the slightest movement, fend off his opponent and his weapon from any angle of attack; a slight movement of the wrist, a step to the side, that sort of thing.)
+Style Familiarity (Fencing - Caldonian School), 1, displaycost(1+4), cat(Style Familiarities), page(MA156), needs(#buildlist(list(#list(Style Primary Skills Fencing - Italian School)), template(SK:%ListItem%))), description(An overall aggressive style with a focus on attacking in "tempo", following and exploiting the rhythm of battle, and controlling your opponent's weapons. It has clear rules for various stances and maneuvers based on theories of physics and geometry, however the student is expected to learn them well enough to naturally adapt them to the situation. The geometry behind it is more of an explanation than a mantra; there is not a culture of "pure doctrine" as in the Theraonian style. Ultimately, it is a pragmatic style with the aim of killing your opponent quickly before they kill you.)
+Style Familiarity (Fencing - Vagröm Saber), 1, displaycost(1+2), cat(Style Familiarities), page(MA160), needs(#buildlist(list(#list(Style Primary Skills Fencing - Vagröm Saber)), template(%ListItem%)))
+Style Familiarity (Fencing - North Bomani School), 1, displaycost(1+2), cat(Style Familiarities), page(MA160), needs(#buildlist(list(#list(Style Primary Skills Fencing - North Bomani School)), template(%ListItem%)))
+
+[LISTS]
+*******************************************************************************************************\[START]
+<Techniques Longsword Fighting>
+SK:Arm Lock (Judo)
+SK:Choke Hold (Judo)
+#newitem(SK:Close Combat (Two-Handed Sword), type(Tech/H), needs(SK:Two-Handed Sword), upto(prereq - 4), page(MA69))
+#newitem(SK:Counterattack (Two-Handed Sword), type(Tech/H), needs(SK:Two-Handed Sword), upto(prereq), page(MA70))
+#newitem(SK:Disarming (Two-Handed Sword), type(Tech/H), needs(SK:Two-Handed Sword), upto(prereq + 5), page(MA70))
+#newitem(SK:Ground Fighting (Two-Handed Sword), type(Tech/H), needs(SK:Two-Handed Sword), upto(prereq), page(MA73))
+SK:Kicking (Brawling)
+SK:Knee Strike (Brawling)
+#newitem(SK:Retain Weapon (Two-Handed Sword), type(Tech/H), needs(SK:Two-Handed Sword), upto(prereq + 5), page(MA70))
+#newitem(SK:Targeted Attack (Two-Handed Sword Thrust/Face), Tech/H, default("SK:Two-Handed Sword::level" - 5), needs(SK:Two-Handed Sword), upto(prereq - 2), page(MA68))
+#newitem(SK:Targeted Attack (Two-Handed Sword Thrust/Neck), Tech/H, default("SK:Two-Handed Sword::level" - 5), needs(SK:Two-Handed Sword), upto(prereq - 2), page(MA68))
+#newitem(SK:Targeted Attack (Two-Handed Sword Thrust/Vitals Chinks), Tech/H, default("SK:Two-Handed Sword::level" - 9), needs(SK:Two-Handed Sword), upto(prereq - 4), page(MA68))
+SK:Trip (Judo)
+
+<Techniques Fencing - Italian School>
+#newitem(SK:Bind Weapon (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq), page(MA67))
+#newitem(SK:Counterattack (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq), page(MA70))
+#newitem(SK:Disarming (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 5), page(MA70))
+#newitem(SK:Feint(Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 4), page(MA73))
+#newitem(SK:Targeted Attack (Rapier Thrust/Face), Tech/H, default("SK:Rapier::level" - 5), page(MA68), upto(Prereq - 2), needs(SK:Rapier))
+#newitem(SK:Targeted Attack (Rapier Thrust/Neck), Tech/H, default("SK:Rapier::level" - 5), page(MA68), upto(Prereq - 2), needs(SK:Rapier))
+#newitem(SK:Targeted Attack (Rapier Thrust/Vitals), Tech/H, default("SK:Rapier::level" - 3), page(MA68), upto(Prereq - 1), needs(SK:Rapier))
+
+<Techniques Fencing - La Verdadera Destreza>
+#newitem(SK:Bind Weapon (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq), page(MA67))
+#newitem(SK:Counterattack (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq), page(MA70))
+#newitem(SK:Disarming (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 5), page(MA70))
+#newitem(SK:Feint(Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 4), page(MA73))
+#newitem(SK:Retain Weapon (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 5), page(MA70))
+#newitem(SK:Targeted Attack (Rapier Thrust/Face), Tech/H, default("SK:Rapier::level" - 5), page(MA68), upto(Prereq - 2), needs(SK:Rapier))
+#newitem(SK:Targeted Attack (Rapier Thrust/Neck), Tech/H, default("SK:Rapier::level" - 5), page(MA68), upto(Prereq - 2), needs(SK:Rapier))
+#newitem(SK:Targeted Attack (Rapier Thrust/Vitals), Tech/H, default("SK:Rapier::level" - 3), page(MA68), upto(Prereq - 1), needs(SK:Rapier))
+
+<Techniques Fencing - Bomani School>
+#newitem(SK:Bind Weapon (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq), page(MA67))
+#newitem(SK:Close Combat (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq - 2), page(MA69))
+#newitem(SK:Counterattack (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq), page(MA70))
+#newitem(SK:Disarming (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 5), page(MA70))
+#newitem(SK:Feint(Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 4), page(MA73))
+#newitem(SK:Retain Weapon (Rapier), type(Tech/H), needs(SK:Rapier), upto(prereq + 5), page(MA70))
+
+<Style Primary Skills Fencing - South Bomani School>
+#newitem(SK:Rapier Art, type(DX/A), default(DX-5, Rapier - 3), page(B208), parryat(@int(%level/2)+3))
+SK:Rapier
+SK:Games (Sport Rapier)
+
+<Style Primary Skills Fencing - South Bomani School>
+#newitem(SK:Rapier Art, type(DX/A), default(DX-5, Rapier - 3), page(B208), parryat(@int(%level/2)+3))
+SK:Rapier
+SK:Games (Sport Rapier)
+
+<Style Primary Skills Fencing - Vagröm Saber>
+SK:Broadsword
+
+<Techniques Fencing - Vagröm Saber>
+#newitem(SK:Close Combat (Broadsword), type(Tech/H), default("SK:Broadsword::level" - 4), needs(SK:Broadsword), upto(prereq - 2), page(MA69))
+#newitem(SK:Counterattack (Broadsword), type(Tech/H), default("SK:Broadsword::level" - 6), needs(SK:Broadsword), upto(prereq), page(MA70))
+#newitem(SK:Disarming (Broadsword), type(Tech/H), needs(SK:Broadsword), default("SK:Broadsword::level"), upto(prereq + 5), page(MA70))
+#newitem(SK:Feint(Broadsword), type(Tech/H), default("SK:Broadsword::level") needs(SK:Broadsword), upto(prereq + 4), page(MA73))
+#newitem(SK:Retain Weapon (Broadsword), type(Tech/H), default("SK:Broadsword::level") needs(SK:Broadsword), upto(prereq + 5), page(MA70))
+#newitem(SK:Aggressive Parry (Broadsword), type(Tech/H), default("SK:Broadsword::parrylevel" - 1) needs(SK:Broadsword), upto("SK:Broadsword::parrylevel"))
+
+<Style Primary Skills Fencing - North Bomani School>
+SK:Broadsword
+	
+<Techniques Fencing - North Bomani School>
+#newitem(SK:Bind Weapon (Broadsword), type(Tech/H), needs(SK:Broadsword), upto(prereq), page(MA67))
+#newitem(SK:Feint(Broadsword), type(Tech/H), default("SK:Broadsword::level") needs(SK:Broadsword), upto(prereq + 4), page(MA73))
+#newitem(SK:Counterattack (Broadsword), type(Tech/H), default("SK:Broadsword::level" - 6), needs(SK:Broadsword), upto(prereq), page(MA70))
+#newitem(SK:Aggressive Parry (Broadsword), type(Tech/H), default("SK:Broadsword::parrylevel" - 1) needs(SK:Broadsword), upto("SK:Broadsword::parrylevel"))
+
+#Clone "EQ:Backsword" as "EQ:Shiavona"
+#ReplaceTags in "EQ:Shiavona" with description({\viewkind4\uc1\pard\f0\fs16 TL:4 LC:4 \par [Dam:thr cr Reach:C Parry:0 ST:\- Skill:Brawling, DX Notes: Hilt Punch. [5, 6] Attack receives damage bonuses for whichever of Boxing (p. B182), Brawling (p. B182), or Karate (p. B203) is used to deliver it \- exactly as if it were an unarmed strike. Gives the hand (only) DR. This indicates a metal hilt that provides DR 4, cumulative with glove DR \- although the hilt is too cramped to accommodate metal gauntlets.})
+#ReplaceTags in "EQ:Shiavona" with itemnotes({} | {} | {Attack receives damage bonuses for whichever of Boxing (p. B182), Brawling (p. B182), or Karate (p. B203) is used to deliver it exactly as if it were an unarmed strike.}, {Gives the hand (only) DR. This indicates a metal hilt that provides DR 4, cumulative with glove DR \- although the hilt is too cramped to accommodate metal gauntlets.})
+
+*******************************************************************************************************\[STOP]
+[TEMPLATES]
+********************************************************************************************************\[START]
+#store AddCommonerDisads = $indexedvalue(@random(@ItemsInLibraryList(Commoner Disadvantages)), #list(Commoner Disadvantages)) 
+#store AddCommonerAds = $indexedvalue(@random(@ItemsInLibraryList(Commoner Advantages)), #list(Commoner Advantages)) 
+
+<Minor NPC Templates - Commoners>
+Commoner, displaycost(),cost(0),
+	description(),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=@if(roll(3) < 9 then 1 elseif lastroll() < 6 then 2 else 0) #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		adds(_
+			$if($val(char::random) = 1 then _
+				#get(AddCommonerDisads),
+				#get(AddCommonerDisads),
+				$if(@random(10) < 6 then #get(AddCommonerDisads)),
+				$if(@lastrandom() < 3 then #get(AddCommonerDisads))_
+			else "")_
+		),
+		select(_
+			text(Choose disadvantages),
+			itemswanted(upto 10),
+			conditional($val(char::random) = 0),
+			list(_
+				#list(Commoner Disadvantages),
+			)_
+		),
+		adds(_
+			$if($val(char::random) = 1 then _
+				$if($sametext($val(char::age), "Teen") then $indexedvalue(@random(2), {TE:Experience - Novice}, {TE:Experience - Apprentice})),
+				$if($sametext($val(char::age), "Young") then $indexedvalue(@random(3), {TE:Experience - Novice}, {TE:Experience - Apprentice}, {TE:Experience - Journeyman})),
+				$if($sametext($val(char::age), "Middle Age") then $indexedvalue(@random(3),{TE:Experience - Apprentice}, {TE:Experience - Journeyman}, {TE:Experience - Master})),
+				$if($sametext($val(char::age), "Elderly") then $indexedvalue(@random(2), {TE:Experience - Journeyman}, {TE:Experience - Master}))_
+				else ""_
+			)_				
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			conditional($val(char::random) = 0),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		adds(_
+			$if($val(char::random) = 1 then _
+				#get(AddCommonerAds),
+				$if(@random(10) < 4 then #get(AddCommonerAds)),
+				$if(@lastrandom() < 2 then #get(AddCommonerAds))_
+			else "")_
+		)_
+	)
+		
+<Minor NPC Templates - Commoners - Occupations>
+Commoner - Actor,displaycost(varies),cost(0),
+	description(In some societies, actors forge a link to the gods by dressing as supernatural beings and acting out religious scenes or rituals; in others,they’re simply entertainers. Though they’re often disdained by those whowork “normal” jobs, audiences flock to performances, thus proving the actors’ cultural importance.),
+	triggers(_
+		adds(_
+			{TE:Commoner}_
+		),
+		addsorincreases(_
+			$if($val(char::random) = 1 then _
+				$indexedvalue(@random(6), 
+					{AD:Absolute Timing},
+					{AD:Charisma}#codes(upto 2),
+					#newitem(LA:Native Language (Written))#codes(upto 1),
+					#newitem(_
+						AD:Reputation, 5/10,
+						upto(3),
+						cat(Mundane, Social, Influence),
+						mods(Reputation Advantage),
+						initmods(_
+							People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+							|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+						),
+						nameext(Popular Actor),
+						conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+					),
+					{AD:Voice},
+					{AD:Versatile}_
+				),
+				$indexedvalue(@random(6), 
+					{AD:Absolute Timing},
+					{AD:Charisma}#codes(upto 2),
+					#newitem(LA:Native Language (Written))#codes(upto 1),
+					#newitem(_
+						AD:Reputation, 5/10,
+						upto(3),
+						cat(Mundane, Social, Influence),
+						mods(Reputation Advantage),
+						initmods(_
+							People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+							|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+						),
+						nameext(Popular Actor),
+						conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+					),
+					{AD:Voice},
+					{AD:Versatile}_
+				)_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			conditional($val(char::random) = 0),
+			list(_
+				{AD:Absolute Timing},
+				{AD:Charisma}#codes(upto 2),
+				#newitem(LA:Native Language (Written))#codes(upto 1),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Popular Actor),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				),
+				{AD:Voice},
+				{AD:Versatile}_
+			)_
+		),
+		select(_
+			text(Choose your primary skills),
+			pointswanted($eval(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Actor Primary Skills, append(#codes(upto $val(char::ExpPrimPts)pts, downto $val(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) further points on primary skills),
+			conditional(@ItemsInLibraryList(Actor Primary Skills) > 1),
+			pointswanted($val(char::ExpPrimPts2)),
+			itemswanted(upto @ItemsInLibraryList(#list(Actor Primary Skills))),
+			list(_
+				#BuildList(list(#list(Actor Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($val(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Actor Secondary Skills, append(#codes(upto $val(char::ExpSecUpto)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $val(char::bgSkillPts)),
+			itemswanted(@Random(2, 6)),
+			list(_
+				#list(Commoner Background Skills, append(#codes(upto $val(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Animal Handler,displaycost(varies),cost(0),
+	description(Animal handlers range from the common (e.g., drovers, groomsmen and mahouts) to the unusual (e.g., bear baiters, bird trainers and flea circus proprietors). All these jobs require the absolute understanding – and controlling – of animal behavior; this, in turn, require sensitivity, patience and experience.),
+	triggers(_
+		adds(_
+			{TE:Commoner} #NoNeeds _
+		),
+		addsorincreases(_
+			$if($val(char::random) = 1 then _
+				$indexedvalue(@random(6), 
+					{AD:Acute Vision},
+					{AD:Acute Hearing},
+					{AD:Animal Empathy},
+					{AD:Fearlessness}#codes(upto 5),
+					{AD:High Pain Threshold},
+					{AD:Extra Will}_
+				),
+				$indexedvalue(@random(6), 
+					{AD:Acute Vision},
+					{AD:Acute Hearing},
+					{AD:Animal Empathy},
+					{AD:Fearlessness}#codes(upto 5),
+					{AD:High Pain Threshold},
+					{AD:Extra Will}_
+				),
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $val(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			conditional($val(char::random) = 0),
+			list(_
+				{AD:Acute Vision},
+				{AD:Acute Hearing},
+				{AD:Animal Empathy},
+				{AD:Fearlessness}#codes(upto 5),
+				{AD:High Pain Threshold},
+				{AD:Extra Will}_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($val(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Animal Handler Primary Skills, append(#codes(upto $eval((char::ExpPrimPts))pts, downto $eval(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			conditional(@ItemsInLibraryList(Animal Handler Primary Skills) > 1),
+			pointswanted($val(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Animal Handler Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($val(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Animal Handler Secondary Skills, append(#codes(upto $val(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(@Random(2,6)),
+			list(_
+				#list(Commoner Background Skills, append(#codes(upto $val(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Apothecary,displaycost(varies),cost(0),
+	description(As the creator of drugs, potions, antidotes and poultices, the apothecary is the ancient equivalent of the pharmacist. He may be found in different guises in wide-ranging societies, but his primary role is always as a purveyor of medicines for his customers’ ailments.),
+	triggers(_
+		adds(_
+			{TE:Commoner} #NoNeeds _
+		),
+		addsorincreases(_
+			$if($val(char::random) = 1 then _
+				$indexedvalue(@random(5), 
+					#newitem(_
+						AD:Claim to Hospitality, 1/2/5/10,upto(4),cat(Mundane,Social),
+						conditional(=+3 to ST:Reation when "other apothecaries and patrons"),
+						nameext(Guild)_
+					),
+					$if(LA:Native Language (Written) < 3 then #newitem(LA:Native Language (Written))),
+					#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Patron),
+					initmods(_
+						Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+						)_
+					),
+					{AD:Status},
+					{AD:Wealth}_
+				),
+				$indexedvalue(@random(5), 
+					#newitem(_
+						AD:Claim to Hospitality, 1/2/5/10,upto(4),cat(Mundane,Social),
+						conditional(=+3 to ST:Reation when "other apothecaries and patrons"),
+						nameext(Guild)_
+					),
+					$if(LA:Native Language (Written) < 3 then #newitem(LA:Native Language (Written))),
+					#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Patron),
+					initmods(_
+						Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+						)_
+					),
+					{AD:Status},
+					{AD:Wealth}_
+				)_
+			)_
+		),				
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			conditional($val(char::random) = 0),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				#newitem(_
+					AD:Claim to Hospitality, 1/2/5/10,upto(4),cat(Mundane,Social),
+					conditional(=+3 to ST:Reation when "other apothecaries and patrons"),
+					nameext(Guild)_
+				),
+				$if(LA:Native Language (Written) < 3 then #newitem(LA:Native Language (Written))),
+				#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Patron),
+				initmods(_
+					Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+					)_
+				),
+				{AD:Status},
+				{AD:Wealth}_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($eval(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Apothecary Primary Skills, append(#codes(upto $eval(char::ExpPrimPts)pts, downto $eval(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			conditional(@ItemsInLibraryList(Apothecary Primary Skills) > 1),
+			pointswanted($eval(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Apothecary Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Apothecary Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(@Random(2, 6)),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Armorer,displaycost(varies),cost(0),
+	description(Armorers make weapons, shields and armor and range from Neolithic flint knappers, slave laborers in Roman arms factories to revered Japanese swordsmiths. By late TL3, wellknown armorers supervise huge factories and supply arms to kings.),
+	triggers(_
+		adds(_
+			{TE:Commoner} #NoNeeds _
+		),
+		addsorincreases(_
+			$if($val(char::random) = 1 then _
+				$indexedvalue(@random(6),
+					{AD:Articifer},
+					#newitem(_
+						AD:Claim to Hospitality, 1/2/5/10,upto(4),cat(Mundane,Social),
+						conditional(=+3 to ST:Reation when "guild members"),
+						nameext(Guild)_
+					),
+					{AD:Fit},
+					{AD:High Pain Threshold},
+					#newitem(LA:Native Language (Written))#codes(upto 2),
+					{AD:Temperature Tolerance}#codes(upto 2),
+					#newitem(_
+						AD:Reputation, 5/10,
+						upto(3),
+						cat(Mundane, Social, Influence),
+						mods(Reputation Advantage),
+						initmods(_
+							People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+							|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+						),
+						nameext(Skilled Armorer),
+						conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+					)_
+				),
+				$indexedvalue(@random(6),
+					{AD:Articifer},
+					#newitem(_
+						AD:Claim to Hospitality, 1/2/5/10,upto(4),cat(Mundane,Social),
+						conditional(=+3 to ST:Reation when "guild members"),
+						nameext(Guild)_
+					),
+					{AD:Fit},
+					{AD:High Pain Threshold},
+					#newitem(LA:Native Language (Written))#codes(upto 2),
+					{AD:Temperature Tolerance}#codes(upto 2),
+					#newitem(_
+						AD:Reputation, 5/10,
+						upto(3),
+						cat(Mundane, Social, Influence),
+						mods(Reputation Advantage),
+						initmods(_
+							People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+							|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+						),
+						nameext(Skilled Armorer),
+						conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+					)_
+				)_
+			)_
+		),		
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			conditional($val(char::random = 0)),
+			multitype(yes),
+			list(_
+				{AD:Articifer},
+				#newitem(_
+					AD:Claim to Hospitality, 1/2/5/10,upto(4),cat(Mundane,Social),
+					conditional(=+3 to ST:Reation when "guild members"),
+					nameext(Guild)_
+				),
+				{AD:Fit},
+				{AD:High Pain Threshold},
+				#newitem(LA:Native Language (Written))#codes(upto 2),
+				{AD:Temperature Tolerance}#codes(upto 2),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Skilled Armorer),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				)_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($val(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Armorer Primary Skills, append(#codes(upto $val(char::ExpPrimPts)pts, downto $val(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			conditional(@ItemsInLibraryList(Armorer Primary Skills) > 1),
+			pointswanted($val(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Armorer Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Armorer Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Artist,displaycost(varies),cost(0),
+	description(Artists create religious works, propaganda and portraiture. Rulers pay masters of popular styles to tutor their craftsmen, and conquerors and missionaries bring art and artists with them. Most all cultures place strict rules on artistic representation from which few deviate.),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=0 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{AD:Gifted Artist},
+				{AD:Eidetic Memory},
+				{AD:Fashion Sense},
+				{AD:Lightning Calculator},
+				{AD:Status},
+				{AD:Wealth},
+				#newitem(LA:Native Language (Written))#codes(upto 3),
+				#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Patron),
+				initmods(_
+					Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+					)_
+				),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Skilled Artist),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				)_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($eval(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Artist Primary Skills, append(#codes(upto $eval(char::ExpPrimPts)pts, downto $eval(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			pointswanted($eval(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Artist Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Artist Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+
+Commoner - Barber,displaycost(varies),cost(0),
+	description(Barbers, naturally, cut hair, but they do much more by providing a place for their customers to discuss news, philosophy or gossip. In some cultures, barbers perform a number of medical duties in addition to cutting hair, acting as herbalists or surgeons.),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=0 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{AD:Charisma},
+				{AD:Unfazeable},
+				{AD:Fashion Sense},
+				{AD:High Manual Dexterity},
+				#newitem(AD:Contact Group (Clients), 10),
+				#newitem(LA:Native Language (Written))#codes(upto 3),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Nice Barber),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				)_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($eval(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Barber Primary Skills, append(#codes(upto $eval(char::ExpPrimPts)pts, downto $eval(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			pointswanted($eval(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Barber Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Barber Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Barkeep,displaycost(varies),cost(0),
+	description(In most every society, people go to taverns to see familiar faces, have fun and exchange rumors; the barkeep provides all three. He keeps the customers happy, keeps them buying drinks and makes sure things don’t get out of hand. Sometimes he prepares food, as well, though larger pubs usually keep a cook on staff.),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=1 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{PE:Alcohol Tolerance},
+				{AD:Charisma},
+				{AD:Indomitable},
+				{AD:Fashion Sense},
+				{AD:Unfazeable},
+				#newitem(AD:Contact Group (Patrons), 10),
+				#newitem(LA:Native Language (Written))#codes(upto 3),
+				{AD:Wealth},
+				{AD:Empathy}_
+			)_
+		),
+		adds(_
+			#newitem(SK:Professional Skill (Bartender), type(IQ/A))#noneeds=$eval(char:ExpPrimPts)pts_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			pointswanted($eval(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Barkeep Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Barkeep Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Barserver,displaycost(varies),cost(0),
+	description(),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=0 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{AD:Charisma},
+				{AD:Appearance},
+				{AD:Fashion Sense},
+				{AD:Acute Hearing},
+				#newitem(AD:Contact Group (Patrons), 10),
+				#newitem(LA:Native Language (Written))#codes(upto 1),
+				{AD:Extra Will},
+				{PE:Alcohol Tolerance}_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($eval(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Barserver Primary Skills, append(#codes(upto $eval(char::ExpPrimPts)pts, downto $eval(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			pointswanted($eval(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Barserver Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Barserver Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Bureaucrat,displaycost(varies),cost(0),
+	description(),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=3 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		adds(_
+			{AD:Administrative Rank}#noneeds=1_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{AD:Administrative Rank},
+				{AD:Lightning Calculator},
+				{AD:Mathematical Ability},
+				{AD:Extra Will},
+				#newitem(AD:Contact Group (Institution), 10),
+				#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Institution),
+				initmods(_
+					Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+					)_
+				)_
+			)_
+		),
+		select(_
+			text(Choose your primary skill),
+			pointswanted($eval(char::ExpPrimPts)),
+			itemswanted(1),
+			list(_
+				#list(Bureaucrat Primary Skills, append(#codes(upto $eval(char::ExpPrimPts)pts, downto $eval(char::ExpPrimPts)pts)))_
+			)_
+		),
+		select(_
+			text(Spend $val(char::ExpPrimPts2) more points in your primary skills),
+			pointswanted($eval(char::ExpPrimPts2)),
+			itemswanted(atleast 1),
+			list(_
+				#BuildList(list(#list(Bureaucrat Primary Skills)), template(#newitem(%listitem%)))_
+			)_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval(char::ExpSecPts)),
+			itemswanted(atleast 2),
+			list(_
+				#list(Bureaucrat Secondary Skills, append(#codes(upto $eval(char::ExpSecPts)pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Butcher,displaycost(varies),cost(0),
+	description(Butchers slaughter animals and prepare the meat for human consumption. This is difficult work because many religions place strict guidelines on meat preparation. Handled incorrectly, meat may be considered inedible, negating the efforts of hunters, trappers and butchers alike.),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=0 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{AD:Fit},
+				{AD:Unfazeable},
+				#newitem(AD:Contact Group (Clients), 10),
+				#newitem(LA:Native Language (Written))#codes(upto 3),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(High Quality Products),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				)_
+			)_
+		),
+		adds(_
+			{SK:Professional Skill (Butcher)}=$eval($val(char::ExpPrimPts)+$eval($val(char::ExpPrimPts2) / 2))pts_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval($val(char::ExpSecPts)+$eval($val(char::ExpPrimPts2)/2))),
+			itemswanted(atleast 2),
+			list(_
+				#list(Butcher Secondary Skills, append(#codes(upto $eval($val(char::ExpSecPts)+$eval($val(char::ExpPrimPts2)/2))pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+	
+Commoner - Cook,displaycost(varies),cost(0),
+	description(Since dining is the high point of the day in many cultures, cooks are often highly skilled and sought-after professionals. A good cook on staff can win prestige for his employer, since a professionally prepared and presented meal might seal deals and win friends. Bakers are specialized cooks, dealing primarily with bread-based products, pastries and pies. Where the cook forms the heart of an inn or private residence, the baker frequently works out of his own shop.),
+	triggers(_
+		adds(_
+			{LA:Language - Native(Spoken)}=3 #NoNeeds respond "Native Language",
+			{LA:Language - Native(Written)}=0 #NoNeeds respond "Native Language"_
+		),
+		adds(_
+			{TE:Commoner - Age}#NoNeeds_
+		),
+		adds(_
+			{TE:Age - $val(char::age)}#NoNeeds_
+		),
+		select(_
+			text(Choose a personality),
+			itemswanted(1),
+			list(_
+				#list(Commoner Disadvantage Pack),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Old Soldier} else ""), 
+				$if($sametext($val(char::age), "Elderly") then {TE:Old Soldier} else "")_
+			)_
+		),
+		select(_
+			text(Choose your work experience),
+			itemswanted(1),
+			list(_
+				$if($sametext($val(char::age), "Teen") then {TE:Experience - Novice,TE:Experience - Apprentice}),
+				$if($sametext($val(char::age), "Young") then {TE:Experience - Novice,TE:Experience - Apprentice,TE:Experience - Journeyman}),
+				$if($sametext($val(char::age), "Middle Age") then {TE:Experience - Apprentice,TE:Experience - Journeyman,TE:Experience - Master}),
+				$if($sametext($val(char::age), "Elderly") then {TE:Experience - Journeyman,TE:Experience - Master})_
+			)_
+		),
+		select(_
+			text(Choose $val(char::ExpAdvPts) points of advantages),
+			pointswanted(upto $eval(char::ExpAdvPts)),
+			itemswanted(upto 10),
+			multitype(yes),
+			list(_
+				{AD:Acute Taste and Smell},
+				{PE:Alcohol Tolerance},
+				#newitem(AD:Contact Group (Patrons), 10),
+				#newitem(LA:Native Language (Written))#codes(upto 1),
+				#newitem(_
+					AD:Reputation, 5/10,
+					upto(3),
+					cat(Mundane, Social, Influence),
+					mods(Reputation Advantage),
+					initmods(_
+						People Affected: Almost everyone in your game world, *1, shortname(Almost everyone), group(Reputation) _
+						|  Frequency of Recognition: Sometimes, *0.5, shortname(Sometimes), group(Reputation) _
+					),
+					nameext(Makes Delicious Food),
+					conditional(+1 to ST:Reaction, +1 to SK:Intimidation when "your reputation counts", -1 to SK:Intimidation when "your reputation works against you")_
+				),
+				#newitem(AD:Patron, 10/15/20/25/30, mods(Frequency of Appearance, Patron, Favor), cat(Mundane, Social), upto(5), nameext(Patron),
+				initmods(_
+					Frequency: roll of 6 or less (Quite Rarely), *0.5, shortname(6 or less), group(Frequency of Appearance)_
+					)_
+				)_
+			)_
+		),
+		adds(_
+			{SK:Cooking}=$eval($val(char::ExpPrimPts)+$eval($val(char::ExpPrimPts2) / 2))pts_
+		),
+		select(_
+			text(Choose your secondary skills),
+			pointswanted($eval($val(char::ExpSecPts)+$eval($val(char::ExpPrimPts2)/2))),
+			itemswanted(atleast 2),
+			list(_
+				#list(Cook Secondary Skills, append(#codes(upto $eval($val(char::ExpSecPts)+$eval($val(char::ExpPrimPts2)/2))pts)))_
+			)_
+		),
+		select(_
+			text(Choose a few background skills),
+			pointswanted(atleast 2, upto $eval(char::bgSkillPts)),
+			itemswanted(atleast 2, upto 4),
+			list(_
+				$if(@sametext($val(char::personality), "OldSoldier") then {SK:Guns (Musket)}#codes(upto $eval(char::bgSkillUpto)pts), {SK:Spear}#codes(upto $eval(char::bgSkillUpto)pts) else ""),
+				#list(Commoner Background Skills, append(#codes(upto $eval(char::bgSkillUpto)pts)))_
+			)_
+		)_
+	)
+
+<Disadvantage Packs>
+Friendly, displaycost(),cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Friendly),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Chummy",
+				"Charitable",
+				"Compulsive Generosity",
+				"Selfless",
+				"Sense of Duty (Those in need)"_
+			),
+			aliaslist(_
+				{DI:Chummy}#noneeds,
+				{DI:Charitable}#noneeds,
+				{DI:Compulsive Generosity}#noneeds,
+				{DI:Selfless}#noneeds,
+				#newitem(DI:Sense of Duty (Those in need), -10, page(B153), conditional(=+2 to ST:Reaction when "in dangerous situations if Sense of Duty is known"))#noneeds_
+			)_
+		)_
+	)
+	
+Nerd, displaycost(),cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Nerd),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Skinny",
+				"Easy to Read",
+				"Oblivious",
+				"Clueless",
+				"Bad Sight (Nearsighted)"_
+			),
+			aliaslist(_				
+				{DI:Skinny}#noneeds,
+				{DI:Easy to Read}#noneeds,
+				{DI:Oblivious}#noneeds,
+				{DI:Clueless}#noneeds,
+				#newitem(DI:Bad Sight (Nearsighted), -25, page(B123), cat(Mundane, Physical), taboo(DI:Blindness, DI:Bad Sight (Farsighted), AD:Acute Vision), mods(Bad Sight),
+				conditional(_
+					-6 to ST:Vision when "item is more than 1 yard away",
+					-2 to "CL:Combat/Weapons - Melee Combat",
+					*2 to "CL:Combat/Weapons - Ranged Combat" when "calculating range penalties" _
+				),
+				initmods(Mitigator: Glasses, -60%, group(Bad Sight), page(B112), mitigator(yes), shortname(Glasses)))#noneeds_
+			)_
+		)_
+	)
+	
+Misanthrope, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Misanthrope),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Bad Temper",
+				"Loner",
+				"No Sense of Humor"_
+			),
+			aliaslist(_
+				{DI:Bad Temper}#noneeds,
+				{DI:Loner}#noneeds,
+				{DI:No Sense of Humor}#noneeds_
+			)_
+		)_
+	)
+
+Money-Grubber, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Money-Grubber),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Greed",
+				"Miserliness"_
+			),
+			aliaslist(_
+				{DI:Greed}#noneeds,
+				{DI:Miserliness}#noneeds_
+			)_
+		)_
+	)
+
+Rube, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Rube),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Easy to Read",
+				"Gullibility",
+				"Truthfulness",
+				"Honesty"_
+			),
+			aliaslist(_
+				{DI:Easy to Read}#noneeds,
+				{DI:Gullibility}#noneeds,
+				{DI:Truthfulness}#noneeds,
+				{DI:Honesty}#noneeds_
+			)_
+		)_
+	)
+	
+Old Soldier, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	replacetags(in char with personality(OldSoldier)),
+	adds(_
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Old Soldier),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Code of Honor (Soldier's)",
+				"Wounded",
+				"Light Sleeper",
+				"Sense of Duty (Nation)",
+				"Hard of Hearing"_
+			),
+			aliaslist(_
+				{DI:Code of Honor (Soldier's)}#noneeds,
+				{DI:Wounded}#noneeds,
+				{DI:Light Sleeper}#noneeds,
+				#newitem(DI:Sense of Duty (Nation), -10)#noneeds,
+				{DI:Hard of Hearing}#noneeds_
+			)_
+		)_
+	)
+	
+Unwelcome (Criminal), displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		{DI:Social Stigma (Criminal Record)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Unwelcome Criminal),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Wealth (Poor)",
+				"Compulsive Spending",
+				"Kleptomaniac"_
+			),
+			aliaslist(_
+				{DI:Wealth}#noneeds=2,
+				{DI:Compulsive Spending},
+				{DI:Kleptomaniac}_
+			)_
+		)_
+	)
+	
+Unwelcome (Minority), displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Social Stigma (Minority Group)}#noneeds,
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		{DI:Wealth}#noneeds=2_
+	)_
+	
+Goon, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Goon),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Appearance (Ugly)",
+				"Klutz",
+				"Nervous Stomach",
+				"Ham-Fisted",
+				"Chummy"_
+			),
+			aliaslist(_
+				{DI:Appearance}#noneeds,
+				{DI:Klutz}#noneeds,
+				{DI:Nervous Stomach}#noneeds,
+				{DI:Ham-Fisted}#noneeds=2,
+				{DI:Chummy}#noneeds_
+			)_
+		)_
+	)
+
+Hero, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Charitable}#noneeds,
+		{DI:Selfless}#noneeds,
+		{DI:Pacifism (Cannot Harm Innocents)}#noneeds_
+	)
+
+Swindler, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}#noneeds,
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Swindler),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Compulsive Gambling",
+				"Overconfidence",
+				"Trickster",
+				"Greed"_
+			),
+			aliaslist(_
+				{DI:Compulsive Gambling}#noneeds,
+				{DI:Overconfidence}#noneeds,
+				{DI:Trickster}#noneeds,
+				{DI:Greed}#noneeds_
+			)_
+		)_
+	)
+	
+Villain, displaycost(), cost(0),
+	description(),
+	hide(yes),
+	invisible(yes),
+	adds(_
+		%disadsaliaslist%_
+	),
+	x(_
+		#ChoiceList(_
+			name(disads),
+			title(Villain),
+			text(Choose among disadvantages that fits this personality),
+			picksallowed(2),
+			method(bynumber),
+			list(_
+				"Bully",
+				"Callous",
+				"Cowardice"_
+			),
+			aliaslist(_
+				{DI:Bully}#noneeds,
+				{DI:Callous}#noneeds,
+				{DI:Cowardice}#noneeds_
+			)_
+		)_
+	)
+
+
+	
+
+
+
+<Minor NPC Templates - Soldiers>
+//Soldiers
+Foot Soldier, displaycost(varies), cost(0),
+	description(),
+	triggers(_
+		bodytype(_
+			Humanoid Expanded - Low Tech_
+		),
+		hittable(_
+			Humanoid - Low Tech_
+		),
+		sets(_
+			{ST:ST}=11_
+		),
+		select(_
+			text("Add 20 points of primary attributes"),
+			pointswanted(20),
+			itemswanted(atleast 1),
+			list(_
+				{ST:ST},
+				{ST:DX},
+				{ST:IQ},
+				{ST:HT}_
+			)_
+		),
+		adds(_
+			{SK:Broadsword}=1pts,
+			{SK:Guns (Musket)}=1pts,
+			{SK:Spear}=1pts,
+			{SK:Soldier}=8pts_
+		),
+		select(_
+			text("Add 15 more points to primary skills."),
+			pointswanted(upto 15),
+			itemswanted(upto 3),
+			list(_
+				#list(Foot Soldier Primary Weapon Skills, append(#codes(upto %points+7pts, downto 1pts)))_
+			)_
+		),
+		select(_
+			text("Add 0-2 points to Hand-to-hand combat skills."),
+			pointswanted(upto 4),
+			itemswanted(upto 2),
+			list(_
+				{SK:Brawling},
+				{SK:Wrestling}_
+			)_
+		),
+		select(_
+			text("Select some optional secondary weapon skills."),
+			pointswanted(upto 6),
+			itemswanted(upto 3),
+			list(#list(Foot Soldier Secondary Weapon Skills))_
+		),
+		select(_
+			text("Choose up to 20 points of Advantages."),
+			pointswanted(upto 20),
+			itemswanted(atleast 1),
+			list(_
+				#list(Soldier Advantages)_
+			)_
+		),
+		select(_
+			text("Choose up to -20 points of Disadvantages"),
+			pointswanted(downto -25),
+			itemswanted(atleast 1),
+			list(_
+				#list(Soldier Disadvantages),
+				{DI:Wealth},
+				#newitem(_
+					DI:Sense of Duty (Nation),
+					displaycost(-10), cost(-10),
+					cat(Mundane, Mental)_
+				),
+				#newitem(_
+					DI:Sense of Duty (Comrades),
+					displaycost(-5),cost(-5),
+					cat(Mundane, Mental)_
+				),
+				#newitem(_
+					DI:Intolerance (Foreigners), displaycost(-5),cost(-5),
+					cat(Mundane, Mental)_
+				)_
+			)_
+		),
+		adds(_
+			{EQ:Thrusting Broadsword},
+			{EQ:Pike},
+			{EQ:Arquebus},
+			{EQ:Brimmed Bascinet},
+			{EQ:Chest Cuirass},
+			{EQ:Thigh-High Boots}_
+		)_
+	)
+		
+Cavalry Soldier, displaycost(varies), cost(0),
+	description(),
+	triggers(_
+		bodytype(_
+			Humanoid Expanded - Low Tech_
+		),
+		hittable(_
+			Humanoid - Low Tech_
+		),
+		
+		sets(_
+			{ST:ST}=11,
+			{ST:HT}=11_
+		),
+		adds(_
+			{AD:Wealth}=2,
+			{AD:Status}=1,
+			{SK:Soldier}=8pts,
+			{SK:Riding (Equines)}=1pts,
+			{SK:Broadsword}=1pts,
+			{SK:Guns (Pistol)}=1pts_
+		),
+		select(_
+			text("Add 30 points of primary attributes"),
+			pointswanted(30),
+			itemswanted(atleast 1),
+			list(_
+				{ST:ST},
+				{ST:DX},
+				{ST:IQ},
+				{ST:HT}_
+			)_
+		),
+		select(_
+			text("Add 21 more points to primary skills."),
+			pointswanted(upto 21, atleast 3),
+			itemswanted(3),
+			list(_
+				#list(Cavalry Primary Skills)_
+			)_
+		),
+		select(_
+			text("Add 0-8 points to Hand-to-hand combat skills."),
+			pointswanted(upto 8),
+			itemswanted(upto 2),
+			list(_
+				{SK:Brawling},
+				{SK:Wrestling}_
+			)_
+		),
+		select(_
+			text("Select some optional secondary weapon skills."),
+			pointswanted(upto 12),
+			itemswanted(upto 3),
+			list(#list(Cavalry Soldier Secondary Weapon Skills))_
+		),
+		select(_
+			text("Choose up to 25 points of Advantages."),
+			pointswanted(upto 25),
+			itemswanted(atleast 1),
+			list(_
+				#list(Soldier Advantages),
+				#newitem(AD:Wealth, displaycost(varies)),
+				#newitem(AD:Status, displaycost(varies))_
+			)_
+		),
+		select(_
+			text("Choose up to -25 points of Disadvantages"),
+			pointswanted(downto -25),
+			itemswanted(atleast 1),
+			list(_
+				#list(Soldier Disadvantages),
+				#newitem(DI:Intolerance (Plebians),displaycost(-5),cost(-5))#codes(upto 1),
+				#newitem(_
+					DI:Sense of Duty (Nation),
+					displaycost(-10),cost(-10),
+					cat(Mundane, Mental)_
+				),
+				#newitem(_
+					DI:Sense of Duty (Comrades),
+					displaycost(-5),cost(-5),
+					cat(Mundane, Mental)_
+				),
+				#newitem(_
+					DI:Intolerance (Foreigners), displaycost(-5),cost(-5),
+					cat(Mundane, Mental)_
+				)_
+			)_
+		),
+		adds(_
+			{EQ:Cavalry Saber},
+			{EQ:Military Pistol}=2,
+			{EQ:Cavalry Cuirass},
+			$if(AD:Status < 2 then "EQ:Brimmed Bascinet" else "EQ:Fancy Hat"),
+			$if(AD:Wealth > 2 then {EQ:Arm Plate}),
+			$if(AD:Wealth > 2 then {EQ:Leg Plate}),
+			{EQ:Cavalry Horse}_
+		)_
+	)
+********************************************************************************************************\[STOP]
+[LISTS]
+*******************************************************************************************************\[START]
+<Actor Primary Skills>
+SK:Performance
+SK:Dancing
+SK:Singing
+
+<Actor Secondary Skills>
+SK:Acting
+SK:Public Speaking
+#newitem(SK:Musical Instrument (Fiddle), IQ/H, page(B211), cat(_General, Arts/Entertainment))
+#newitem(SK:Musical Instrument (Flute), IQ/H, page(B211), cat(_General, Arts/Entertainment))
+SK:Savoir-Faire (High Society)
+SK:Stage Combat
+
+<Animal Handler Primary Skills>
+SK:Animal Handling
+
+<Animal Handler Secondary Skills>
+SK:Falconry
+SK:Packing
+SK:Veterinary
+SK:Riding (Equines)
+SK:Teamster
+SK:Naturalist
+
+<Apothecary Primary Skills>
+SK:Diagnosis
+SK:Pharmacy (Herbal)
+SK:Naturalist
+
+<Apothecary Secondary Skills>
+SK:Chemistry
+SK:Esoteric Medicine
+SK:Merchant
+SK:Poisons
+
+<Armorer Primary Skills>
+SK:Armory (Melee Weapons)
+SK:Armory (Body Armor)
+SK:Smith (Iron)
+SK:Leatherworking
+
+<Armorer Secondary Skills>
+SK:Lockpicking
+SK:Scrounging
+SK:Smith (Copper)
+SK:Smith (Lead and Tin)
+SK:Jeweler
+SK:Machinist
+
+<Artist Primary Skills>
+SK:Artist (Painting)
+SK:Artist (Sculpting)
+SK:Artist (Illumination)
+SK:Artist (Calligraphy)
+SK:Artist (Scene Design)
+SK:Artist (Woodworking)
+
+<Artist Secondary Skills>
+SK:Current Affairs (High Culture)
+SK:Current Affairs (Popular Culture)
+SK:Connoisseur (Visual Arts)
+SK:Savoir-Faire (High Society)
+SK:Theology
+SK:Carpentry
+SK:Masonry
+
+<Barber Primary Skills>
+SK:Professional Skill (Barber)
+SK:First Aid
+
+<Barber Secondary Skills>
+SK:Diagnosis
+SK:Surgery
+
+<Barkeep Primary Skills>
+SK:Carousing
+SK:Diplomacy
+SK:Brawling
+SK:Wrestling
+SK:Merchant
+	
+<Barkeep Secondary Skills>
+#newitem(SK:Current Affairs (Local), type(IQ/E))
+SK:Current Affairs (Headline News)
+SK:Current Affairs (People)
+SK:Current Affairs (Politics)
+SK:Current Affairs (Business)
+SK:Current Affairs (Travel)
+SK:Guns (Pistol)
+SK:Fast-Talk
+SK:Streetwise
+
+<Barserver Primary Skills>
+#newitem(SK:Professional Skill (Server), type(IQ/A))
+SK:Carousing
+SK:Diplomacy
+
+<Barserver Secondary Skills>
+SK:Brawling
+SK:Wrestling
+#newitem(SK:Current Affairs (Local), type(IQ/E))
+SK:Current Affairs (Headline News)
+SK:Current Affairs (People)
+SK:Current Affairs (Politics)
+SK:Current Affairs (Business)
+SK:Current Affairs (Travel)
+SK:Sex Appeal
+SK:Fast-Talk
+SK:Streetwise
+
+<Bureaucrat Primary Skills>
+SK:Administration
+SK:Accounting
+#newitem(SK:Law (Local), type(IQ/H), page(B204))
+SK:Politics
+
+<Bureaucrat Secondary Skills>
+SK:Savoir-Faire (High Society)
+SK:Calligraphy
+SK:Economics
+SK:Diplomacy
+SK:Fast-talk
+SK:Research
+SK:Writing
+
+<Butcher Primary Skills>
+
+
+<Butcher Secondary Skills>
+SK:Merchant
+SK:Knife
+SK:Axe/Mace
+#newitem(SK:Animal Handling (Bovine), type(IQ/A), page(B175))
+
+<Cook Primary Skills>
+SK:Cooking
+
+<Cook Secondary Skills>
+SK:Knife
+SK:Professional Skill (Butcher)
+SK:Professional Skill (Brewer)
+SK:Professional Skill (Distiller)
+SK:Savoir-Faire (Servant)
+
+<Domestic Servant Primary Skills>
+SK:Savoir-Faire (Servant)
+SK:Housekeeping
+	
+<Domestic Servant Secondary Skills>
+SK:Merchant
+SK:Cooking
+SK:Gardening
+SK:Sewing
+	
+<Fisher Primary Skills>
+SK:Fishing
+	
+<Fisher Secondary Skills>
+SK:Sewing
+SK:Merchant
+SK:Naturalist
+SK:Area Knowledge
+	
+<Herder Primary Skills>
+#newitem(SK:Professional Skill (Herder), type(IQ/A), page(B125))
+#newitem(SK:Animal Handling (Bovine), type(IQ/A), page(B175))
+#newitem(SK:Animal Handling (Caprine), type(IQ/A), page(B175))
+SK:Area Knowledge
+	
+<Herder Secondary Skills>
+SK:Naturalist
+SK:Riding (Equines)
+SK:Hiking
+SK:Veterinary
+SK:Survival (Plains)
+SK:Navigation (Land)
+	
+	
+<Hunter Primary Skills>
+SK:Guns (Rifle)
+SK:Stealth
+SK:Tracking
+SK:Survival
+	
+<Hunter Secondary Skills>
+SK:Animal Handling (Dogs)
+SK:Hiking
+SK:Knife
+SK:Mimicry (Animal Sounds)
+SK:Mimicry (Bird Calls)
+SK:Navigation (Land)
+SK:Sling
+SK:Swimming
+SK:Traps
+
+<Jeweler Primary Skills>
+SK:Jeweler
+SK:Artist (Sculpting)
+	
+<Jeweler Secondary Skills>
+SK:Smith (Lead and Tin)
+SK:Smith (Copper)
+SK:Merchant
+	
+<Laborer Primary Skills>
+SK:Farming
+SK:Professional Skill (Brickmaker)
+SK:Professional Skill (Charcoal-Burner)
+SK:Professional Skill (Forester)
+SK:Professional Skill (Tanner)
+SK:Professional Skill (Dyer)
+SK:Axe/Mace
+SK:Lifting
+	
+<Laborer Secondary Skills>
+SK:Area Knowledge
+SK:Carousing
+SK:Lifting
+SK:Streetwise
+SK:Gambling
+SK:Urban Survival
+	
+<Leatherworker Primary Skills>
+SK:Professional Skill (Tanner)
+SK:Armory (Body Armor)
+SK:Sewing
+	
+<Leatherworker Secondary Skills>
+SK:Merchant
+SK:Artist (Sculpting)
+SK:Smith (Iron)
+SK:Current Affairs (Business)
+	
+<Merchant Primary Skills>
+	
+	
+<Merchant Secondary Skills>
+	
+
+<Midwife Primary Skills>
+	
+	
+<Midwife Secondary Skills>
+	
+	
+<Miller Primary Skills>
+	
+	
+<Miller Secondary Skills>
+	
+	
+<Miner Primary Skills>
+	
+	
+<Miner Secondary Skills>
+	
+	
+<Minstrel Primary Skills>
+	
+	
+<Minstrel Secondary Skills>
+	
+	
+<Nurse Primary Skills>
+	
+	
+<Nurse Secondary Skills>
+	
+	
+<Peasant Primary Skills>
+	
+	
+<Peasant Secondary Skills>
+	
+	
+<Physician Primary Skills>
+	
+	
+<Physician Secondary Skills>
+	
+	
+<Potter Primary Skills>
+	
+	
+<Potter Secondary Skills>
+	
+	
+<Ranger Primary Skills>
+	
+
+<Ranger Secondary Skills>
+	
+	
+<Sailor Primary Skills>
+	
+	
+<Sailor Secondary Skills>
+	
+	
+<Scrivener Primary Skills>
+	
+	
+<Scrivener Secondary Skills>
+	
+	
+<Smith Primary Skills>
+	
+	
+<Smith Secondary Skills>
+	
+	
+<Teamster Primary Skills>
+	
+	
+<Teamster Secondary Skills>
+	
+	
+<Thatcher Primary Skills>
+	
+	
+<Thatcher Secondary Skills>
+	
+	
+<Vendor Primary Skills>
+	
+	
+<Vendor Secondary Skills>
+	
+	
+<Vermin Catcher Primary Skills>
+	
+	
+<Vermin Catcher Secondary Skills>
+	
+	
+<Woodcutter Primary Skills>
+	
+	
+<Woodcutter Secondary Skills>
+	
+	
+<Writer Primary Skills>
+	
+	
+<Writer Secondary Skills>
+SK:Writing
+<Foot Soldier Primary Weapon Skills>
+SK:Broadsword
+SK:Guns (Musket)
+SK:Spear
+
+<Foot Soldier Secondary Weapon Skills>
+SK:Gunner (Cannon)
+SK:Polearm
+SK:Shortsword
+SK:Throwing
+SK:Two-Handed Sword
+SK:Rapier
+
+<Foot Soldier Misc Skills>
+SK:Soldier
+SK:Hiking
+SK:Armory (Small Arms)
+SK:Armory (Body Armor)
+SK:Armory (Melee Weapons)
+
+<Cavalry Soldier Primary Weapon Skills>
+SK:Broadsword
+SK:Guns (Pistol)
+
+<Cavalry Soldier Secondary Weapon Skills>
+SK:Polearm
+SK:Throwing
+SK:Two-Handed Sword
+SK:Rapier
+
+<Cavalry Soldier Misc Skills>
+SK:Riding (Equines)
+SK:Soldier
+SK:Hiking
+SK:Armory (Small Arms)
+SK:Armory (Body Armor)
+SK:Armory (Melee Weapons)
+
+<Cavalry Soldier Techniques>
+SK:Combat Riding (Riding (Equines))
+SK:Mounted Shooting (Guns (Pistol)/Equines)
+SK:Cavalry Training (Broadsword)
+
+<Soldier Unarmed Skills>
+SK:Brawling
+SK:Wrestling
+
+<Soldier Advantages>
+AD:Combat Reflexes
+AD:Fit
+AD:Very Fit
+AD:Fearlessness
+
+<Soldier Disadvantages>
+DI:Appearance
+DI:Bad Temper
+DI:Bloodlust
+DI:Bully
+DI:Callous
+DI:Code of Honor (Chivalry)
+DI:Code of Honor (Soldier's)
+DI:Greed
+DI:Gullibility
+DI:Ham-Fisted
+DI:Oblivious
+DI:Overconfidence
+DI:Skinny
+DI:Wounded
+
+<Cavalry Primary Skills>
+SK:Broadsword
+SK:Guns (Pistol)
+SK:Riding (Equines)
+********************************************************************************************************\[STOP]
+[EQUIPMENT]
+"Brimmed Bascinet",description(TL:4 DR:6 Locations: Skull, Face (1/6), Face (1/6*)),basecost(@round(2500 * me::basecostmultiplier,2)),basecostmultiplier((25 ) *  ( +  +  +  + 15 + 100)/10000),baseweight(@round(9.0718 * me::basecostmultiplier,3)),cat(_Armor, _Armor - Low-Tech, Low-Tech - Armor, Low-Tech - Armor - Helmets - Build Your Own),charcoverage(1, 2/6),cost(731.25),coverage(1, 2/6),displaycost(2500/base),displayweight(9.07/base),don(45),dr(6,5),gives(=+@if(@hasmod("Armor: Helmet Padding") THEN 0 ELSE "1,0") to me::dr listas "Padding", +@round(50 * me::paddingcost * 0.01 * @if(@hasmod(Armor: Helmet Padding) THEN 0 ELSE 1), 2) to me::basecost listas "", + @round(6 * me::paddingcost * 0.01 * @if(@hasmod(Armor: Helmet Padding) THEN 0 ELSE 1), 2) to me::baseweight listas ""),load(Combat),location(Skull, Face),mods(Equipment, Helmet, Armor, Armor - Metal, Armor - Plate),noresync(yes),paddingcost(25),page(LT100-110),techlvl(4),units(kg),weight(4.108)
+"Chest Cuirass",description(TL:4 DR:6 Locations: Chest),cat(_Armor, _Armor - Low-Tech, Low-Tech, Low-Tech - Armor, Low-Tech - Armor - Body Armor - Build Your Own),page(LT100-110),load(Combat),location(Chest),coverage(1),mods(Equipment, Armor, Armor - Metal, Armor - Plate),techlvl(4),don(45),dr(6),displaycost(2500/base),displayweight(9.07/base),basecost(@round(2500 * me::basecostmultiplier,2)),baseweight(@round(9.0718 * me::basecostmultiplier,3)),basecostmultiplier((%Body Armor_Cost20% + %Body Armor_Cost19% + %Body Armor_Cost18% + %Body Armor_Cost17% + %Body Armor_Cost16% + %Body Armor_Cost15% + %Body Armor_Cost14% + %Body Armor_Cost13% + %Body Armor_Cost12% + %Body Armor_Cost11% + %Body Armor_Cost10% +  +  +  +  +  +  +  +  + 75 )/100),noresync(yes),units(kg),cost(1875),weight(6.804),charcoverage(1)
+"Leg Plate",description(TL:4 DR:6 Locations: Legs),cat(_Armor, _Armor - Low-Tech, Low-Tech, Low-Tech - Armor, Low-Tech - Armor - Body Armor - Build Your Own),page(LT100-110),location(Legs),coverage(1),mods(Equipment, Armor, Armor - Metal, Armor - Plate),techlvl(4),don(45),dr(6),displaycost(2500/base),displayweight(9.07/base),basecost(@round(2500 * me::basecostmultiplier,2)),baseweight(@round(9.0718 * me::basecostmultiplier,3)),basecostmultiplier((%Body Armor_Cost20% + %Body Armor_Cost19% + %Body Armor_Cost18% + %Body Armor_Cost17% + %Body Armor_Cost16% + %Body Armor_Cost15% + %Body Armor_Cost14% + %Body Armor_Cost13% + %Body Armor_Cost12% + %Body Armor_Cost11% + %Body Armor_Cost10% +  +  +  +  +  +  +  +  + 100 )/100),noresync(yes),units(kg),cost(2500),weight(9.072),charcoverage(1)
+"Cavalry Cuirass",description(TL:4 DR:6 Locations: Torso),cat(_Armor, _Armor - Low-Tech, Low-Tech, Low-Tech - Armor, Low-Tech - Armor - Body Armor - Build Your Own),page(LT100-110),location(Torso),coverage(1),mods(Equipment, Armor, Armor - Metal, Armor - Plate),techlvl(4),don(45),dr(6),displaycost(2500/base),displayweight(9.07/base),basecost(@round(2500 * me::basecostmultiplier,2)),baseweight(@round(9.0718 * me::basecostmultiplier,3)),basecostmultiplier((%Body Armor_Cost20% + %Body Armor_Cost19% + %Body Armor_Cost18% + %Body Armor_Cost17% + %Body Armor_Cost16% + %Body Armor_Cost15% + %Body Armor_Cost14% + %Body Armor_Cost13% + %Body Armor_Cost12% + %Body Armor_Cost11% + %Body Armor_Cost10% +  +  +  +  +  +  +  +  + 100 )/100),noresync(yes),units(kg),cost(2500),weight(9.072),charcoverage(1)
+"Arm Plate",description(TL:4 DR:6 Locations: Arms),cat(_Armor, _Armor - Low-Tech, Low-Tech, Low-Tech - Armor, Low-Tech - Armor - Body Armor - Build Your Own),page(LT100-110),location(Arms),coverage(1),mods(Equipment, Armor, Armor - Metal, Armor - Plate),techlvl(4),don(45),dr(6),displaycost(2500/base),displayweight(9.07/base),basecost(@round(2500 * me::basecostmultiplier,2)),baseweight(@round(9.0718 * me::basecostmultiplier,3)),basecostmultiplier((%Body Armor_Cost20% + %Body Armor_Cost19% + %Body Armor_Cost18% + %Body Armor_Cost17% + %Body Armor_Cost16% + %Body Armor_Cost15% + %Body Armor_Cost14% + %Body Armor_Cost13% + %Body Armor_Cost12% + %Body Armor_Cost11% + %Body Armor_Cost10% +  +  +  +  +  +  +  +  + 50 )/100),noresync(yes),units(kg),cost(1250),weight(4.536),charcoverage(1)
+"Fancy Hat",cat(_New Equipment),techlvl(4),basecost(500),units(kg),baseweight(1),mods(Equipment),cost(500),weight(1),lc(4)
+"Thigh-High Boots",description(TL:2 LC:-- DR:2* Locations: feet Notes: [1] Concealable as or under clothing.),cat(_Armor, _Armor - Low-Tech, Basic Set, Basic Set - Armor, Basic Set - Armor - Low-Tech, Basic Set - Armor - Low-Tech - Gloves and Footwear),techlvl(2),location(legs),dr(2*),basecost(80),baseweight(1.4),page(B284),mods(Equipment, Armor, Boots),units(kg),cost(80),weight(1.4),notes([1]),itemnotes({Concealable as or under clothing.})

@@ -1,1 +1,454 @@
-Y:/Users/Daisy/Documents/GURPS Character Assistant 5/books/High-Tech 4e - Weapon Accessories.gdf
+Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file,_
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+Program=5.0.220
+Description=26 September 2022. High-Tech Weapon Accessories made to be used as child items to the weapons.
+Requires="GURPS High-Tech 4e.gdf"
+LoadAfter="GURPS Martial Arts 4e.gdf"
+[AUTHOR]
+*******************************************************************************************************\[START]
+// 
+//  GURPS® Character Assistant
+//  Filename: High-Tech 4e - Weapon Accessories.gdf
+//  Created: September 22, 2022
+//  Requires GCA v5 or later!
+//
+//  This data file contains information taken from the GURPS High-Tech sourcebook.
+//  GURPS High-Tech is Copyright © 1988, 1992, 1994, 1998, 2001, 2007 by Steve Jackson Games
+//  Incorporated. All rights reserved.
+// 
+//  Information in this file includes:
+//	Lists of all ammo types for some reason
+// 	Weapon Accessories
+// 
+*******************************************************************************************************************
+// 
+//  Daisy Paradis	-	GCA Affectionado
+//	If you find problems with the file it's easiest to contact me through the GURPS Discord Server by the Discord Handle: deathdaisy
+//
+//	Huge thanks to Armin Sykes for bringing GCA into the 21st century!
+//  
+*******************************************************************************************************************
+// 
+//  GURPS is a registered trademark of Steve Jackson Games Incorporated, used with GCA by permission of Steve Jackson
+//  Games. All rights reserved.
+// 
+//  The GURPS game is Copyright © 1986-1989, 1991-1994 by Steve Jackson Games Incorporated. This product includes
+//  copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games Incorporated. All
+//  rights reserved by Steve Jackson Games Incorporated.
+// 
+********************************************************************************************************\[STOP]
+[LISTS]
+*******************************************************************************************************\[START]
+<Ammo Types - Handguns SMG Personal Defense Weapons>
+4.6x30
+.22 Short
+5.7x28
+.25 ACP
+.28 Caplock
+7.62x25mm Tokarev
+7.62x39mmR Nagant
+7.62x42mm
+7.63x25mm Mauser
+.32 ACP
+7.65x21mm Parabellum
+.31 Caplock
+8x21mm Nambu
+.380 ACP
+9x18mm Makarov
+9x19mm Parabellum
+.38 S&W
+9x21mm Gyurza
+.357 SIG
+9x23mm Bergmann-Bayard
+.38 ACP
+.38 Super Auto
+9x25mm Mauser
+.38 Long Colt
+.38 Special
+.357 Magnum
+.36 Caplock (Colt Number 5)
+.36 Caplock (M1851 Navy)
+.41 Short Remington
+.40 S&W
+10x25mm Auto
+.41 Long Colt
+.42 Caplock
+.44 Special
+.44 Magnum
+.44 American
+.44 Russian
+.44 Caplock (Deringer)
+.44 Caplock (M1860 Army)
+.44 Caplock (M1848 Dragoon)
+.44 Caplock (M1847 Walker)
+.442 Caplock
+.442 RIC
+.44 Colt
+.45 Flintlock
+.45 GAP
+.45 ACP
+.45 S&W
+.45 Long Colt
+.454 Casull
+.455 Webley
+12x16mm Lefaucheux
+.450 Adams
+.476 Enfield
+.50 Flintlock
+.50 Action Express
+13x36mm Gyroc
+.54 Caplock
+.56 Flintlock
+17.1mm Flintlock
+.68 Paintball
+.75 Flintlock
+
+<Ammo Types - Shotguns>
+.410 2.5''
+.410 3''
+32-gauge 2.75''
+20-gauge Caplock
+20-gauge 2.5''
+20-gauge 2.75''
+16-gauge Flintlock
+16-gauge 2.75''
+12-gauge 2.5''
+12-gauge 2.75''
+12-gauge 3''
+11-gauge Flintlock
+10-gauge 2.875''
+
+<Ammo Types - Muskets Rifles and Machine Guns>
+.175 BB
+4.73x33mm Dynamit-Nobel
+5.45x39mm
+.223 Remington
+5.56x45mm NATO
+.220 Swift
+5.6x57mmB
+5.66x39mm
+.22 Long Rifle
+5.7x26mm Usel
+5.8x42mm
+6x60mm Lee
+6.5x50mmSR Arisaka
+6.5x52mm Mannlicher-Carcano
+6.5x53mmR Dutch Mannlicher
+6.5x55mm Mauser
+7x57mm Mauser
+7x64mmB Remington Magnum
+.280 Remington
+7.5x54mm MAS
+.30 M1 Carbine
+7.62x39mm
+.30-30 Winchester
+7.62x51mm NATO
+.30 Remington
+7.62x54mmR Mosin-Nagant
+.30-40 Krag
+.30-06 Springfield
+.300 Winchester Magnum
+.300 Remington Ultra Magnum
+7.65x53mm Mauser
+.303 British
+7.7x58mm Arisaka
+7.7x58mmSR Arisaka
+.32 Long Rifle
+.32-20 Winchester
+7.92x33mm Kurz
+7.92x57mm Mauser
+8x50mmR Lebel
+8x50mmR Mannlicher
+8x58mmR Krag
+8x60mm Mauser
+8x63mm Bofors
+.338 Lapua Magnum
+.35 Remington
+9x39mm
+9.3x74mmR
+.375 H&H Magnum
+.38 Volcanic
+.38-40 Winchester
+.40-90 Sharps
+.44 Henry
+10.75x58mmR Berdan
+10.75x68mm Mauser
+.44-40 Winchester
+.444 Marlin
+11mm Syringe
+11.15x58mmR
+.44-90 Remington Special
+.44-90 Sharps
+.45 Flintlock
+.45-75 Winchester
+.45-55 Springfield
+.45-70 Springfield
+.450 Martini-Henry
+.450 Gardner-Gatling
+.45-110 Sharps
+.458 Winchester Magnum
+.460 Weatherby Magnum
+11.75mm Girandoni
+.470 Nitro Express
+.50 Flintlock
+.50-95 Winchester Express
+12.7x77mm
+.50-90 Sharps
+.50-140 Sharps
+.56-50 Spencer
+.50-70 Government
+13x92mmSR Mauser
+.54 Flintlock
+.56-56 Spencer
+14.5x114mm
+.577 Caplock
+.577 Snider
+.58 Berdan
+.600 Nitro Express
+15.43x54mm Dreyse
+.625 Flintlock
+.68 FN
+17.5mm Flintlock
+.700 Nitro Express
+.75 Flintlock
+8-bore
+
+<Ammo Types - Autocannon and Cannon>
+20x82mm Mauser
+20x102mm
+20x110mmRB Oerlikon
+20x138mmB Solothurn
+25x137mm Oerlikon
+1'' Gatling
+37x94mmR Hotchkiss
+37x249mmR
+1.5'' Caplock
+2.5'' Caplock
+75x350mmR
+75x495mmR
+76.2x539mmR
+105x371mmR
+106x607mmR
+12-pounder Cannonlock
+125x408mmR
+
+<Ammo Types - Grenade Launchers>
+20x28mm
+25x59mmB
+1'' Flare
+26.5x103mmR
+30x28mmB
+37x122mmR
+40mm VOG-25
+40x46mmSR
+40x53mmSR
+
+<Ammo Types - Mortars>
+2''2.25
+52mm
+60mm
+3''10
+81mm
+82mm
+120mm
+
+<Ammo Types - Light Antitank Weapons>
+57x305mmR
+84x250mmR
+
+*******************************************************************************************************\[STOP]
+
+[EQUIPMENT]
+******************************************************************************************************\[START]
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Holders Scabbards and Slings>
+Belt Holster, page(HT153), techlvl(5),lc(4),baseweight(0.5),basecost(25), description(This is the standard hip holster worn by cowpokes, soldiers, and cops from the mid-1800s to present. On early versions, a leather loop around the hammer keeps the weapon from falling out. It takes a Ready maneuver to remove this and enable use of Fast-Draw (Pistol). From the 1920s, a thumb-break strap – so-called because the gunman thumbs open the closed strap as he draws – serves the same purpose but is always ready for a speedy draw.), isparent(yes), countcapacity(1)
+Lanyard, page(HT154), techlvl(5),lc(4),baseweight(0.5),basecost(25), usernotes({A lanyard can be cut: -6 to hit, DR 2, HP 2.}), description(A lanyard is a cord running from a weapon to the belt or neck. It lets a gunman retrieve a dropped gun on a DX roll. Each attempt requires a Ready maneuver.)
+Military Holster, page(HT154), techlvl(5), lc(4), baseweight(2), basecost(50), description(Military holsters often have a flap designed to keep dust, mud, and crud off a handgun; the pistol isn’t “exposed” for the purpose of Slime, Sand, and Equipment Failure (p. B485) and may avoid the Malf. penalty for harsh environments noted in Cleaning and Maintenance (p. HT80). Such holsters are slow, however. The flap can be opened and tucked behind the belt to avoid the Fast-Draw penalty, but then it provides no protection. Holsters like this often have built-in magazine or cartridge pouches.), usernotes({-2 Fast-Draw (Pistol)}), isparent(yes)
+Rifle Sling, page(HT154), techlvl(5), lc(4), baseweight(1), basecost(10), usernotes(Bracing with a sling is a twohanded task that takes one Ready maneuver per -1 Bulk; e.g., five seconds at Bulk -5. Leaving this position, thereby freeing the hands, requires a Ready maneuver.)
+Scabbard, page(HT154), techlvl(5), lc(4), baseweight(1), basecost(25), description(This is a sheath or a covering for a carbine, shotgun, or other shoulder arm. It protects a long arm in the same way that a military holster protects a handgun.), isparent(yes), countcapacity(1)
+Shoulder Holster, page(HT154), techlvl(5), lc(4), baseweight(1), basecost(25), usernotes({-2 to Fast-Draw (Pistol)}), description(A shoulder holster is worn on the off-hand side, usually under the armpit. Some models carry the gun horizontally; others hold it vertically, barrel-down or (rarely) barrel-up. Most have provision for speedloaders, magazines, or handcuffs under the opposite armpit. This is more comfortable, as it helps balance the rig. Shoulder holsters are a common choice for private eyes, police detectives, aviators, and AFV crew.), isparent(yes), countcapacity(1)
+Sleeve Holster, page(HT154), techlvl(6), lc(4), baseweight(0.5), basecost(500), usernotes({Requires a Fast-Draw (Pistol) roll. -2 to Holdout}), description(This is a spring-loaded holster strapped to the forearm in the tradition of James West in The Wild, Wild West or Travis Bickle in Taxi Driver. The wearer activates it via a lever near the elbow, typically by pressing the elbow against the body. This requires a Fast-Draw (Pistol) roll. Success causes a slim metal bar thrust forward, allowing the gunman to grasp the handgun (no larger than Bulk -1) mounted at the end. Failure means the device fails to work properly; getting the weapon requires use of the free hand and a further Ready maneuver. Critical failure indicates the device breaks – extracting the gun requires 2d seconds of prying and pulling with the free hand!), isparent(yes), countcapacity(1)
+Fast-Draw Rig, page(HT154), techlvl(7), lc(4), baseweight(3), basecost(500), usernotes({+2 to Fast-Draw (Pistol).}), description(A holster and belt can be custom-built for speed. The drop-hip belt with its low-slung, smooth-drawing, steellined holster is a 1950s Hollywood novelty; authentic Old West gunfighters never used it. Nevertheless, it is fast!), isparent(yes), countcapacity(1)
+Patrol Sling, page(HT154), techlvl(7), lc(4), baseweight(2), basecost(50), usernotes({+1 to Fast-Draw (Long Arm).}), description(This padded sling lets the wearer safely drop his long arm without pausing to stow it, immediately freeing both hands for another task. It’s adjustable: at rest, the weapon hangs either horizontally, at waist level, or vertically, typically with its stock near the armpit and its barrel pointing down and behind the hip so that it doesn’t hinder its owner as he runs. The gun can be fired without unslinging it. Raising it to a shooting position requires only one Ready maneuver; a successful Fast-Draw (Long Arm) roll makes this a free action.)
+Undercover Holster, page(HT154), techlvl(7), lc(4), baseweight(1), basecost(125), usernotes({-1 to Fast-Draw (Pistol), +1 to Holdout.}), description(Concealable holsters are padded, designed to soften the hard edges of a hidden handgun. Most are worn inside the pants, with a shirt over the top of the gun (Bulk -2 or worse), or on the ankle (Bulk -1 or 0 only).), isparent(yes), countcapacity(1)
+Retention Holster, page(HT154), techlvl(8), lc(4), baseweight(0.5), basecost(100), usernotes({+2 to Retain Weapon while holstered}), description(Modern hip holsters, especially those used by police, are sometimes designed to prevent an assailant from snatching the holstered sidearm. Without a specific twist or tilt, the pistol won’t come out of such a holster, even if it’s turned upside down. This makes it difficult for anyone but the wearer to draw the gun. The owner gets +2 to his Retain Weapon technique (p. B232) while his weapon is holstered.), isparent(yes), countcapacity(1)
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Magazine Modifications and Reloading Aids>
+Extended Magazine, page(HT155), techlvl(6), lc(3), baseweight(1.5), baseweightformula(@getnum($val(parent::ammo))*@hasmodwithtag(capacity)),
+	basecost(25), basecostformula(@int((@getnum($val(parent::ammo))*5)*@hasmodwithtag(capacity))),
+	mods(Magazines), ammocount($val(parent::shots)), initmods({Capacity}, 0/0, levelnames(1.5,2,3,4), displaynameformula($val(me::name) - x$val(me::levelname)), upto(4), page(HT155), shortname(#format x$val(me::levelname)), capacity($val(me::levelname)) | {Extended Steel Box}, 25, gives(*1.5 to owner::weight)),
+	gives(=-@if(@HasModIncludesText("Extended") | @HasModIncludesText("Helical") then @if(@hasmod(Capacity) > 3 then 2 elseif @hasmod(Capacity) > 1 then 1 else 0) elseif @HasModIncludesText("Drum") then @if(@hasmod(Capacity) > 2 then 1 else 0) else 0) to parent::bulk,
+	=*@hasmodwithtag(capacity) to parent::shots,
+	=-@getnum($val(parent::ammo)) to parent::baseweight), x(#BuildIt)
+
+Speedloader, page(HT155), techlvl(6), lc(4), baseweight(0.1), basecost(10), usernotes(Reduces reloading time for swing-out cylindered revolvers to six seconds without an ejecetor, five seconds with.)
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Sights and Aiming Aids>
+{Fixed-Power Scope}, displaynameformula(Fixed-Power Scope $if(@hasmod("Fixed-Power Scope: Magnification") = 1 then x2 elseif @hasmod("Fixed-Power Scope: Magnification") = 2 then x4 elseif @hasmod("Fixed-Power Scope: Magnification") = 3 then x8 elseif @hasmod("Fixed-Power Scope: Magnification") = 4 then x16 elseif @hasmod("Fixed-Power Scope: Magnification") = 5 then x32 else "") (%TechLevel%)), page(HT156), techlvl(%TechLevelAlias%), lc(4), baseweight(3), baseweightformula(@if($val(me::techlvl) = 5 then 3 elseif $val(me::techlvl) = 6 then 1.5 elseif $val(me::techlvl) > 6 then 1)+@if($val(me::techlvl) = 5 & @hasmod("Fixed-Power Scope: Magnification") > 4 then 1 elseif $val(me::techlvl) = 5 & @hasmod("Fixed-Power Scope: Magnification") > 2 then 0.5 else 0)),  basecost(100), basecostformula(@if($val(me::techlvl) = 5 then 100 elseif $val(me::techlvl) = 6 then 125 elseif $val(me::techlvl) > 6 then 150)), mods(Telescopic Sights - Fixed-Power), initmods(#ref "Fixed-Power Scope: Magnification" from "Telescopic Sights - Fixed-Power"), gives(=+@hasmod("Fixed-Power Scope: Magnification") to parent::scopeacc upto parent::acc, =-1 to parent::bulk onlyif target::charscopeacc > 2), x(#list(Tech Level), #BuildIt)
+
+{Variable-Power Scope}, displaynameformula(Variable-Power Scope (%TechLevel%)), page(HT156), techlvl(%TechLevelAlias%), lc(4), baseweight(1.5), baseweightformula(@if($val(me::techlvl) > 7 then 1 else 1.5)), basecost(200), basecostformula(@if($val(me::techlvl) > 7 then 250 else 200)), mods(Telescopic Sights - Variable-Power), initmods(#ref "Variable-Power Scope: Magnifications" from "Telescopic Sights - Variable-Power"), gives(=+(@hasmod("Variable-Power Scope: Magnifications")) to parent::scopeacc upto parent::acc, =-1 to parent::bulk onlyif target::charscopeacc > 2), x(#ChoiceList(name(TechLevel), title(Tech Level), text(Choose the tech level of the equipment), picksallowed(1), method(bynumber), list(TL 7, TL 8), aliaslist(7,8)))
+
+{Improved Visibility Sights}, page(HT156), techlvl(6), lc(4), baseweight(neg.), basecost(75), usernotes({Negates -1 in darkness penalties.}), description(Making a gun’s sights more visible reduces the difficulty of seeing them – and hence shooting – in the dark. Improved-visibility sights typically have three dots or lines of light-colored paint, or inserts of luminescent material (often tritium). This negates -1 in darkness penalties, but has no effect in normal light.)
+	
+{Collimating Sight, Battery}, page(HT156), techlvl(7), lc(4), baseweight(0.5), basecost(250), usernotes({+1 Guns skill at ranges up to 300 yards and negates -3 in darkness penalties.}), description(Improves situational awareness by allowing the shooter to keep both eyes open. Target acquisition is faster: instead of aligning fore and rear sights, the gunman simply superimposes the dot on his target. This gives +1 Guns skill at ranges up to 300 yards and makes it easier to aim in low-light conditions, negating up to -3 in darkness penalties on all shots.)
+{Collimating Sight, Tritium}, page(HT156), techlvl(7), lc(4), baseweight(0.5), basecost(400), usernotes({+1 Guns skill at ranges up to 300 yards and negates -3 in darkness penalties.}), description(Improves situational awareness by allowing the shooter to keep both eyes open. Target acquisition is faster: instead of aligning fore and rear sights, the gunman simply superimposes the dot on his target. This gives +1 Guns skill at ranges up to 300 yards and makes it easier to aim in low-light conditions, negating up to -3 in darkness penalties on all shots.)
+{Reflex Sight, Battery}, page(HT156), techlvl(8), lc(4), baseweight(0.25), basecost(350), usernotes({+1 Guns skill at ranges up to 300 yards and negates -3 in darkness penalties.}), description(Improves situational awareness by allowing the shooter to keep both eyes open. Target acquisition is faster: instead of aligning fore and rear sights, the gunman simply superimposes the dot on his target. This gives +1 Guns skill at ranges up to 300 yards and makes it easier to aim in low-light conditions, negating up to -3 in darkness penalties on all shots.)
+{Reflex Sight, Tritium}, page(HT156), techlvl(8), lc(4), baseweight(0.25), basecost(550), usernotes({+1 Guns skill at ranges up to 300 yards and negates -3 in darkness penalties.}), description(Improves situational awareness by allowing the shooter to keep both eyes open. Target acquisition is faster: instead of aligning fore and rear sights, the gunman simply superimposes the dot on his target. This gives +1 Guns skill at ranges up to 300 yards and makes it easier to aim in low-light conditions, negating up to -3 in darkness penalties on all shots.)
+
+{Early Night Sight}, page(HT156), techlvl(7), lc(3), baseweight(4), basecost(1000), usernotes({Negates -2 in darkness penalties. Requires external power.}), description(Introduced in the 1940s, this huge device gives Night Vision 2. It’s usually used with IR illumination (High-Tech, p. 47). It adds -2 Bulk.), gives(=-2 to parent::bulk)
+{Night Sight}, page(HT156), techlvl(7), lc(3), baseweight(5), basecost(500), usernotes({Negates -4 in darkness penalties and gives +2 Acc.}), description(By the 1960s, a bulky but manportable sight gives Night Vision 4 and +2 Acc. It adds -2 Bulk.), gives(=-2 to parent::bulk, =+2 to parent::scopeacc)
+{Improved Night Sight}, page(HT156), techlvl(7), lc(3), baseweight(4), basecost(1000), usernotes({Negates -5 in darkness penalties and gives +2 Acc.}), description(A 1970s-era system gives Night Vision 5 and +2 Acc. It adds only -1 Bulk.), gives(=-1 to parent::bulk, =+2 to parent::scopeacc upto parent::acc)
+{Improved Night Sight, Add-on}, page(HT156), techlvl(7), lc(3), baseweight(4), basecost(1000), usernotes({Combines with a scope. Negates -5 in darkness penalties in addition to the accuracy bonus of the scope or sight.}), description(This gadget adds Night Vision 5 to the benefits of another scope or sight.)
+{Advanced Night Sight}, page(HT156), techlvl(8), lc(3), baseweight(2), basecost(2500), usernotes({Negates -7 in darkness penalties and gives +2 Acc.}), description(From the 1980s, a typical night sight gives Night Vision 7 and +2 Acc.), gives(=+2 to parent::scopeacc upto parent::acc)
+{Advanced Night Sight, Add-on}, page(HT156), techlvl(8), lc(3), baseweight(1), basecost(1500), usernotes({Combines with a scope. Negates -7 in darkness penalties in addition to the accuracy bonus of the scope or sight.}), description(This accessory adds Night Vision 7 to the benefits of another scope or sight.)
+
+#Clone "EQ:Baton" as "EQ:Tactical Flashlight (TL7)"
+#Clone "EQ:Baton" as "EQ:Tactical Flashlight (TL8)"
+#Clone "EQ:Brass Knuckles" as "EQ:Tactical Flashlight, Small (TL7)"
+#Clone "EQ:Brass Knuckles" as "EQ:Tactical Flashlight, Small (TL8)"
+#MergeTags in "EQ:Tactical Flashlight (TL7)" with "page(HT52), techlvl(7), cat(High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Sights and Aiming Aids)"
+#MergeTags in "EQ:Tactical Flashlight (TL8)" with "page(HT52), techlvl(8), cat(High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Sights and Aiming Aids)"
+#MergeTags in "EQ:Tactical Flashlight, Small (TL7)" with "page(HT52), cat(High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Sights and Aiming Aids)"
+#MergeTags in "EQ:Tactical Flashlight, Small (TL8)" with "page(HT52), cat(High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Sights and Aiming Aids)"
+#ReplaceTags in "EQ:Tactical Flashlight (TL7)" with "usernotes({100-yard beam.}), baseweight(2), basecost(200), techlvl(7), lc(4)"
+#ReplaceTags in "EQ:Tactical Flashlight (TL8)" with "usernotes({100-yard beam.}), baseweight(0.5), basecost(200), techlvl(8), lc(4)"
+#ReplaceTags in "EQ:Tactical Flashlight, Small (TL7)" with "usernotes({25-yard beam.}), baseweight(1), basecost(100), techlvl(7), lc(4)"
+#ReplaceTags in "EQ:Tactical Flashlight, Small (TL8)" with "usernotes({25-yard beam.}), baseweight(0.25), basecost(100), techlvl(8), lc(4)"
+
+#IF FileLoaded = "GURPS Martial Arts 4e.gdf"
+#Delete "EQ:Tactical Flashlight"
+#Delete "EQ:Tactical Flashlight, Small"
+#MergeTags in "EQ:Tactical Flashlight (TL7)" with "page(MA225), cat(_Melee Weapons - Martial Arts, Martial Arts - Melee Weapons, Martial Arts)"
+#MergeTags in "EQ:Tactical Flashlight (TL8)" with "page(MA225), cat(_Melee Weapons - Martial Arts, Martial Arts - Melee Weapons, Martial Arts)"
+#MergeTags in "EQ:Tactical Flashlight, Small (TL7)" with "page(MA225), cat(_Melee Weapons - Martial Arts, Martial Arts - Melee Weapons, Martial Arts)"
+#MergeTags in "EQ:Tactical Flashlight, Small (TL8)" with "page(MA225), cat(_Melee Weapons - Martial Arts, Martial Arts - Melee Weapons, Martial Arts)"
+#END
+
+{Primitive Targeting Laser}, page(B289, HT156), techlvl(7), lc(3), basecost(1500), baseweight(5), usernotes({If you can see your targeting laser’s aiming dot, you get +1 to hit whether or not you took an Aim maneuver. If your target can see it, he gets +1 to Dodge.}), description(A large, first-generation device with a 200-yard range.), gives(=-1 to parent::bulk)
+{Targeting Laser (Sidearm)}, page(B289, HT156), techlvl(8), lc(3), basecost(150), baseweight(0.25), usernotes({+1 to hit if you can see your targeting laser’s aiming dot. If your target can see it, they get +1 to Dodge.}), description(A compact targeting laser with a 150-yard range.)
+{Targeting Laser (Shoulder Arm)}, page(B289, HT156), techlvl(8), lc(3), basecost(750), baseweight(0.5), usernotes({+1 to hit if you can see your targeting laser’s aiming dot. If your target can see it, they get +1 to Dodge.}), description(A compact targeting laser with a 750-yard range.)
+{Integral Targeting Laser (Sidearm)}, page(B289, HT156), techlvl(8), lc(3), basecost(450), baseweight(neg.), usernotes({+1 to hit if you can see your targeting laser’s aiming dot. If your target can see it, they get +1 to Dodge.}), description(A miniature targeting laser with a 150-yard range, installed inside the grip sideplates or in place of the recoil spring rod.)
+{Integral Targeting Laser (Shoulder Arm)}, page(B289, HT156), techlvl(8), lc(3), basecost(900), baseweight(neg.), usernotes({+1 to hit if you can see your targeting laser’s aiming dot. If your target can see it, they get +1 to Dodge.}), description(A built-in targeting laser with a 750-yard range.)
+
+{Computer Sight}, displaynameformula(Computer Sight (%NightVisionAlias%)), page(HT157), techlvl(8), lc(2), baseweight(10), basecost(22500), basecostformula(@if(@TextIsInText($val(displaynameformula), "Infravision") = 1 then 30000 else 22500)), usernotes({+1 to Guns/Gunner skill, +2-3 to Acc from scope, another +3 Acc if using the rangefinder before aiming}), description(Includes a targeting program (+1 Gunner/Guns), a laser rangefinder (+3 Acc out to 4,000 yards), 3-9x magnification (+1 to +3 Acc), and either Night Vision 7 or Infravision. Adds -2 Bulk.), gives(=+1 to parent::skillused, =+3 to parent::scopeacc upto parent::acc, =-2 to parent::bulk), x(#ChoiceList(name(NightVision), title(Night Vision), text(Choose if the scope has Night Vision or Infravision), picksallowed(1), method(bynumber), list(Night Vision 7, Infravision), aliaslist(Night Vision, Infravision)))
+{Mini-Computer Sight}, displaynameformula(Computer Sight (%NightVisionAlias%)), page(HT157), techlvl(8), lc(2), baseweight(2.5), basecost(12500), basecostformula(@if(@TextIsInText($val(displaynameformula), "Infravision") = 1 then 20000 else 12500)), usernotes({+1 to Guns/Gunner skill, +1-2 to Acc from scope, another +3 Acc if using the rangefinder before aiming}), description(Includes a targeting program (+1 Gunner/Guns), a laser rangefinder (+3 Acc out to 2,000 yards), 2-4x magnification (+1 to +2 Acc), and either Night Vision 7 or Infravision. Adds -1 Bulk.), gives(=+1 to parent::skillused, =+2 to parent::scopeacc upto parent::acc, =-1 to parent::bulk), x(#ChoiceList(name(NightVision), title(Night Vision), text(Choose if the scope has Night Vision or Infravision), picksallowed(1), method(bynumber), list(Night Vision 7, Infravision), aliaslist(Night Vision, Infravision)))
+
+{Thermal-Imaging Sight}, page(HT157), techlvl(8), lc(3), baseweight(5), basecost(8000), usernotes({Gives Infravision and +2 Acc, and adds -2 Bulk.}), description(Electronic passive IR-imaging sights for nighttime target acquisition have been available since the 1980s. Shooters using such devices have Colorblindness (p. B127) and Tunnel Vision (p. B151). See Thermographs (p. HT48) for other important details.), gives(=+2 to parent::scopeacc, =-2 to parent::bulk)
+{Improved Thermal-Imaging Sight}, page(HT157), techlvl(8), lc(3), baseweight(4), basecost(8000), usernotes({A lighter 1990s-era sight still gives Infravision and +2 Acc, but adds only -1 Bulk.}), description(Electronic passive IR-imaging sights for nighttime target acquisition have been available since the 1980s. Shooters using such devices have Colorblindness (p. B127) and Tunnel Vision (p. B151). See Thermographs (p. HT48) for other important details.), gives(=+2 to parent::scopeacc, =-1 to parent::bulk)
+{Advanced Thermal-Imaging Sight}, page(HT157), techlvl(8), lc(3), baseweight(1), basecost(10000), usernotes({By the 2000s, these sights give Infravision and +2 Acc without affecting Bulk.}), description(Electronic passive IR-imaging sights for nighttime target acquisition have been available since the 1980s. Shooters using such devices have Colorblindness (p. B127) and Tunnel Vision (p. B151). See Thermographs (p. HT48) for other important details.), gives(=+2 to parent::scopeacc)
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Sound Suppressors>
+{Detachable Baffle Suppressor, .22-caliber}, usernotes(%BaffleHearingMalusSmall% to Hearing), page(HT159), techlvl(6), lc(3), baseweight(0.25), basecost(100), basecostformula(100 * %BaffleHearingMalusSmallAlias%), gives(=-1 to parent::bulk), description(-1 to -4 Hearing. -1 Bulk.), x(#list(Baffle Hearing Malus Small))
+{Detachable Baffle Suppressor, Pistol/SMG}, usernotes(%BaffleHearingMalusSmall% to Hearing), page(HT159), techlvl(6), lc(3), baseweight(1), basecost(250), basecostformula(250 * %BaffleHearingMalusSmallAlias%), gives(=-1 to parent::bulk), description(-1 to -4 Hearing. -1 Bulk.), x(#list(Baffle Hearing Malus Small))
+{Detachable Baffle Suppressor, Rifle}, usernotes(%BaffleHearingMalusLarge% to Hearing), page(HT159), techlvl(6), lc(3), baseweight(1.5), basecost(250), basecostformula(250 * %BaffleHearingMalusLargeAlias%), description(For rifles firing 5.56x45mm NATO, 7.62x51mm NATO, or similar. -2 to -4 Hearing. -1 Bulk.), gives(=-1 to parent::bulk), x(#list(Baffle Hearing Malus Large))
+{Detachable Baffle Suppressor, Oversized}, usernotes(%BaffleHearingMalusLarge% to Hearing), page(HT159), techlvl(8), lc(3), baseweight(1.5), basecost(400), basecostformula(400 * %BaffleHearingMalusLargeAlias%), description(Primarily for large-caliber rifles, such as .50 Browning weapons, but also available for some MGs. -2 to -4 Hearing. -2 Bulk.), gives(=-2 to parent::bulk), x(#list(Baffle Hearing Malus Large))
+
+{Detachable Wiper Suppressor, Pistol/SMG}, page(HT159), techlvl(6), lc(3), baseweight(0.5), basecost(150), basecostformula(150 * %WiperHearingMalusSmallAlias%), usernotes(%WiperHearingMalusSmall% to Hearing. Good for 40 shots.), description(Multiply Dmg and Range by 0.8. Good for 40 shots. -2 to -4 Hearing. -1 Bulk.), gives(=*0.8 to parent::damage, =*0.8 to parent::rangehalfdam, =*0.8 to parent::rangemax, =-1 to parent::bulk), x(#list(Wiper Hearing Malus Small))
+{Detachable Wiper Suppressor, Rifle}, page(HT159), techlvl(6), lc(3), baseweight(1.5), basecost(150), basecostformula(150 * %WiperHearingMalusLargeAlias%), usernotes(%WiperHearingMalusLarge% to Hearing. Good for 40 shots.), description(For rifles firing 5.56x45mm NATO, 7.62x51mm NATO, or similar. Multiply Dmg and Range by 0.5. Good for 40 shots. -2 to -6 Hearing. -1 Bulk.), gives(=*0.5 to parent::damage, =*0.5 to parent::rangehalfdam, =*0.5 to parent::rangemax, =-1 to parent::bulk), x(#list(Wiper Hearing Malus Large))
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Stocks Bipods and Tripods>
+{Pistol Stock (TL5)}, page(HT160), techlvl(5), lc(3), baseweight(1), basecost(100), gives(=+1 to parent::acc, =-1 to parent::bulk, =*0.8 to parent::minst)
+{Pistol Stock (TL7)}, page(HT160), techlvl(7), lc(3), baseweight(0.5), basecost(100), gives(=+1 to parent::acc, =-1 to parent::bulk, =*0.8 to parent::minst)
+
+{Shooting Stick}, page(HT160), techlvl(5), lc(4), baseweight(1), basecost(5)
+
+{Bipod}, page(HT160), techlvl(%TechLevelAlias%), lc(4), baseweight(2), baseweightformula(@if($val(me::techlvl) = 6 then 2 elseif $val(me::techlvl) = 7 then 1 else 0.5)), basecost(100), gives(nobase $eval(@round(@getnum($val(parent::minst))*0.66))B† to parent::minst$), x(#ChoiceList(name(TechLevel), title(Tech Level), text(Choose the tech level of the equipment), picksallowed(1), method(bynumber), list(TL 6, TL 7, TL 8), aliaslist(6,7,8)))
+{Folding Stock}, page(HT160), techlvl(7), lc(3), baseweight(0.5), basecost(100), description(The fixed shoulder stock of some long arms – but not that of weapons where the stock houses part of the action, or the magazine – can be replaced with a stock that folds or retracts to make the gun more compact.), usernotes({While folded, +1 to bulk, -1 to Acc and +1 to Recoil (unless Rcl is 1), multiply ST by 1.2 (round up). Folding or unfolding the stock requires a Ready maneuver.})
+
+<High-Tech, High-Tech - Weapons, High-Tech - Weapons - Accessories, High-Tech - Weapons - Accessories - Miscellaneous Accessories and Modifications>
+{Gun-Cleaning Kit}, page(HT160), techlvl(4), lc(4), baseweight(0.5), basecost(20)
+{Gun Case}, page(HT160), techlvl(5), lc(4), baseweight(25), basecost(250), description(A typical TL8 model is 4’ long and holds a sniper rifle or two SMGs, plus spare magazines and other accessories. It is waterproof and lockable, and has DR 2.), usernotes(Waterproof and lockable, and has DR 2.), isparent(yes)
+
+{MG Brass Catcher}, page(HT161), techlvl(6), lc(4), baseweight(2), basecost(75), description(A “brass catcher” is a bag or other container attached to a gun’s ejection port to catch spent cartridge cases (the “brass”).), usernotes(Holds 500 cases. Adds -2 Bulk.), gives(=-2 to parent::bulk)
+{Pistol Brass Catcher}, page(HT161), techlvl(6), lc(4), baseweight(0.5), basecost(50), description(A “brass catcher” is a bag or other container attached to a gun’s ejection port to catch spent cartridge cases (the “brass”).), usernotes(Holds 20-30 cases. Adds -1 Bulk.), gives(=-1 to parent::bulk)
+{Rifle/SMG Brass Catcher}, page(HT161), techlvl(6), lc(4), baseweight(1), basecost(50), description(A “brass catcher” is a bag or other container attached to a gun’s ejection port to catch spent cartridge cases (the “brass”).), usernotes(Holds 60-100 cases. Adds -1 Bulk.), gives(=-1 to parent::bulk)
+
+{Slide-Lock}, page(HT161), techlvl(6), lc(4), baseweight(neg.), basecost(50), description(A slide-lock prevents the action of a semiautomatic firearm from cycling. This reduces mechanical noise when used with a sound suppressor, giving -1 to Hearing, but effectively converts the gun to a RoF 1 manual repeater – the operator must rack the slide after every shot to chamber a new cartridge. A gunsmith can add one to any semiautomatic with an Armoury (Small Arms) roll and two hours’ work.), usernotes(-1 to Hearing. Gives weapon RoF 1.), gives(==1 to parent::rof)
+
+{Accessory Rail}, page(HT161), techlvl(7), lc(4), baseweight(0.2), baseweightformula(0.2*%RailPos%), basecost(100), basecostformula(@if(%RailPos% > 2 then 200 else 100)), description(Allows the user to attach and detach accessories quickly (a Ready maneuver). Strips of rail can be added to any suitable weapon surface – notably the top of the receiver (for sights and scopes) and around the forearm (for tactical lights, targeting lasers, and underbarrel grenade launchers). Each rail typically mounts one item, although long rails can hold more; e.g., an add-on night sight and a scope, front-to-back. A one-position rail costs $100; a three- or four-position rail (sides, plus bottom and/or top), $200.), usernotes(Allows attaching and detaching accessories with a Ready maneuver.), x(#ChoiceList(name(RailPos),title(Rail Positions),text(Choose the number of attachment positions on the rail.),picksallowed(1),method(bynumber),list(1,2,3,4)))
+
+{Drag Bag}, page(HT161), techlvl(7), lc(4), baseweight(4), basecost(250), description(A sniper may use a padded “drag bag” to protect his rifle while creeping along the ground. A typical bag is camouflaged, has internal compartments and external pouches for small items, and can be worn as a backpack. It may unfold for use as a sniper mat once the sharpshooter reaches his objective. Its thick skin has DR 1.), usernotes(Has DR 1.), isparent(yes)
+
+
+********************************************************************************************************\[STOP]
+[MODIFIERS]
+********************************************************************************************************\[START]
+<Magazines>
+{Extended Magazine: Capacity}, 0/0, levelnames(1.5,2,3,4), displaynameformula($val(me::name) - x$val(me::levelname)), upto(4), page(HT155), shortname(#format x$val(me::levelname)), capacity($val(me::levelname))
+{Extended Magazine: Extended Steel Box}, 25, gives(*1.5 to owner::weight)
+{Extended Magazine: High-Density Steel Box}, 27, gives(*1.3 to owner::weight)
+{Extended Magazine: Extended Alloy Box}, 30, gives(*1.2 to owner::weight)
+{Extended Magazine: Extended Plastic Box}, 30, gives(*1.2 to owner::weight)
+{Extended Magazine: High-Density Alloy Box}, 33, gives(*1.1 to owner::weight)
+{Extended Magazine: High-Density Plastic Box}, 33, gives(*1.1 to owner::weight)
+{Extended Magazine: Steel Drum}, 250, gives(*2 to owner::weight)
+{Extended Magazine: Steel Helical Drum}, 250, gives(*1.6 to owner::weight)
+{Extended Magazine: Alloy Drum}, 300, gives(*1.6 to owner::weight)
+{Extended Magazine: Alloy Helical Drum}, 300, gives(*1.3 to owner::weight)
+{Extended Magazine: Plastic Drum}, 300, gives(*1.6 to owner::weight)
+{Extended Magazine: Plastic Helical Drum}, 300, gives(*1.3 to owner::weight)
+
+<Telescopic Sights - Fixed-Power>
+{Fixed-Power Scope: Magnification}, +0 CF/+1 CF/+2 CF/+3 CF/+4 CF, displaynameformula(Magnification - $val(me::levelname)), levelnames(x2,x4,x8,x16,x32), upto(5), page(HT156), shortname(#format $val(me::levelname))
+
+<Telescopic Sights - Variable-Power>
+{Variable-Power Scope: Magnifications}, +0 CF/+1 CF/+2 CF/+3 CF/+4 CF, displaynameformula(Magnifications - %MagnificationList%), page(HT156), shortname(#format %MagnificationList%), level(%Magnification3Alias%), x(#ChoiceList(name(Magnification), title(Magnifications), text(Choose three magnification levels from the list), picksallowed(3), method(bynumber), default(2,3,4), list(x1.5,x2,x4,x8,x16,x32), aliaslist(0,1,2,3,4,5)))
+
+********************************************************************************************************\[STOP]
+[LISTS]
+********************************************************************************************************\[START]
+<Tech Level>
+
+#CHOICELIST(_
+    list(TL5, TL6, TL7, TL8),
+    name(TechLevel),
+    title(Tech Level),
+    aliaslist(5, 6, 7, 8),
+    alt1list(1, 2, 3, 4),
+    picksallowed(1),
+    method(bynumber)_
+)
+
+<Baffle Hearing Malus Small>
+#CHOICELIST(_
+	name(BaffleHearingMalusSmall),
+	title(Hearing Malus),
+	text(Choose the Hearing penalty for the suppressor; $100 per -1),
+	picksallowed(1),
+	method(bynumber),
+	list(-1,-2,-3,-4),
+	aliaslist(1,2,3,4)_
+)
+<Baffle Hearing Malus Large>
+#CHOICELIST(_
+	name(BaffleHearingMalusLarge),
+	title(Hearing Malus),
+	text(Choose the Hearing penalty for the suppressor; $100 per -1),
+	picksallowed(1),
+	method(bynumber),
+	list(-2,-3,-4),
+	aliaslist(2,3,4)_
+)
+<Wiper Hearing Malus Small>
+#CHOICELIST(_
+	name(WiperHearingMalusSmall),
+	title(Hearing Malus),
+	text(Choose the Hearing penalty for the suppressor; $100 per -1),
+	picksallowed(1),
+	method(bynumber),
+	list(-2,-3,-4),
+	aliaslist(2,3,4)_
+)
+<Wiper Hearing Malus Large>
+#CHOICELIST(_
+	name(WiperHearingMalusLarge),
+	title(Hearing Malus),
+	text(Choose the Hearing penalty for the suppressor; $100 per -1),
+	picksallowed(1),
+	method(bynumber),
+	list(-2,-3,-4,-5,-6),
+	aliaslist(2,3,4,5,6)_
+)
+********************************************************************************************************\[STOP]

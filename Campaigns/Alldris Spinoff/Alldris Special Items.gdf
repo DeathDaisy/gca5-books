@@ -1,0 +1,304 @@
+Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file,_
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+Program=5.0.220
+Description=8 October 2023. Mercedes' unique items
+[AUTHOR]
+*******************************************************************************************************\[START]
+// 
+//  GURPS® Character Assistant
+//  Filename: Mercedes Unique Items.gdf
+//  Created: October 8, 2023
+//  Requires GCA v5 or later!
+//
+//  This data file contains information taken from the GURPS Low-Tech sourcebook.
+//  GURPS High-Tech is Copyright © 1988, 1992, 1994, 1998, 2001, 2007 by Steve Jackson Games
+//  Incorporated. All rights reserved.
+// 
+//  Information in this file includes:
+//	
+// 
+*******************************************************************************************************************
+// 
+//  Daisy Paradis	-	GCA Affectionado
+*******************************************************************************************************************
+// 
+//  GURPS is a registered trademark of Steve Jackson Games Incorporated, used with GCA by permission of Steve Jackson
+//  Games. All rights reserved.
+// 
+//  The GURPS game is Copyright © 1986-1989, 1991-1994 by Steve Jackson Games Incorporated. This product includes
+//  copyrighted material from the GURPS game, which is used by permission of Steve Jackson Games Incorporated. All
+//  rights reserved by Steve Jackson Games Incorporated.
+// 
+********************************************************************************************************\[STOP]
+[EQUIPMENT]
+*******************************************************************************************************\[START]
+<_Armor, _Armor - Low-Tech, Low-Tech - Armor, Alldris, Alldris - Armor>
+"Full Plate Armor from Miguel", basecost(0), baseweight(0), isparent(yes), description(A ludicrously expensive, masterfully forged and richly decorated full set of plate armor given as a farewell gift, complementing the breastplate he previously gifted her.), adds(#list(Set of Armor, append(#AsChild), flags(InQuotes)))
+
+"Plate, Medium", nameext(Breastplate), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(2500), baseweight(20), techlvl(4), dr(6), location(Torso), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Masterful Tailoring (TL 1)" | #ref "Equipment: Styling" = 3)
+"Plate, Medium", nameext(Gorget), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(125), baseweight(1), techlvl(4), dr(6), location(Neck), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2)
+"Plate, Medium", nameext(Arms), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(1250), baseweight(10), techlvl(4), dr(6), location(Arms), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2)
+"Plate, Medium", nameext(Leggings), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(2500), baseweight(20), techlvl(4), dr(6), location(Legs), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2)
+"Plate, Medium", nameext(Right Gauntlet), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(125), baseweight(1), techlvl(4), dr(6), location(Right Hand), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2)
+"Plate, Medium", nameext(Left Gauntlet), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(125), baseweight(1), techlvl(4), dr(6), location(Left Hand), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2)
+"Plate, Medium", nameext(Sollerets), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(250), baseweight(2), techlvl(4), dr(6), location(Feet), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2)
+"Plate, Medium", nameext(Bascinet w/ nasal protection), page(LT100-110), displaynameformula($val(me::name) ($val(me::nameext))), basecost(750), baseweight(6), techlvl(4), dr(7), location(Skull, Face), coverage(1, 2/6), mods(Equipment, Armor, Armor - Metal, Armor - Plate), initmods(#ref "Armor Quality: Duplex Plate (TL 4)" | #ref "Armor Quality: Fluting (TL 1)" | #ref "Armor Quality: Expert Tailoring (TL 1)" | #ref "Equipment: Styling" = 2 | {"Armor: Helmet Padding", +12, gives(=+1 to owner::dr, =+1.5 to owner::baseweight), shortname(Padding), page(LT111)})
+
+
+<_Firearms, _Firearms - Low-Tech, Low-Tech, Low-Tech - Firearms, Low-Tech - Firearms - Pistols & SMGs, Alldris, Alldris - Weapons, Alldris - Weapons - Firearms>
+"Fancy Double-Barreled Flintlock", basecost(250), baseweight(2.75), techlvl(4), mods(Equipment, Guns), initmods(#ref "Weapon Quality: Very Fine (Reliable)" | #ref "Weapon Quality: Fine (Accurate)" from "Guns" | #ref "Equipment: Styling" = 3), description(One of a pair gifted to Mercedes and Yum as a farewell gift before they headed out on the seas to hunt for monsters. This one is made with blue details, wolf themed decorations and the de Luna coat of arms.),
+	newmode(Damage, damage(2d), damtype(pi++), acc(2), calcrange(yes), rangehalfdam(50), rangemax(510), rof(2), bulk(-4), rcl(2), shots(2(20i)), minst(10), break(0), lc(4), skillused(SK:Gun!, SK:Guns (Pistol), ST:DX-4, SK:Guns (Grenade Launcher)-4, SK:Guns (Gyroc)-4, SK:Guns (Light Anti-Armor Weapon)-4, SK:Guns (Light Machine Gun)- 2, SK:Guns (Musket)-2, SK:Guns (Pistol)-2, SK:Guns (Rifle)-2, SK:Guns (Shotgun)-2, SK:Guns (Submachine Gun)-2))
+	
+<_Melee Weapons, _Melee Weapons - Low-Tech, Low-Tech, Low-Tech - Melee Weapons, Alldris, Alldris - Weapons, Alldris - Weapons - Melee Weapons>
+"Magic Sea King Steel Edged Rapier", displaynameformula($val(me::name)), basecost(1000), baseweight(3), techlvl(4), page(LT66), mods(Equipment, Melee Quality, Sword Class Quality, Metal Weapon), description(A rapier forged from a spear used in the old empire during the war against Devitia, made from sea king steel with a magic crystal embedded in the hilt which is very destructive to things and creatures influenced by or created from Sarkian magic.), itemnotes(1d extra damage against enemies that are influenced by Sarkian magic. 2d extra damage against enemies that are HEAVILY influenced by/consists of Sarkian magic.), vttmodenotes(["+1d damage against targets affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Broadsword Swing)"+1d]["+1d damage against targets HEAVILY affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Broadsword Swing)"+2d]|["+1d damage against targets affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Broadsword Thrust)"+1d]["+1d damage against targets HEAVILY affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Broadsword Thrust)"+2d]|["+1d damage against targets affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Rapier Swing)"+1d]["+1d damage against targets HEAVILY affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Rapier Swing)"+2d]|["+1d damage against targets affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Rapier Thrust)"+1d]["+1d damage against targets HEAVILY affected by Sarkian magic" D:"Magic Sea King Steel Edged Rapier (Rapier Thrust)"+2d]), initmods(#ref "_Advantage: Signature Gear" | #ref "_Advantage: Weapon Master Damage Bonus" | #ref "Equipment: Styling" = 3 | #ref "Low-Tech Weapon Quality: Very Fine"),
+	newmode(Broadsword Swing, damage(sw), damtype(cut), reach(1,2), parry(0), minST(10), break(0), lc(4), skillused(SK:Sword!, SK:Broadsword, ST:DX-5, SK:Force Sword-4, SK:Rapier-4, SK:Saber-4, SK:Shortsword-2, SK:Two-Handed Sword-4)),
+	newmode(Broadsword Thrust, damage(thr+1), damtype(imp), reach(1,2), parry(0), minST(10), break(0), lc(4), skillused(SK:Sword!, SK:Broadsword, ST:DX-5, SK:Force Sword-4, SK:Rapier-4, SK:Saber-4, SK:Shortsword-2, SK:Two-Handed Sword-4)),
+	newmode(Rapier Swing, damage(sw), damtype(cut), reach(1,2), parry(0F), minST(10), break(0), lc(4), skillused(SK:Sword!, SK:Rapier, ST:DX-5, SK:Broadsword-4, SK:Main-Gauche-3, SK:Saber-3, SK:Smallsword-3)),
+	newmode(Rapier Thrust, damage(thr+1), damtype(imp), reach(1,2), parry(0F), minST(10), break(0), lc(4), skillused(SK:Sword!, SK:Rapier, ST:DX-5, SK:Broadsword-4, SK:Main-Gauche-3, SK:Saber-3, SK:Smallsword-3))
+
+"Mercedes' Main-Gauche", displaynameformula($val(me::name)), basecost(50), baseweight(1.25), techlvl(4), page(LT67), dr(4), locations(left hand), itemnotes("Gives the hand (only) DR 4, cumulative with glove DR – although the hilt is too cramped to accommodate metal gauntlets."), mods(Equipment, Melee Quality, Sword Class Quality, Metal Weapon), description(A wedding gift from her best friend Elize Kindling. A masterfully forged and richly decorated parrying knife, with an inlaid ruby and fire motif.), initmods(#ref "_Advantage: Weapon Master Damage Bonus" | #ref "Equipment: Styling" = 3 | #ref "Low-Tech Weapon Quality: Fine"),
+	newmode(Knife Swing, damage(sw-3), damtype(cut), reach(C,1), parry(0), minST(6), break(0), lc(4), skillused(SK:Sword!, SK:Knife, ST:DX-4, SK:Force Sword-3, SK:Main-Gauche-3, SK:Shortsword-3), notes([6])),
+	newmode(Knife Thrust, damage(thr), damtype(imp), reach(C), parry(0), minST(6), break(0), lc(4), skillused(SK:Sword!, SK:Knife, ST:DX-4, SK:Force Sword-3, SK:Main-Gauche-3, SK:Shortsword-3)),
+	newmode(Main-Gauche Swing, damage(sw-3), damtype(cut), reach(C,1), parry(0F), minST(6), break(0), lc(4), skillused(SK:Sword!, SK:Main-Gauche, ST:DX-5, SK:Jitte/Sai-4, SK:Knife-4, SK:Rapier-3, SK:Saber-3, SK:Smallsword-3), notes([6])),
+	newmode(Main-Gauche Thrust, damage(thr), damtype(imp), reach(C,1), parry(0F), minST(6), break(0), lc(4), skillused(SK:Sword!, SK:Main-Gauche, ST:DX-5, SK:Jitte/Sai-4, SK:Knife-4, SK:Rapier-3, SK:Saber-3, SK:Smallsword-3))
+	
+<Alldris, Alldris - Miscellaneous>
+#Clone "EQ:Spyglass" as "EQ:Fancy Spyglass"
+#MergeTags in "EQ:Fancy Spyglass" with "cat(Alldris, Alldris - Miscellaneous)"
+#ReplaceTags in "EQ:Fancy Spyglass" with "initmods(#ref "Equipment: Styling" = 2), description(A farewell gift for Mercedes. This model has 8x magnification, allowing the user to ignore -3 in range penalties to Vision rolls while scanning for a particular object. After spotting his target, he can take an Aim maneuver to focus on it; this eliminates -5 in range penalties for that target, but gives no bonus to see other things. Spyglasses and telescopes also have Bulk scores, like ranged weapons (p. B270); this one has Bulk -2. Bulk penalizes both Holdout rolls and Vision rolls to scan the environment for a particular object. To offset the latter penalty, take extra time to scan (p. B346).)"
+"Travelling Guide", basecost(100), baseweight(2), techlvl(3), mods(Equipment), description(A guide to geography, culture and other good to know information concerning the lands around the Etian sea.)
+"Mystical Crystal Ball", techlvl(2), basecost(1000), baseweight(1), cat(Alldris - Magic Items), description(A crystal ball with mystical properties. Green and azure blue clouds are swirling inside.), mods(Equipment)
+"Je M'Appelle Regelle Citadelle", basecost(2000), baseweight(2), description(Exceedingly fine and allegedly rare wine from Bomania.), mods(Equipment)
+"Box of Trinkets", basecost(250), baseweight(2), cat(Alldris - Magic Items), description(A box of magical and interesting trinkets given to Mercedes by Yum's sister.), isparent(yes), adds(#list(Box of Trinkets, append(#AsChild)))
+#Clone "EQ:Comb" as "EQ:Fancy Comb"
+#MergeTags in "EQ:Fancy Comb" with "cat(Alldris, Alldris - Miscellaneous), initmods(#ref "Equipment: Styling" = 2)"
+#Clone "EQ:Ring" as "EQ:Yum's Favorite Ring"
+#MergeTags in "EQ:Yum's Favorite Ring" with "cat(Alldris, Alldris - Miscellaneous, Alldris - Magic Items)"
+#ReplaceTags in "EQ:Yum's Favorite Ring" with "initmods(#ref "Equipment: Styling" = 2), description(Described by Yum's sister as 'Yum's Favorite Ring' without going into further detail. Has a magic aura.)"
+"Magical Ground Dwarf Bones", basecost(0), baseweight(0.1), cat(Alldris - Magic Items), description(Ground bones of actual magical dwarves, not mundane little people.)
+#Clone "EQ:Small Knife" as "EQ:Magical Knife"
+#MergeTags in "EQ:Magical Knife" with "cat(Alldris, Alldris - Miscellaneous, Alldris - Magic Items), initmods(#ref "Equipment: Styling" = 2), usernotes(Unknown effect. Has a magical aura.)"
+"A Handful of Unsorted Magical Wards", basecost(100), baseweight(0.3), usernotes(A collection of beads, amulets, symbols and other knickknacks that ward against various kinds of magic, beasts and curses.), description(A collection of beads, amulets, symbols and other knickknacks that ward against various kinds of magic and curses. Yum usually bakes them into her braids when going ashore and throws them back into the box afterwards.), conditional(=+1 to ST:Will when "resisting most magic", =+1 to ST:Fright Check when "source is magical in nature"), cat(Alldris - Magic Items)
+"Magic Visualizer Egg Goggles", techlvl(4), location(eyes), dr(1), basecost(20), baseweight(neg.), lc(4), description(Glass goggles designed by renaissance man Lorenzo for protection against winds and debris during balloon flight. Modified with an embedded ancient magic visualization 'egg' that lets the user see magic, color-coded for type.)
+
+<_Vehicles, Alldris, Alldris - Vehicles, Alldris - Vehicles - Watercraft>
+"Rebuilt Galley Frigate, 130'", basecost(1400000), techlvl(4), isparent(yes), mods(Equipment), description(\b1Skill\b0:Shiphandling (Ship) \b1ST/HP\b0:255† \b1Hnd/SR\b0:-3/5 \b1HT\b0:12c \b1Move\b0:0.3/5 \b1Lwt\b0:700 \b1Load\b0:490 \b1SM\b0:+9 \b1Occ\b0:220 \b1DR\b0:5 \b1Range\b0:- \b1Locations\b0:3MS \b1Draft\b0:6 <CRLF>\b1Notes\b0: 14 Sakers on each broadside. Two 3-lbs. guns fore and aft. One Swivel-Gun fore and aft, starboard and portside. Rebuilt to remove the oars but still have a speed and draft advantage over larger vessels.), usernotes(\b1Skill\b0:Shiphandling (Ship) \b1ST/HP\b0:255† \b1Hnd/SR\b0:-3/5 \b1HT\b0:12c \b1Move\b0:0.3/5 \b1Lwt\b0:700 \b1Load\b0:490 \b1SM\b0:+9 \b1Occ\b0:220 \b1DR\b0:5 \b1Range\b0:- \b1Locations\b0:3MS \b1Draft\b0:6 <CRLF>\b1Notes\b0: 14 Sakers on each broadside. Two 3-lbs. guns aft and fore. One Swivel-Gun fore and aft, starboard and portside. Rebuilt to remove the oars.), symbol(Watercraft), gives(=*0 to me::weight),
+	creates(_
+		{"EQ:Saker", basecost(19000), baseweight(1400), ammo(10), techlvl(4), page(LT89), mods(Equipment, Artillery Quality), description(TL:4 LC:4, Dam:15d pi++ ACC:2 Range:220/1900 ROF:1 Shots:1(60) ST:43M† Bulk:-13 Rcl:2 Skill:Gunner (Cannon), DX-4, Gunner-4), itemnotes(Treat volley as single attack with RoF 14 and Rcl 1 (+3 to hit)|Treat volley as single attack with RoF 14 and Rcl 1 (+3 to hit)|Treat volley as single attack with RoF 14 and Rcl 1 (+3 to hit), Effective RoF when firing all cannons: 5600 giving +12 to hit|Treat volley as single attack with RoF 14 and Rcl 1 (+3 to hit), Requires two extra crewmen to operate each cannon. Follow-up: 3d burn every second for 30 seconds), 
+			newmode(Iron Ball, damage(15d), damtype(pi++), acc(2), calcrange(yes), rangehalfdam(220), rangemax(1900), rof(1), bulk(-13), rcl(2), shots(1(60)), minST(43M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)), 
+			newmode(Chain Shot, damage(15d), damtype(cut), armordivisor(0.5), acc(2), calcrange(yes), rangehalfdam(110), rangemax(950), rof(1), bulk(-13), rcl(2), shots(1(72)), minST(43M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4), malf(99)), 
+			newmode(Grapeshot, damage(1d-1), damtype(pi+), acc(2), calcrange(yes), rangehalfdam(60), rangemax(600), rof(400), bulk(-13), rcl(1), shots(1(60)), minST(43M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)), 
+			newmode(Heated Shot, damage(15d), damtype(pi++), acc(2), calcrange(yes), rangehalfdam(220), rangemax(1900), rof(1), bulk(-13), rcl(2), shots(1(90)), minST(43M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4), malf(13))}=28 #AsChild,
+		{"EQ:Ship's Gun, 3-lb.", basecost(14000), baseweight(1000), ammo(4.5), techlvl(4), page(LT89), mods(Equipment, Artillery Quality), description(TL:4 LC:4, Dam:14d+1 pi++ ACC:2 Range:210/1800 ROF:1 Shots:1(60) ST:39M† Bulk:-13 Rcl:2 Skill:Gunner (Cannon), DX-4, Gunner-4), itemnotes(Treat volley as single attack with RoF 2 and Rcl 1 (+0 to hit)|Treat volley as single attack with RoF 2 and Rcl 1 (+0 to hit)|Treat volley as single attack with RoF 2 and Rcl 1 (+0 to hit), Effective RoF when firing all cannons: 360 giving +8 to hit|Treat volley as single attack with RoF 2 and Rcl 1 (+0 to hit), Requires two extra crewmen to operate each cannon. Follow-up: 3d burn every second for 30 seconds), 
+			newmode(Iron Ball, damage(14d+1), damtype(pi++), acc(2), calcrange(yes), rangehalfdam(210), rangemax(1800), rof(1), bulk(-13), rcl(2), shots(1(60)), minST(39M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)),
+			newmode(Chain Shot, damage(14d+1), damtype(cut), armordivisor(0.5), acc(2), calcrange(yes), malf(99), rangehalfdam(210), rangemax(1800), rof(1), bulk(-14), rcl(2), shots(1(72)), minST(39M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)),
+			newmode(Grapeshot, damage(1d), damtype(pi+), acc(2), calcrange(yes), rangehalfdam(60), rangemax(600), rof(180), bulk(-13), rcl(1), shots(1(60)), minST(39M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)),
+			newmode(Heated Shot, damage(14d+1), damtype(pi++), acc(2), calcrange(yes), rangehalfdam(210), rangemax(1800), rof(1), bulk(-13), rcl(2), shots(1(90)), minST(39M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4))}=4 #AsChild,
+		{"EQ:Swivel-Gun", basecost(1900), baseweight(140), ammo(2.5), techlvl(4), page(LT89), mods(Equipment, Artillery Quality), description(TL:4 LC:4, Dam:6d+1 pi++ ACC:1 Range:90/900 ROF:1 Shots:1(20) ST:27M† Bulk:-8 Rcl:3 Skill:Gunner (Cannon), DX-4, Gunner-4), itemnotes(||RoF 100 gives +7 to hit|Requires two extra crewmen to operate each cannon. Follow-up: 3d burn every second for 30 seconds), rofformula($eval(me::ammo*40)),
+			newmode(Iron Ball, damage(6d+1), damtype(pi++), acc(1), calcrange(yes), rangehalfdam(90), rangemax(900), rof(1), bulk(-8), rcl(3), shots(1(20)), minST(27M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)),
+			newmode(Chain Shot, damage(6d+1), damtype(cut), acc(1), calcrange(yes), rangehalfdam(45), malf(99), rangemax(450), rof(1), bulk(-8), rcl(3), shots(1(24)), minST(27M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)),
+			newmode(Grapeshot, damage(1d-2), damtype(pi+), acc(1), calcrange(yes), rangehalfdam(60), malf(99), rangemax(600), rof(100), bulk(-8), rcl(1), shots(1(20)), minST(27M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4)),
+			newmode(Heated Shot, damage(6d+1), damtype(pi++), acc(1), calcrange(yes), rangehalfdam(90), malf(13), rangemax(900), rof(1), bulk(-8), rcl(3), shots(1(30)), minST(27M†), break(0), lc(4), skillused(SK:Gunner (Cannon), ST:DX-4, SK:Gunner-4))}=4 #AsChild_
+	)
+	
+********************************************************************************************************\[STOP]
+[LISTS]
+********************************************************************************************************\[START]
+<Box of Trinkets>
+EQ:Fancy Comb
+EQ:Yum's Favorite Ring
+EQ:Magical Ground Dwarf Bones
+EQ:Magical Knife
+EQ:A Handful of Unsorted Magical Wards
+
+<Set of Armor>
+EQ:Plate, Medium (Breastplate)
+EQ:Plate, Medium (Gorget)
+EQ:Plate, Medium (Arms)
+EQ:Plate, Medium (Leggings)
+EQ:Plate, Medium (Right Gauntlet)
+EQ:Plate, Medium (Left Gauntlet)
+EQ:Plate, Medium (Sollerets)
+EQ:Plate, Medium (Bascinet w/ nasal protection)
+********************************************************************************************************\[STOP]
+[TEMPLATES]
+********************************************************************************************************\[START]
+#STORE BGSkills = $indexedvalue(@random(1,@ItemsInList(#list(Sailor Background Skills))), #list(Sailor Background Skills))
+<Minor NPC Templates - Skilled Ship Crew>
+"Able Sailor", displaycost(varies),cost(),page(SCAoSPC15),
+	description(Able seamen were young, nimble sailors who worked aloft in the rigging. They would raise and lower the mainsail, main topsail, and topgallant; rig the topmasts, and take reefs in the sails in heavy weather.),
+	triggers(_
+		replacetags(in char with "nationality(Free South Sea Republic)"),
+		replacetags(in char with "nativelang($textindexedvalue($val(char::nationality), #list(Sailor Nations List Language Pairs, flags(InParens)) else WRONG))"),
+		replacetags(in char with "name($val(char::nationality) $val(char::nativelang))"),
+		replacetags(in char with "age($eval(@random(18,30)))"),
+		sets(ST:ST=@random(10,12),ST:DX=@random(11,13),ST:IQ=@random(9,11),ST:HT=@random(10,12)),
+		adds({LA:$val(char::nativelang) (Spoken)} == 3 with "#ref Native Speaker from Native Language"),
+		adds({LA:$val(char::nativelang) (Written)} == @random(0,3) with "#ref Native Writer from Native Language"),
+		adds("LA:$if($indexedvalue(@namedrandom(Lang,@ItemsInList(#list(Sailor Nations List Languages))), #list(Sailor Nations List Languages)) = $val(char::nativelang) then $indexedvalue($eval(@if(@lastnamedrandom(Lang) > 1 and < @ItemsInList(#list(Sailor Nations List Languages)) then @lastnamedrandom(Lang)+@random(-1, 1) elseif @lastnamedrandom(Lang) = 1 then @lastnamedrandom(Lang)+@random(@ItemsInList(#list(Sailor Nations List Languages))-1) elseif @lastnamedrandom(Lang) = @ItemsInList(#list(Sailor Nations List Languages)) then @lastnamedrandom(Lang)-@random(1, @lastnamedrandom(Lang)-1))), #list(Sailor Nations List Languages)) else $indexedvalue(@lastnamedrandom(Lang), #list(Sailor Nations List Languages))) (Spoken)"),
+		adds("SK:Boating (Sailboat)"=2pts, "SK:Boating (Unpowered)"=2pts, "SK:Brawling"=2pts, "SK:Carousing"=1pts, "SK:Climbing"=4pts, "SK:Gunner (Cannon)"=1pts, "SK:Guns (Pistol)"=2pts, "SK:Jumping"=2pts, "SK:Knife"=1pts, "SK:Knot-Tying"=2pts, "SK:Seamanship"=4pts, "SK:$indexedvalue(3, Axe/Mace, Shortsword, Spear)"=1pts),
+		adds(#GET BGSkills)_
+	)
+"Old Sailor", displaycost(varies),cost(),page(SCAoSPC16),
+	description(These experienced, older sailors were not expected to climb the rigging like the young able seaman. They worked on deck, handling the sails and yards, steering the ship, and undertaking the myriad skilled roles of a sailor.),
+	triggers(_
+		replacetags(in char with "nationality($indexedvalue(@namedrandom(SailorNationality, 1, @ItemsInList(#list(Sailor Nations List))), #list(Sailor Nations List)))"),
+		replacetags(in char with "nativelang($textindexedvalue($val(char::nationality), #list(Sailor Nations List Language Pairs, flags(InParens)) else WRONG))"),
+		replacetags(in char with "name($val(char::nationality) $val(char::nativelang))"),
+		replacetags(in char with "age($eval(@random(30,55)))"),
+		sets(ST:ST=@random(10,11),ST:DX=@random(10,12),ST:IQ=@random(10,12),ST:HT=@random(10,12)),
+		adds({LA:$val(char::nativelang) (Spoken)} == 3 with "#ref Native Speaker from Native Language"),
+		adds({LA:$val(char::nativelang) (Written)} == @random(0,3) with "#ref Native Writer from Native Language"),
+		adds("LA:$if($indexedvalue(@namedrandom(Lang,@ItemsInList(#list(Sailor Nations List Languages))), #list(Sailor Nations List Languages)) = $val(char::nativelang) then $indexedvalue($eval(@if(@lastnamedrandom(Lang) > 1 and < @ItemsInList(#list(Sailor Nations List Languages)) then @lastnamedrandom(Lang)+@random(-1, 1) elseif @lastnamedrandom(Lang) = 1 then @lastnamedrandom(Lang)+@random(@ItemsInList(#list(Sailor Nations List Languages))-1) elseif @lastnamedrandom(Lang) = @ItemsInList(#list(Sailor Nations List Languages)) then @lastnamedrandom(Lang)-@random(1, @lastnamedrandom(Lang)-1))), #list(Sailor Nations List Languages)) else $indexedvalue(@lastnamedrandom(Lang), #list(Sailor Nations List Languages))) (Spoken)"),
+		adds("SK:Area Knowledge"=2pts #respond "Somewhere", "SK:Boating (Sailboat)"=4pts, "SK:Boating (Unpowered)"=4pts, "SK:Brawling"=2pts, "SK:Carousing"=1pts, "SK:Climbing"=4pts, "SK:Gunner (Cannon)"=4pts, "SK:Guns (Musket)"=1pts, "SK:Guns (Pistol)"=2pts, "SK:Jumping"=2pts, "SK:Knife"=2pts, "SK:Knot-Tying"=4pts, "SK:Seamanship"=8pts, "SK:Weather Sense"=4pts, "SK:$indexedvalue(3, Axe/Mace, Shortsword, Spear)"=1pts),
+		adds(#GET BGSkills)_
+	)
+<Minor NPC Templates - Unskilled Ship Crew>
+"Boarder", displaycost(varies), cost(), page(SCAoSPC17),
+	description(A sailing vessel has huge need for muscle power to raise anchors, hoist sails, load cargo, and handle the cannon. The boarders are therefore a combination of fearsome fighters who lead the attack on a prize, and active (albeit unskilled) members of the pirate crew.),
+	triggers(_
+		replacetags(in char with "nationality($indexedvalue(@namedrandom(SailorNationality, 1, @ItemsInList(#list(Sailor Nations List))), #list(Sailor Nations List)))"),
+		replacetags(in char with "nativelang($textindexedvalue($val(char::nationality), #list(Sailor Nations List Language Pairs, flags(InParens)) else WRONG))"),
+		replacetags(in char with "name($val(char::nationality) $val(char::nativelang))"),
+		replacetags(in char with "age($eval(@random(20,40)))"),
+		sets(ST:ST=@random(11,13),ST:DX=@random(11,13),ST:IQ=10,ST:HT=@random(11,13)),
+		adds({LA:$val(char::nativelang) (Spoken)} == 3 with "#ref Native Speaker from Native Language"),
+		adds({LA:$val(char::nativelang) (Written)} == @random(0,3) with "#ref Native Writer from Native Language"),
+		adds("LA:$if($indexedvalue(@namedrandom(Lang,@ItemsInList(#list(Sailor Nations List Languages))), #list(Sailor Nations List Languages)) = $val(char::nativelang) then $indexedvalue($eval(@if(@lastnamedrandom(Lang) > 1 and < @ItemsInList(#list(Sailor Nations List Languages)) then @lastnamedrandom(Lang)+@random(-1, 1) elseif @lastnamedrandom(Lang) = 1 then @lastnamedrandom(Lang)+@random(@ItemsInList(#list(Sailor Nations List Languages))-1) elseif @lastnamedrandom(Lang) = @ItemsInList(#list(Sailor Nations List Languages)) then @lastnamedrandom(Lang)-@random(1, @lastnamedrandom(Lang)-1))), #list(Sailor Nations List Languages)) else $indexedvalue(@lastnamedrandom(Lang), #list(Sailor Nations List Languages))) (Spoken)"),
+		adds("SK:Boating (Unpowered)"=1pts, "SK:Brawling"=4pts, "SK:Carousing"=1pts, "SK:Gunner (Cannon)"=1pts, "SK:Guns (Musket)"=1pts, "SK:Guns (Pistol)"=1pts, "SK:Jumping"=2pts, "SK:Knife"=2pts, "SK:Knot-Tying"=1pts, "SK:Seamanship"=1pts, "SK:$indexedvalue(3, Axe/Mace, Shortsword, Spear)"=2pts, "SK:$if(@lastnamedrandom(BoardWeap1) = 1 then $indexedvalue(@random(1,2), Shortsword, Spear) elseif @lastnamedrandom(BoardWeap1) = 2 then $indexedvalue(@random(1,2), Axe/Mace, Spear) else $indexedvalue(@random(1,2), Axe/Mace, Shortsword))"=1pts),
+		adds(#GET BGSkills)_
+	)
+"Ship's Boy", displaycost(varies),cost(),page(SCAoSPC18),
+	description(It was not unusual for naval vessels to carry boys as young as 12 with the rank of midshipman. In pirate ships, ship’s boys would act as servants to the captain and be general drudges, even though their presence was often against the Articles. In battle, they would carry powder to the great guns, and water to the crews.),
+	triggers(_
+		replacetags(in char with "nationality($indexedvalue(@namedrandom(SailorNationality, 1, @ItemsInList(#list(Sailor Nations List))), #list(Sailor Nations List)))"),
+		replacetags(in char with "nativelang($textindexedvalue($val(char::nationality), #list(Sailor Nations List Language Pairs, flags(InParens)) else WRONG))"),
+		replacetags(in char with "name($val(char::nationality) $val(char::nativelang))"),
+		replacetags(in char with "age($eval(@random(12,20)))"),
+		sets(ST:ST=@random(8,11),ST:DX=@random(9,12),ST:IQ=10,ST:HT=@random(9,11)),
+		adds({LA:$val(char::nativelang) Spoken} == 3 with "#ref Native Speaker from Native Language"),
+		adds({LA:$val(char::nativelang) Written} == @random(0,2) with "#ref Native Writer from Native Language"),
+		adds("SK:Climbing"=1pts,"SK:Guns (Pistol)"=1pts, "SK:Jumping"=1pts, "SK:Knife"=1pts, "SK:Knot-Tying"=1pts,"SK:Seamanship"=1pts,"SK:Shortsword"=1pts),
+		adds(#GET BGSkills)_
+	)
+		
+********************************************************************************************************\[STOP]
+[LISTS]
+********************************************************************************************************\[START]
+#AddToListByTag "LI:Etian Languages" Languages, Text, cat HasInList Etian Languages Spoken unless cat HasInList Etian Languages Written
+#AddToListByTag "LI:Etian Languages Spoken" Languages, Text, cat HasInList Etian Languages Spoken unless cat HasInList Etian Languages Written
+#AddToListByTag "LI:Etian Languages Written" Languages, Text, cat HasInList Etian Languages Written unless cat HasInList Etian Languages Spoken
+
+<Sailor Nations List>
+Argomu
+Bomania
+Caldonia
+Erilö
+Ethonia
+Free South Sea Republic
+Kaitoa
+Mirradhin
+Taluxia
+Tclai
+Teutoni
+Theraos
+Vagröm
+Verdina
+Yatran Merchant Cities
+
+<Sailor Nations List Languages>
+Argomu
+Bomani
+Caldonian
+Drigian
+Ethonian
+Kaitoan
+Mirradhin
+Taluxian
+Tclai
+Teutoni
+Theraonian
+Vagröm
+Verdinian
+Yatran
+
+<Sailor Nations List Language Pairs>
+Argomu, Argomu
+Bomania, Bomani
+Caldonia,Caldonian
+Erilö,Drigian
+Ethonia,Ethonian
+Free South Sea Republic,$indexedvalue(@random(1,@ItemsInList(#list(Sailor Nations List Languages))), #list(Sailor Nations List Languages))
+Kaitoa,Kaitoan
+Mirradhin,Mirradhin
+Taluxia,Taluxian
+Tclai,Tclai
+Teutoni,Teutoni
+Theraos,Theraonian
+Vagröm,Vagröm
+Verdina,Verdinian
+Yatran Merchant Cities,Yatran
+
+<Native Language>
+	$if($val(char::nationality) = Argomu then Argomu elseif $val(char::nationality) = Bomania then Bomani elseif $val(char::nationality) = Caldonia then Caldonian elseif $val(char::nationality) = Erilö then Drigian elseif $val(char::nationality) = Ethonia then Ethonian elseif $val(char::nationality) = Free South Sea Republic then Piracy elseif $val(char::nationality) = Kaitoa then Kaitoan elseif $val(char::nationality) = Mirradhin then Mirradhin elseif $val(char::nationality) = Taluxia then Taluxian elseif $val(char::nationality) = Tclai then Tclai elseif $val(char::nationality) = Teutoni then Teutoni elseif $val(char::nationality) = Theraos then Theraonian elseif $val(char::nationality) = Vagröm then Vagröm elseif $val(char::nationality) = Verdina then Verdinian else Yatran)
+
+<Sailor Background Advantages>
+
+
+<Sailor Background Disadvantages>
+
+
+<Sailor Background Skills>
+SK:Acting
+SK:Animal Handling (Avians)
+SK:Animal Handling (Bovines)
+SK:Animal Handling (Canines)
+SK:Animal Handling (Equines)
+SK:Artist (Pottery)
+SK:Artist (Woodworking)
+SK:Cooking
+SK:Dancing
+SK:Diplomacy
+SK:Farming
+SK:Fast-Talk
+SK:First Ait
+SK:Fishing
+SK:Forgery
+SK:Gambling
+SK:Housekeeping
+SK:Intimidation
+SK:Leatherworking
+SK:Lockpicking
+SK:Masonry
+SK:Merchant
+SK:Panhandling
+SK:Poetry
+SK:Poisons
+SK:Public Speaking
+SK:Scrounging
+SK:Sewing
+SK:Singing
+SK:Sleight of Hand
+SK:Stealth
+SK:Streetwise
+SK:Swimming
+SK:Wrestling
+********************************************************************************************************\[STOP]
+
+[LANGUAGES]
+********************************************************************************************************\[START]
+<Other Etian Languages>
+Tclai, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Other Etian Languages Spoken and Written, Other Etian Languages Spoken, Other Etian Languages Written), taboo(Native Languages > 1)
+Tclai (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, Other Etian Languages Spoken), taboo(Native Languages > 1)
+Tclai (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, Other Etian Languages Written), taboo(Native Languages > 1)
+
+Piracy, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Other Etian Languages Spoken and Written, Other Etian Languages Spoken, Other Etian Languages Written), taboo(Native Languages > 1)
+Piracy (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, Other Etian Languages Spoken), taboo(Native Languages > 1)
+Piracy (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, Other Etian Languages Written), taboo(Native Languages > 1)
+
+Yatran, 2/4, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Other Etian Languages Spoken and Written, Other Etian Languages Spoken, Other Etian Languages Written), taboo(Native Languages > 1)
+Yatran (Spoken), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([None], Broken, Accented, Native), cat(Mundane, Social, Language, Language Spoken, Social Background, Other Etian Languages Spoken), taboo(Native Languages > 1)
+Yatran (Written), 1/2, page(B24), upto(3 LimitingTotal), mods(Language), levelnames([Illiterate], Semi-Literate, Literate, Native), cat(Mundane, Social, Language, Language Written, Social Background, Other Etian Languages Written), taboo(Native Languages > 1)
+********************************************************************************************************\[STOP]

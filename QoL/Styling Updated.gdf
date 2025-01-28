@@ -1,1 +1,20 @@
-Y:/Users/Daisy/Documents/GURPS Character Assistant 5/books/Styling Updated.gdf
+Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file, 
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+
+Description=User created data file containing custom traits saved from within GCA.
+Program=5.0.189.0
+
+[AUTHOR]
+************************************************************************************************************************
+*
+* GURPS® Character Assistant Data File
+* Created: den 27 augusti 2022
+* Requires GCA v5 or later!
+*
+************************************************************************************************************************
+
+[MODIFIERS]
+<Equipment>
+Equipment: Styling, +1 CF/+4 CF/+9 CF,group(Equipment),level(1),page(LT14, HT10, UT15),shortname(Styling),upto(3)
